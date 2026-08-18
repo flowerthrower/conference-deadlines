@@ -80,7 +80,6 @@ function eventLines(event) {
 
   const description = [
     `Submission type: ${event.submission_type}`,
-    `Official timezone: ${event.timezone ?? "Not specified"}`,
     `Official source: ${event.source.url}`,
     `Verified: ${event.source.verified_at}`,
     event.notes ? `Notes: ${event.notes}` : null,
