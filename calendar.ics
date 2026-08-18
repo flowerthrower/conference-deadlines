@@ -8,6 +8,60 @@ X-WR-CALDESC:Confirmed and clearly labeled placeholder submission deadlines
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:wacv-2027-round-2-paper-enrollment@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:WACV 2027 — Paper enrollment — round 2
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+DESCRIPTION:Submission type: Paper enrollment — round 2\nContent: Title
+ \, abstract\, and complete author list\n\nOfficial source: https://wacv.t
+ hecvf.com/Conferences/2027/AuthorGuides\nVerified: 2026-08-18T13:06:25Z\n
+ \nNotes: 23:59 AoE means the cutoff is 14:00 on the following day in Cent
+ ral European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1
+ ).
+URL:https://wacv.thecvf.com/Conferences/2027/AuthorGuides
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:wacv-2027-round-2-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:WACV 2027 — Paper — round 2
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+DESCRIPTION:Submission type: Paper — round 2\nContent: See the official
+  source for submission requirements.\n\nOfficial source: https://wacv.the
+ cvf.com/Conferences/2027/AuthorGuides\nVerified: 2026-08-18T13:06:25Z\n\n
+ Notes: 23:59 AoE means the cutoff is 14:00 on the following day in Centra
+ l European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).
+URL:https://wacv.thecvf.com/Conferences/2027/AuthorGuides
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lascas-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:LASCAS 2027 — Regular paper
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+DESCRIPTION:Submission type: Regular paper\nContent: See the official sou
+ rce for submission requirements.\n\nOfficial source: https://ieee-cas.org
+ /event/conference/2027-18th-ieee-latin-american-symposium-circuits-and-sy
+ stems\nVerified: 2026-08-18T13:06:25Z\n\nNotes: 23:59 AoE means the cutof
+ f is 14:00 on the following day in Central European summer time (CEST\, U
+ TC+2)\, or 13:00 in winter (CET\, UTC+1).
+URL:https://ieee-cas.org/event/conference/2027-18th-ieee-latin-american-s
+ ymposium-circuits-and-systems
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:asp-dac-2027-proposals@conference-deadlines
 DTSTAMP:20260818T114939Z
 LAST-MODIFIED:20260818T114939Z
@@ -102,6 +156,40 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:icaart-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:ICAART 2027 — Regular paper
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+DESCRIPTION:Submission type: Regular paper\nContent: See the official sou
+ rce for submission requirements.\n\nOfficial source: https://icaart.scite
+ vents.org/CallforPapers.aspx?y=2027\nVerified: 2026-08-18T13:06:25Z\n\nNo
+ tes: 23:59 AoE means the cutoff is 14:00 on the following day in Central 
+ European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).
+URL:https://icaart.scitevents.org/CallforPapers.aspx?y=2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:icassp-2027-full-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:ICASSP 2027 — Full paper
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+DESCRIPTION:Submission type: Full paper\nContent: See the official source
+  for submission requirements.\n\nOfficial source: https://2027.ieeeicassp
+ .org/call-for-papers/\nVerified: 2026-08-18T13:06:25Z\n\nNotes: 23:59 AoE
+  means the cutoff is 14:00 on the following day in Central European summe
+ r time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).
+URL:https://2027.ieeeicassp.org/call-for-papers/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:isqed-2027-regular-paper@conference-deadlines
 DTSTAMP:20260818T114939Z
 LAST-MODIFIED:20260818T114939Z
@@ -136,6 +224,26 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:sca-2027-research-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:SupercomputingAsia 2027 (PLACEHOLDER) — Research paper
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+DESCRIPTION:Submission type: Research paper\nContent: Up to 18 pages incl
+ uding figures and references (previous-edition requirement)\n\nOfficial s
+ ource: https://www.sc-asia.org/2026/submit/papers.html\nVerified: 2026-08
+ -18T13:06:25Z\n\nNotes: PLACEHOLDER: projected from the official 2026 dea
+ dline at 2025-09-19T23:59:00-12:00\; this is not a confirmed 2027 date an
+ d the official source below is historical. 23:59 AoE means the cutoff is 
+ 14:00 on the following day in Central European summer time (CEST\, UTC+2)
+ \, or 13:00 in winter (CET\, UTC+1).
+URL:https://www.sc-asia.org/2026/submit/papers.html
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
 UID:date-2027-full-paper@conference-deadlines
 DTSTAMP:20260818T114939Z
 LAST-MODIFIED:20260818T114939Z
@@ -154,6 +262,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:ispd-2027-title-abstract-registration@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:ISPD 2027 — Title and abstract registration
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+DESCRIPTION:Submission type: Title and abstract registration\nContent: Se
+ e the official source for submission requirements.\n\nOfficial source: ht
+ tps://ispd.cc/ispd2027/index.php?page=callforpapers\nVerified: 2026-08-18
+ T13:06:25Z\n\nNotes: 23:59 AoE means the cutoff is 14:00 on the following
+  day in Central European summer time (CEST\, UTC+2)\, or 13:00 in winter 
+ (CET\, UTC+1).
+URL:https://ispd.cc/ispd2027/index.php?page=callforpapers
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:qip-2027-talk-registration@conference-deadlines
 DTSTAMP:20260818T114939Z
 LAST-MODIFIED:20260818T114939Z
@@ -167,6 +293,42 @@ DESCRIPTION:Submission type: Talk registration\nContent: See the official
   the cutoff is 14:00 on the following day in Central European summer time
   (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).
 URL:https://qipconference.org/2027/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ispd-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:ISPD 2027 — Regular paper
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+DESCRIPTION:Submission type: Regular paper\nContent: Maximum 8 pages plus
+  1 references page\n\nOfficial source: https://ispd.cc/ispd2027/index.php
+ ?page=callforpapers\nVerified: 2026-08-18T13:06:25Z\n\nNotes: 23:59 AoE m
+ eans the cutoff is 14:00 on the following day in Central European summer 
+ time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).
+URL:https://ispd.cc/ispd2027/index.php?page=callforpapers
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-iv-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:IEEE IV 2027 — Regular paper
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+DESCRIPTION:Submission type: Regular paper\nContent: See the official sou
+ rce for submission requirements.\n\nOfficial source: https://ieee-iv.org/
+ 2026/\nVerified: 2026-08-18T13:06:25Z\n\nNotes: The official IEEE IV 2026
+  site states that the 2027 submission timeline returns to the fixed Octob
+ er 1 deadline. 23:59 AoE means the cutoff is 14:00 on the following day i
+ n Central European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\,
+  UTC+1).
+URL:https://ieee-iv.org/2026/
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -202,6 +364,65 @@ DESCRIPTION:Submission type: Workshop-with-proceedings proposal\nContent:
  AoE means the cutoff is 14:00 on the following day in Central European su
  mmer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).
 URL:https://isc-hpc.com/submissions/workshop/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:oopsla-2027-round-1-research-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:OOPSLA 2027 (PLACEHOLDER) — Research paper — round 1
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+DESCRIPTION:Submission type: Research paper — round 1\nContent: Up to 2
+ 3 pages\, excluding required statements\, references\, and supplementary 
+ material (previous-edition requirement)\n\nOfficial source: https://conf.
+ researchr.org/track/splash-2026/oopsla-2026\nVerified: 2026-08-18T13:06:2
+ 5Z\n\nNotes: PLACEHOLDER: projected from the official 2026 deadline at 20
+ 25-10-10T23:59:00-12:00\; this is not a confirmed 2027 date and the offic
+ ial source below is historical. 23:59 AoE means the cutoff is 14:00 on th
+ e following day in Central European summer time (CEST\, UTC+2)\, or 13:00
+  in winter (CET\, UTC+1).
+URL:https://conf.researchr.org/track/splash-2026/oopsla-2026
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:apscon-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:APSCON 2027 (PLACEHOLDER) — Regular paper
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+DESCRIPTION:Submission type: Regular paper\nContent: Maximum 4 pages incl
+ uding figures\, tables\, and references (previous-edition requirement)\n\
+ nOfficial source: https://2026.ieee-apscon.org/authors/author-instruction
+ s/\nVerified: 2026-08-18T13:06:25Z\n\nNotes: PLACEHOLDER: projected from 
+ the official 2026 deadline at 2025-10-10T23:59:00-12:00\; this is not a c
+ onfirmed 2027 date and the official source below is historical. 23:59 AoE
+  means the cutoff is 14:00 on the following day in Central European summe
+ r time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).
+URL:https://2026.ieee-apscon.org/authors/author-instructions/
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:iscas-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:ISCAS 2027 — Regular paper
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+DESCRIPTION:Submission type: Regular paper\nContent: See the official sou
+ rce for submission requirements.\n\nOfficial source: https://ieee-cas.org
+ /files/ieeecass/2026-07/iscas2027-cfp.pdf\nVerified: 2026-08-18T13:06:25Z
+ \n\nNotes: 23:59 AoE means the cutoff is 14:00 on the following day in Ce
+ ntral European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC
+ +1).
+URL:https://ieee-cas.org/files/ieeecass/2026-07/iscas2027-cfp.pdf
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -278,6 +499,88 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:aps-global-physics-summit-2027-contributed-abstract@conference-deadli
+ nes
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:APS Global Physics Summit 2027 (PLACEHOLDER) — Contributed abst
+ ract
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+DESCRIPTION:Submission type: Contributed abstract\nContent: Approximately
+  1\,300 characters (previous-edition requirement)\n\nOfficial source: htt
+ ps://engage.aps.org/dpf/resources/newsletters/newsletter-archives/septemb
+ er-2025\nVerified: 2026-08-18T13:06:25Z\n\nNotes: PLACEHOLDER: projected 
+ from the official 2026 deadline at 2025-10-23T23:59:00-12:00\; this is no
+ t a confirmed 2027 date and the official source below is historical. 23:5
+ 9 AoE means the cutoff is 14:00 on the following day in Central European 
+ summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).
+URL:https://engage.aps.org/dpf/resources/newsletters/newsletter-archives/
+ september-2025
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:ismvl-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:ISMVL 2027 (PLACEHOLDER) — Regular paper
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+DESCRIPTION:Submission type: Regular paper\nContent: See the official sou
+ rce for submission requirements.\n\nOfficial source: https://www.ismvl.or
+ g/mvl26_CFP.html\nVerified: 2026-08-18T13:06:25Z\n\nNotes: PLACEHOLDER: p
+ rojected from the official 2026 deadline at 2025-11-01T23:59:00-12:00\; t
+ his is not a confirmed 2027 date and the official source below is histori
+ cal. 23:59 AoE means the cutoff is 14:00 on the following day in Central 
+ European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).
+URL:https://www.ismvl.org/mvl26_CFP.html
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:radarconf-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:IEEE Radar Conference 2027 (PLACEHOLDER) — Regular paper
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+DESCRIPTION:Submission type: Regular paper\nContent: 4–6 page full pape
+ r including figures and citations (previous-edition requirement)\n\nOffic
+ ial source: https://ieee-aess.org/event/conference/2026-ieee-radar-confer
+ ence\nVerified: 2026-08-18T13:06:25Z\n\nNotes: PLACEHOLDER: projected fro
+ m the official 2026 deadline at 2025-11-03T23:59:00-12:00\; this is not a
+  confirmed 2027 date and the official source below is historical. 23:59 A
+ oE means the cutoff is 14:00 on the following day in Central European sum
+ mer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).
+URL:https://ieee-aess.org/event/conference/2026-ieee-radar-conference
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:isca-2027-abstract-registration@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:ISCA 2027 (PLACEHOLDER) — Abstract registration
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+DESCRIPTION:Submission type: Abstract registration\nContent: See the offi
+ cial source for submission requirements.\n\nOfficial source: https://www.
+ iscaconf.org/isca2026/submit/callforpapers.php\nVerified: 2026-08-18T13:0
+ 6:25Z\n\nNotes: PLACEHOLDER: projected from the official 2026 deadline at
+  2025-11-10T23:59:00-12:00\; this is not a confirmed 2027 date and the of
+ ficial source below is historical. 23:59 AoE means the cutoff is 14:00 on
+  the following day in Central European summer time (CEST\, UTC+2)\, or 13
+ :00 in winter (CET\, UTC+1).
+URL:https://www.iscaconf.org/isca2026/submit/callforpapers.php
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
 UID:pldi-2027-research-paper@conference-deadlines
 DTSTAMP:20260818T123856Z
 LAST-MODIFIED:20260818T123856Z
@@ -295,6 +598,44 @@ DESCRIPTION:Submission type: Research paper\nContent: Up to 20 pages of t
  9 AoE means the cutoff is 14:00 on the following day in Central European 
  summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).
 URL:https://pldi26.sigplan.org/track/pldi-2026-papers
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:isca-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:ISCA 2027 (PLACEHOLDER) — Regular paper
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+DESCRIPTION:Submission type: Regular paper\nContent: Up to 11 pages\, exc
+ luding references (previous-edition requirement)\n\nOfficial source: http
+ s://www.iscaconf.org/isca2026/submit/callforpapers.php\nVerified: 2026-08
+ -18T13:06:25Z\n\nNotes: PLACEHOLDER: projected from the official 2026 dea
+ dline at 2025-11-17T23:59:00-12:00\; this is not a confirmed 2027 date an
+ d the official source below is historical. 23:59 AoE means the cutoff is 
+ 14:00 on the following day in Central European summer time (CEST\, UTC+2)
+ \, or 13:00 in winter (CET\, UTC+1).
+URL:https://www.iscaconf.org/isca2026/submit/callforpapers.php
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:dac-2027-research-manuscript@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:DAC 2027 (PLACEHOLDER) — Research manuscript
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+DESCRIPTION:Submission type: Research manuscript\nContent: Up to 6 pages 
+ plus one references-only page\, PDF (previous-edition requirement)\n\nOff
+ icial source: https://dac.com/2026/research-manuscript-submissions\nVerif
+ ied: 2026-08-18T13:06:25Z\n\nNotes: PLACEHOLDER: projected from the offic
+ ial 2026 deadline at 2025-11-19T17:00:00-08:00\; this is not a confirmed 
+ 2027 date and the official source below is historical.
+URL:https://dac.com/2026/research-manuscript-submissions
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 END:VEVENT
@@ -351,6 +692,46 @@ DESCRIPTION:Submission type: Regular-workshop proposal\nContent: See the
 URL:https://isc-hpc.com/submissions/workshop/
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fdg-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:FDG 2027 (PLACEHOLDER) — Regular paper
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+DESCRIPTION:Submission type: Regular paper\nContent: See the official sou
+ rce for submission requirements.\n\nOfficial source: https://fdg2026.org/
+ author-information/\nVerified: 2026-08-18T13:06:25Z\n\nNotes: PLACEHOLDER
+ : projected from the official 2026 deadline at 2025-12-15T23:59:00-12:00\
+ ; this is not a confirmed 2027 date and the official source below is hist
+ orical. 23:59 AoE means the cutoff is 14:00 on the following day in Centr
+ al European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1)
+ .
+URL:https://fdg2026.org/author-information/
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:ddecs-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:DDECS 2027 (PLACEHOLDER) — Regular paper
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+DESCRIPTION:Submission type: Regular paper\nContent: See the official sou
+ rce for submission requirements.\n\nOfficial source: https://www.ddecs.or
+ g/ddecs2026/1stCfP_DDECS2026.pdf\nVerified: 2026-08-18T13:06:25Z\n\nNotes
+ : PLACEHOLDER: projected from the official 2026 deadline at 2026-01-11T23
+ :59:00-12:00\; this is not a confirmed 2027 date and the official source 
+ below is historical. 23:59 AoE means the cutoff is 14:00 on the following
+  day in Central European summer time (CEST\, UTC+2)\, or 13:00 in winter 
+ (CET\, UTC+1).
+URL:https://www.ddecs.org/ddecs2026/1stCfP_DDECS2026.pdf
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-nano-2027-special-session-proposal@conference-deadlines
@@ -443,6 +824,65 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:reversible-computation-2027-research-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:Reversible Computation 2027 (PLACEHOLDER) — Research paper
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+DESCRIPTION:Submission type: Research paper\nContent: See the official so
+ urce for submission requirements.\n\nOfficial source: https://reversible-
+ computation.github.io/\nVerified: 2026-08-18T13:06:25Z\n\nNotes: PLACEHOL
+ DER: projected from the official 2026 deadline at 2026-02-28T23:59:00-12:
+ 00\; this is not a confirmed 2027 date and the official source below is h
+ istorical. 23:59 AoE means the cutoff is 14:00 on the following day in Ce
+ ntral European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC
+ +1).
+URL:https://reversible-computation.github.io/
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:itsc-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:ITSC 2027 (PLACEHOLDER) — Regular paper
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+DESCRIPTION:Submission type: Regular paper\nContent: See the official sou
+ rce for submission requirements.\n\nOfficial source: https://ieee-itsc.or
+ g/2026/accepted-invited-sessions/\nVerified: 2026-08-18T13:06:25Z\n\nNote
+ s: PLACEHOLDER: projected from the official 2026 deadline at 2026-03-01T2
+ 3:59:00-12:00\; this is not a confirmed 2027 date and the official source
+  below is historical. 23:59 AoE means the cutoff is 14:00 on the followin
+ g day in Central European summer time (CEST\, UTC+2)\, or 13:00 in winter
+  (CET\, UTC+1).
+URL:https://ieee-itsc.org/2026/accepted-invited-sessions/
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:iros-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:IROS 2027 — Regular paper
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+DESCRIPTION:Submission type: Regular paper\nContent: See the official sou
+ rce for submission requirements.\n\nOfficial source: https://www.ieee-ras
+ .org/event/2027-ieee-rsj-international-conference-on-intelligent-robots-a
+ nd-systems-iros-70525/\nVerified: 2026-08-18T13:06:25Z\n\nNotes: 23:59 Ao
+ E means the cutoff is 14:00 on the following day in Central European summ
+ er time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).
+URL:https://www.ieee-ras.org/event/2027-ieee-rsj-international-conference
+ -on-intelligent-robots-and-systems-iros-70525/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-nano-2027-full-paper@conference-deadlines
 DTSTAMP:20260818T114939Z
 LAST-MODIFIED:20260818T114939Z
@@ -460,5 +900,422 @@ DESCRIPTION:Submission type: Full paper\nContent: See the official source
 URL:https://2027.ieeenano.org/
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:qpl-2027-contributed-talk@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:QPL 2027 (PLACEHOLDER) — Contributed talk
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+DESCRIPTION:Submission type: Contributed talk\nContent: 5–12 page proce
+ edings paper or 3-page talk proposal (previous-edition requirement)\n\nOf
+ ficial source: https://qplconference.org/\nVerified: 2026-08-18T13:06:25Z
+ \n\nNotes: PLACEHOLDER: projected from the official 2026 deadline at 2026
+ -03-06T23:59:00-12:00\; this is not a confirmed 2027 date and the officia
+ l source below is historical. 23:59 AoE means the cutoff is 14:00 on the 
+ following day in Central European summer time (CEST\, UTC+2)\, or 13:00 i
+ n winter (CET\, UTC+1).
+URL:https://qplconference.org/
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:sat-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:SAT 2027 (PLACEHOLDER) — Regular paper
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+DESCRIPTION:Submission type: Regular paper\nContent: See the official sou
+ rce for submission requirements.\n\nOfficial source: https://satisfiabili
+ ty.org/SAT26/pages/cfp.html\nVerified: 2026-08-18T13:06:25Z\n\nNotes: PLA
+ CEHOLDER: projected from the official 2026 deadline at 2026-03-10T23:59:0
+ 0-12:00\; this is not a confirmed 2027 date and the official source below
+  is historical. 23:59 AoE means the cutoff is 14:00 on the following day 
+ in Central European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\
+ , UTC+1).
+URL:https://satisfiability.org/SAT26/pages/cfp.html
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:oopsla-2027-round-2-research-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:OOPSLA 2027 (PLACEHOLDER) — Research paper — round 2
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+DESCRIPTION:Submission type: Research paper — round 2\nContent: Up to 2
+ 3 pages\, excluding required statements\, references\, and supplementary 
+ material (previous-edition requirement)\n\nOfficial source: https://conf.
+ researchr.org/track/splash-2026/oopsla-2026\nVerified: 2026-08-18T13:06:2
+ 5Z\n\nNotes: PLACEHOLDER: projected from the official 2026 deadline at 20
+ 26-03-17T23:59:00-12:00\; this is not a confirmed 2027 date and the offic
+ ial source below is historical. 23:59 AoE means the cutoff is 14:00 on th
+ e following day in Central European summer time (CEST\, UTC+2)\, or 13:00
+  in winter (CET\, UTC+1).
+URL:https://conf.researchr.org/track/splash-2026/oopsla-2026
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:qsw-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:QSW 2027 (PLACEHOLDER) — Regular paper
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+DESCRIPTION:Submission type: Regular paper\nContent: See the official sou
+ rce for submission requirements.\n\nOfficial source: https://services.con
+ ferences.computer.org/2026/info-for-authors/\nVerified: 2026-08-18T13:06:
+ 25Z\n\nNotes: PLACEHOLDER: projected from the official 2026 deadline at 2
+ 026-03-22T23:59:00-12:00\; this is not a confirmed 2027 date and the offi
+ cial source below is historical. 23:59 AoE means the cutoff is 14:00 on t
+ he following day in Central European summer time (CEST\, UTC+2)\, or 13:0
+ 0 in winter (CET\, UTC+1).
+URL:https://services.conferences.computer.org/2026/info-for-authors/
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:icann-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:ICANN 2027 (PLACEHOLDER) — Regular paper
+DTSTART;VALUE=DATE:20270330
+DTEND;VALUE=DATE:20270331
+DESCRIPTION:Submission type: Regular paper\nContent: Up to 12 pages inclu
+ ding references (previous-edition requirement)\n\nOfficial source: https:
+ //e-nns.org/icann2026/important-dates/\nVerified: 2026-08-18T13:06:25Z\n\
+ nNotes: PLACEHOLDER: projected from the official 2026 deadline at 2026-03
+ -30T23:59:00-12:00\; this is not a confirmed 2027 date and the official s
+ ource below is historical. 23:59 AoE means the cutoff is 14:00 on the fol
+ lowing day in Central European summer time (CEST\, UTC+2)\, or 13:00 in w
+ inter (CET\, UTC+1).
+URL:https://e-nns.org/icann2026/important-dates/
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:micro-2027-abstract-registration@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:MICRO 2027 (PLACEHOLDER) — Abstract registration
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+DESCRIPTION:Submission type: Abstract registration\nContent: See the offi
+ cial source for submission requirements.\n\nOfficial source: https://micr
+ oarch.org/micro59/\nVerified: 2026-08-18T13:06:25Z\n\nNotes: PLACEHOLDER:
+  projected from the official 2026 deadline at 2026-03-31T23:59:00-04:00\;
+  this is not a confirmed 2027 date and the official source below is histo
+ rical.
+URL:https://microarch.org/micro59/
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:iwls-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:IWLS 2027 (PLACEHOLDER) — Regular paper
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+DESCRIPTION:Submission type: Regular paper\nContent: Up to 8 pages\, excl
+ uding references (previous-edition requirement)\n\nOfficial source: https
+ ://www.iwls.org/\nVerified: 2026-08-18T13:06:25Z\n\nNotes: PLACEHOLDER: p
+ rojected from the official 2026 deadline at 2026-04-03T23:59:00-12:00\; t
+ his is not a confirmed 2027 date and the official source below is histori
+ cal. 23:59 AoE means the cutoff is 14:00 on the following day in Central 
+ European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).
+URL:https://www.iwls.org/
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:iccad-2027-abstract-registration@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:ICCAD 2027 (PLACEHOLDER) — Abstract registration
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+DESCRIPTION:Submission type: Abstract registration\nContent: See the offi
+ cial source for submission requirements.\n\nOfficial source: https://icca
+ d.com/2026\nVerified: 2026-08-18T13:06:25Z\n\nNotes: PLACEHOLDER: project
+ ed from the official 2026 deadline at 2026-04-07T23:59:00-12:00\; this is
+  not a confirmed 2027 date and the official source below is historical. 2
+ 3:59 AoE means the cutoff is 14:00 on the following day in Central Europe
+ an summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).
+URL:https://iccad.com/2026
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:sc-2027-technical-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:SC 2027 (PLACEHOLDER) — Technical paper
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270409
+DESCRIPTION:Submission type: Technical paper\nContent: See the official s
+ ource for submission requirements.\n\nOfficial source: https://sc26.super
+ computing.org/program/papers/\nVerified: 2026-08-18T13:06:25Z\n\nNotes: P
+ LACEHOLDER: projected from the official 2026 deadline at 2026-04-08T23:59
+ :00-12:00\; this is not a confirmed 2027 date and the official source bel
+ ow is historical. 23:59 AoE means the cutoff is 14:00 on the following da
+ y in Central European summer time (CEST\, UTC+2)\, or 13:00 in winter (CE
+ T\, UTC+1).
+URL:https://sc26.supercomputing.org/program/papers/
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:fedcsis-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:FedCSIS 2027 (PLACEHOLDER) — Regular paper
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+DESCRIPTION:Submission type: Regular paper\nContent: See the official sou
+ rce for submission requirements.\n\nOfficial source: https://2026.fedcsis
+ .org/policies\nVerified: 2026-08-18T13:06:25Z\n\nNotes: PLACEHOLDER: proj
+ ected from the official 2026 deadline at 2026-04-15T23:59:00-12:00\; this
+  is not a confirmed 2027 date and the official source below is historical
+ . 23:59 AoE means the cutoff is 14:00 on the following day in Central Eur
+ opean summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).
+URL:https://2026.fedcsis.org/policies
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:qce-2027-technical-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:IEEE Quantum Week 2027 (PLACEHOLDER) — Technical paper
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+DESCRIPTION:Submission type: Technical paper\nContent: Full paper: 8–10
+  pages plus up to 2 reference pages\; short paper: 4–6 pages plus 1 ref
+ erence page (previous-edition requirement)\n\nOfficial source: https://qc
+ e.quantum.ieee.org/2026/submission-deadlines/\nVerified: 2026-08-18T13:06
+ :25Z\n\nNotes: PLACEHOLDER: projected from the official 2026 deadline at 
+ 2026-04-27T23:59:00-12:00\; this is not a confirmed 2027 date and the off
+ icial source below is historical. 23:59 AoE means the cutoff is 14:00 on 
+ the following day in Central European summer time (CEST\, UTC+2)\, or 13:
+ 00 in winter (CET\, UTC+1).
+URL:https://qce.quantum.ieee.org/2026/submission-deadlines/
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:icpp-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:ICPP 2027 (PLACEHOLDER) — Regular paper
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+DESCRIPTION:Submission type: Regular paper\nContent: Up to 10 pages inclu
+ ding references (previous-edition requirement)\n\nOfficial source: https:
+ //icpp2026.github.io/call-for-papers/\nVerified: 2026-08-18T13:06:25Z\n\n
+ Notes: PLACEHOLDER: projected from the official 2026 deadline at 2026-05-
+ 01T23:59:00-12:00\; this is not a confirmed 2027 date and the official so
+ urce below is historical. 23:59 AoE means the cutoff is 14:00 on the foll
+ owing day in Central European summer time (CEST\, UTC+2)\, or 13:00 in wi
+ nter (CET\, UTC+1).
+URL:https://icpp2026.github.io/call-for-papers/
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:ius-2027-abstract@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:IUS 2027 (PLACEHOLDER) — Abstract
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270504
+DESCRIPTION:Submission type: Abstract\nContent: See the official source f
+ or submission requirements.\n\nOfficial source: https://ieee-ius.org/2026
+ /events/abstract-submission-deadline\nVerified: 2026-08-18T13:06:25Z\n\nN
+ otes: PLACEHOLDER: projected from the official 2026 deadline at 2026-05-0
+ 3T23:59:00-12:00\; this is not a confirmed 2027 date and the official sou
+ rce below is historical. 23:59 AoE means the cutoff is 14:00 on the follo
+ wing day in Central European summer time (CEST\, UTC+2)\, or 13:00 in win
+ ter (CET\, UTC+1).
+URL:https://ieee-ius.org/2026/events/abstract-submission-deadline
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:icmla-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:ICMLA 2027 (PLACEHOLDER) — Regular paper
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+DESCRIPTION:Submission type: Regular paper\nContent: Up to 8 pages in IEE
+ E double-column format (previous-edition requirement)\n\nOfficial source:
+  https://www.icmla-conference.org/icmla26/callforpapers.html\nVerified: 2
+ 026-08-18T13:06:25Z\n\nNotes: PLACEHOLDER: projected from the official 20
+ 26 deadline at 2026-05-15T23:59:00-07:00\; this is not a confirmed 2027 d
+ ate and the official source below is historical.
+URL:https://www.icmla-conference.org/icmla26/callforpapers.html
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:iccd-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:ICCD 2027 (PLACEHOLDER) — Regular paper
+DTSTART;VALUE=DATE:20270522
+DTEND;VALUE=DATE:20270523
+DESCRIPTION:Submission type: Regular paper\nContent: Up to 8 pages includ
+ ing figures\, references\, and appendix (previous-edition requirement)\n\
+ nOfficial source: https://www.iccd-conf.com/2026/Submission_guide.html\nV
+ erified: 2026-08-18T13:06:25Z\n\nNotes: PLACEHOLDER: projected from the o
+ fficial 2026 deadline at 2026-05-22T23:59:00-12:00\; this is not a confir
+ med 2027 date and the official source below is historical. 23:59 AoE mean
+ s the cutoff is 14:00 on the following day in Central European summer tim
+ e (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).
+URL:https://www.iccd-conf.com/2026/Submission_guide.html
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:aqisc-2027-talk@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:Asian Quantum Information Science Conference 2027 (PLACEHOLDER) 
+ — Talk
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270530
+DESCRIPTION:Submission type: Talk\nContent: Extended abstract\, maximum 3
+  pages excluding references (previous-edition requirement)\n\nOfficial so
+ urce: https://aqis-conf.org/2026/abstract-submission/\nVerified: 2026-08-
+ 18T13:06:25Z\n\nNotes: PLACEHOLDER: projected from the official 2026 dead
+ line at 2026-05-29T23:59:00-12:00\; this is not a confirmed 2027 date and
+  the official source below is historical. 23:59 AoE means the cutoff is 1
+ 4:00 on the following day in Central European summer time (CEST\, UTC+2)\
+ , or 13:00 in winter (CET\, UTC+1).
+URL:https://aqis-conf.org/2026/abstract-submission/
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:mlcad-2027-abstract-registration@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:MLCAD 2027 (PLACEHOLDER) — Abstract registration
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270530
+DESCRIPTION:Submission type: Abstract registration\nContent: See the offi
+ cial source for submission requirements.\n\nOfficial source: https://mlca
+ d.org/symposium/2026/\nVerified: 2026-08-18T13:06:25Z\n\nNotes: PLACEHOLD
+ ER: projected from the official 2026 deadline at 2026-05-29T23:59:00-12:0
+ 0\; this is not a confirmed 2027 date and the official source below is hi
+ storical. 23:59 AoE means the cutoff is 14:00 on the following day in Cen
+ tral European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+
+ 1).
+URL:https://mlcad.org/symposium/2026/
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:dsd-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:DSD 2027 (PLACEHOLDER) — Regular paper
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+DESCRIPTION:Submission type: Regular paper\nContent: Up to 8 pages\, with
+  up to 2 paid extra pages (previous-edition requirement)\n\nOfficial sour
+ ce: https://dsd-seaa.com/dsd2026/\nVerified: 2026-08-18T13:06:25Z\n\nNote
+ s: PLACEHOLDER: projected from the official 2026 deadline at 2026-06-01T2
+ 3:59:00-12:00\; this is not a confirmed 2027 date and the official source
+  below is historical. 23:59 AoE means the cutoff is 14:00 on the followin
+ g day in Central European summer time (CEST\, UTC+2)\, or 13:00 in winter
+  (CET\, UTC+1).
+URL:https://dsd-seaa.com/dsd2026/
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-sensors-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:IEEE SENSORS 2027 (PLACEHOLDER) — Regular paper
+DTSTART;VALUE=DATE:20270618
+DTEND;VALUE=DATE:20270619
+DESCRIPTION:Submission type: Regular paper\nContent: Maximum 3 pages of t
+ ext plus 1 page of references (previous-edition requirement)\n\nOfficial 
+ source: https://ieee-sensors.org/wp-content/uploads/2023/07/sensors26-cfp
+ _web-02.pdf\nVerified: 2026-08-18T13:06:25Z\n\nNotes: PLACEHOLDER: projec
+ ted from the official 2026 deadline at 2026-06-18T23:59:00-12:00\; this i
+ s not a confirmed 2027 date and the official source below is historical. 
+ 23:59 AoE means the cutoff is 14:00 on the following day in Central Europ
+ ean summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).
+URL:https://ieee-sensors.org/wp-content/uploads/2023/07/sensors26-cfp_web
+ -02.pdf
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:sefm-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:SEFM 2027 (PLACEHOLDER) — Regular paper
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+DESCRIPTION:Submission type: Regular paper\nContent: Up to 16 pages\, exc
+ luding up to 2 bibliography pages (previous-edition requirement)\n\nOffic
+ ial source: https://sefm-conference.github.io/2026/callforpapers/\nVerifi
+ ed: 2026-08-18T13:06:25Z\n\nNotes: PLACEHOLDER: projected from the offici
+ al 2026 deadline at 2026-06-30T23:59:00-12:00\; this is not a confirmed 2
+ 027 date and the official source below is historical. 23:59 AoE means the
+  cutoff is 14:00 on the following day in Central European summer time (CE
+ ST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).
+URL:https://sefm-conference.github.io/2026/callforpapers/
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:fmec-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T130625Z
+LAST-MODIFIED:20260818T130625Z
+SEQUENCE:0
+SUMMARY:FMEC 2027 (PLACEHOLDER) — Regular paper
+DTSTART;VALUE=DATE:20270705
+DTEND;VALUE=DATE:20270706
+DESCRIPTION:Submission type: Regular paper\nContent: See the official sou
+ rce for submission requirements.\n\nOfficial source: https://emergingtech
+ net.org/FMEC2026/calls.php\nVerified: 2026-08-18T13:06:25Z\n\nNotes: PLAC
+ EHOLDER: projected from the official 2026 deadline at 2026-07-05T23:59:00
+ -12:00\; this is not a confirmed 2027 date and the official source below 
+ is historical. 23:59 AoE means the cutoff is 14:00 on the following day i
+ n Central European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\,
+  UTC+1).
+URL:https://emergingtechnet.org/FMEC2026/calls.php
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
 END:VEVENT
 END:VCALENDAR
