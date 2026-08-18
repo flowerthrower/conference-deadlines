@@ -7,4 +7,363 @@ X-WR-CALNAME:Conference Deadlines
 X-WR-CALDESC:Verified submission deadlines with official sources
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:asp-dac-2027-proposals@conference-deadlines
+DTSTAMP:20260818T114939Z
+LAST-MODIFIED:20260818T114939Z
+SEQUENCE:0
+SUMMARY:ASP-DAC 2027 — Panel\, special-session\, and tutorial proposals
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+DESCRIPTION:Submission type: Panel\, special-session\, and tutorial propo
+ sals\nOfficial timezone: Not specified\nOfficial source: https://www.aspd
+ ac.com/aspdac2027/cfp/\nVerified: 2026-08-18T11:49:39Z\nNotes: The offici
+ al page says proposals must be received no later than September 7\; no ti
+ me is stated.
+URL:https://www.aspdac.com/aspdac2027/cfp/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:asplos-2027-september-full-paper@conference-deadlines
+DTSTAMP:20260818T114939Z
+LAST-MODIFIED:20260818T114939Z
+SEQUENCE:0
+SUMMARY:ASPLOS 2027 — Full paper — September cycle
+DTSTART:20260910T115900Z
+DTEND:20260910T122900Z
+DESCRIPTION:Submission type: Full paper — September cycle\nOfficial tim
+ ezone: AoE (UTC-12)\nOfficial source: https://www.asplos-conference.org/a
+ splos2027/cfp/\nVerified: 2026-08-18T11:49:39Z\nNotes: ASPLOS 2027 has no
+  separate abstract-registration deadline.
+URL:https://www.asplos-conference.org/asplos2027/cfp/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:heureka-2027-paper@conference-deadlines
+DTSTAMP:20260818T114939Z
+LAST-MODIFIED:20260818T114939Z
+SEQUENCE:0
+SUMMARY:HEUREKA 2027 — Reviewed contribution
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+DESCRIPTION:Submission type: Reviewed contribution\nOfficial timezone: No
+ t specified\nOfficial source: https://eraw.easychair.org/cfp/HEUREKA2027\
+ nVerified: 2026-08-18T11:49:39Z\nNotes: The official call requests a 6–
+ 15 page PDF contribution.
+URL:https://eraw.easychair.org/cfp/HEUREKA2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:date-2027-paper-registration@conference-deadlines
+DTSTAMP:20260818T114939Z
+LAST-MODIFIED:20260818T114939Z
+SEQUENCE:0
+SUMMARY:DATE 2027 — Paper registration (title\, abstract\, and co-autho
+ rs)
+DTSTART:20260914T115900Z
+DTEND:20260914T122900Z
+DESCRIPTION:Submission type: Paper registration (title\, abstract\, and c
+ o-authors)\nOfficial timezone: AoE (UTC-12)\nOfficial source: https://www
+ .date-conference.com/date-2027-call-papers\nVerified: 2026-08-18T11:49:39
+ Z
+URL:https://www.date-conference.com/date-2027-call-papers
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:isqed-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T114939Z
+LAST-MODIFIED:20260818T114939Z
+SEQUENCE:0
+SUMMARY:ISQED 2027 — Regular paper
+DTSTART:20260918T065900Z
+DTEND:20260918T072900Z
+DESCRIPTION:Submission type: Regular paper\nOfficial timezone: US Pacific
+  Time (PDT\, UTC-07)\nOfficial source: https://www.isqed.org/English/Conf
+ erence/Call_for_Papers.html\nVerified: 2026-08-18T11:49:39Z\nNotes: The s
+ ource states midnight US Pacific Time\; represented as 23:59 PDT on the s
+ tated date.
+URL:https://www.isqed.org/English/Conference/Call_for_Papers.html
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:isqed-2027-special-session-paper@conference-deadlines
+DTSTAMP:20260818T114939Z
+LAST-MODIFIED:20260818T114939Z
+SEQUENCE:0
+SUMMARY:ISQED 2027 — Special-session paper
+DTSTART:20260918T065900Z
+DTEND:20260918T072900Z
+DESCRIPTION:Submission type: Special-session paper\nOfficial timezone: US
+  Pacific Time (PDT\, UTC-07)\nOfficial source: https://www.isqed.org/Engl
+ ish/Conference/Call-for-Special-Sessions.html\nVerified: 2026-08-18T11:49
+ :39Z\nNotes: The source states midnight US Pacific Time\; represented as 
+ 23:59 PDT on the stated date.
+URL:https://www.isqed.org/English/Conference/Call-for-Special-Sessions.html
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:date-2027-full-paper@conference-deadlines
+DTSTAMP:20260818T114939Z
+LAST-MODIFIED:20260818T114939Z
+SEQUENCE:0
+SUMMARY:DATE 2027 — Full paper
+DTSTART:20260921T115900Z
+DTEND:20260921T122900Z
+DESCRIPTION:Submission type: Full paper\nOfficial timezone: AoE (UTC-12)\
+ nOfficial source: https://www.date-conference.com/date-2027-call-papers\n
+ Verified: 2026-08-18T11:49:39Z\nNotes: The official call marks this deadl
+ ine as firm.
+URL:https://www.date-conference.com/date-2027-call-papers
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:qip-2027-talk-registration@conference-deadlines
+DTSTAMP:20260818T114939Z
+LAST-MODIFIED:20260818T114939Z
+SEQUENCE:0
+SUMMARY:QIP 2027 — Talk registration
+DTSTART:20260929T115900Z
+DTEND:20260929T122900Z
+DESCRIPTION:Submission type: Talk registration\nOfficial timezone: AoE (U
+ TC-12)\nOfficial source: https://qipconference.org/2027/\nVerified: 2026-
+ 08-18T11:49:39Z
+URL:https://qipconference.org/2027/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:qip-2027-talk-submission@conference-deadlines
+DTSTAMP:20260818T114939Z
+LAST-MODIFIED:20260818T114939Z
+SEQUENCE:0
+SUMMARY:QIP 2027 — Talk submission
+DTSTART:20261006T115900Z
+DTEND:20261006T122900Z
+DESCRIPTION:Submission type: Talk submission\nOfficial timezone: AoE (UTC
+ -12)\nOfficial source: https://qipconference.org/2027/\nVerified: 2026-08
+ -18T11:49:39Z
+URL:https://qipconference.org/2027/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:isc-2027-workshop-with-proceedings-proposal@conference-deadlines
+DTSTAMP:20260818T114939Z
+LAST-MODIFIED:20260818T114939Z
+SEQUENCE:0
+SUMMARY:ISC High Performance 2027 — Workshop-with-proceedings proposal
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+DESCRIPTION:Submission type: Workshop-with-proceedings proposal\nOfficial
+  timezone: Not specified\nOfficial source: https://isc-hpc.com/submission
+ s/workshop/\nVerified: 2026-08-18T11:49:39Z
+URL:https://isc-hpc.com/submissions/workshop/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:esop-2027-round-2-paper@conference-deadlines
+DTSTAMP:20260818T114939Z
+LAST-MODIFIED:20260818T114939Z
+SEQUENCE:0
+SUMMARY:ESOP 2027 — Paper — round 2
+DTSTART:20261016T115900Z
+DTEND:20261016T122900Z
+DESCRIPTION:Submission type: Paper — round 2\nOfficial timezone: AoE (U
+ TC-12)\nOfficial source: https://etaps.org/2027/cfp/\nVerified: 2026-08-1
+ 8T11:49:39Z
+URL:https://etaps.org/2027/cfp/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:tacas-2027-paper@conference-deadlines
+DTSTAMP:20260818T114939Z
+LAST-MODIFIED:20260818T114939Z
+SEQUENCE:0
+SUMMARY:TACAS 2027 — Paper
+DTSTART:20261016T115900Z
+DTEND:20261016T122900Z
+DESCRIPTION:Submission type: Paper\nOfficial timezone: AoE (UTC-12)\nOffi
+ cial source: https://etaps.org/2027/cfp/\nVerified: 2026-08-18T11:49:39Z
+URL:https://etaps.org/2027/cfp/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:isqed-2027-workshop-tutorial-proposal@conference-deadlines
+DTSTAMP:20260818T114939Z
+LAST-MODIFIED:20260818T114939Z
+SEQUENCE:0
+SUMMARY:ISQED 2027 — Workshop or tutorial proposal
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+DESCRIPTION:Submission type: Workshop or tutorial proposal\nOfficial time
+ zone: Not specified for this proposal deadline\nOfficial source: https://
+ www.isqed.org/English/Conference/Call_for_Papers.html\nVerified: 2026-08-
+ 18T11:49:39Z
+URL:https://www.isqed.org/English/Conference/Call_for_Papers.html
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:mdpi-iecb-2027-abstract@conference-deadlines
+DTSTAMP:20260818T114939Z
+LAST-MODIFIED:20260818T114939Z
+SEQUENCE:0
+SUMMARY:MDPI Biosensors / IECB 2027 — Abstract
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+DESCRIPTION:Submission type: Abstract\nOfficial timezone: Not specified\n
+ Official source: https://www.mdpi.com/journal/biosensors/events\nVerified
+ : 2026-08-18T11:49:39Z\nNotes: Deadline for the 6th International Electro
+ nic Conference on Biosensors (IECB 2027).
+URL:https://www.mdpi.com/journal/biosensors/events
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ecoop-2027-round-1-paper@conference-deadlines
+DTSTAMP:20260818T114939Z
+LAST-MODIFIED:20260818T114939Z
+SEQUENCE:0
+SUMMARY:ECOOP 2027 — Technical paper — round 1
+DTSTART:20261120T115900Z
+DTEND:20261120T122900Z
+DESCRIPTION:Submission type: Technical paper — round 1\nOfficial timezo
+ ne: AoE (UTC-12)\nOfficial source: https://2027.ecoop.org/track/ecoop-202
+ 7-technical-papers\nVerified: 2026-08-18T11:49:39Z
+URL:https://2027.ecoop.org/track/ecoop-2027-technical-papers
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:qip-2027-poster-submission@conference-deadlines
+DTSTAMP:20260818T114939Z
+LAST-MODIFIED:20260818T114939Z
+SEQUENCE:0
+SUMMARY:QIP 2027 — Poster submission
+DTSTART:20261205T115900Z
+DTEND:20261205T122900Z
+DESCRIPTION:Submission type: Poster submission\nOfficial timezone: AoE (U
+ TC-12)\nOfficial source: https://qipconference.org/2027/\nVerified: 2026-
+ 08-18T11:49:39Z\nNotes: Poster decisions are rolling and normally made wi
+ thin two weeks of submission.
+URL:https://qipconference.org/2027/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:isc-2027-regular-workshop-proposal@conference-deadlines
+DTSTAMP:20260818T114939Z
+LAST-MODIFIED:20260818T114939Z
+SEQUENCE:0
+SUMMARY:ISC High Performance 2027 — Regular-workshop proposal
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+DESCRIPTION:Submission type: Regular-workshop proposal\nOfficial timezone
+ : Not specified\nOfficial source: https://isc-hpc.com/submissions/worksho
+ p/\nVerified: 2026-08-18T11:49:39Z
+URL:https://isc-hpc.com/submissions/workshop/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-nano-2027-special-session-proposal@conference-deadlines
+DTSTAMP:20260818T114939Z
+LAST-MODIFIED:20260818T114939Z
+SEQUENCE:0
+SUMMARY:IEEE NANO 2027 — Special-session proposal
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+DESCRIPTION:Submission type: Special-session proposal\nOfficial timezone:
+  Not specified\nOfficial source: https://2027.ieeenano.org/\nVerified: 20
+ 26-08-18T11:49:39Z
+URL:https://2027.ieeenano.org/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:isc-2027-research-poster@conference-deadlines
+DTSTAMP:20260818T114939Z
+LAST-MODIFIED:20260818T114939Z
+SEQUENCE:0
+SUMMARY:ISC High Performance 2027 — Research poster
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+DESCRIPTION:Submission type: Research poster\nOfficial timezone: Not spec
+ ified\nOfficial source: https://isc-hpc.com/submissions/\nVerified: 2026-
+ 08-18T11:49:39Z
+URL:https://isc-hpc.com/submissions/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:isc-2027-project-poster@conference-deadlines
+DTSTAMP:20260818T114939Z
+LAST-MODIFIED:20260818T114939Z
+SEQUENCE:0
+SUMMARY:ISC High Performance 2027 — Project poster
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+DESCRIPTION:Submission type: Project poster\nOfficial timezone: Not speci
+ fied\nOfficial source: https://isc-hpc.com/submissions/\nVerified: 2026-0
+ 8-18T11:49:39Z
+URL:https://isc-hpc.com/submissions/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:isc-2027-birds-of-a-feather@conference-deadlines
+DTSTAMP:20260818T114939Z
+LAST-MODIFIED:20260818T114939Z
+SEQUENCE:0
+SUMMARY:ISC High Performance 2027 — Birds-of-a-Feather proposal
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+DESCRIPTION:Submission type: Birds-of-a-Feather proposal\nOfficial timezo
+ ne: Not specified\nOfficial source: https://isc-hpc.com/submissions/\nVer
+ ified: 2026-08-18T11:49:39Z
+URL:https://isc-hpc.com/submissions/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ecoop-2027-round-2-paper@conference-deadlines
+DTSTAMP:20260818T114939Z
+LAST-MODIFIED:20260818T114939Z
+SEQUENCE:0
+SUMMARY:ECOOP 2027 — Technical paper — round 2
+DTSTART:20270212T115900Z
+DTEND:20270212T122900Z
+DESCRIPTION:Submission type: Technical paper — round 2\nOfficial timezo
+ ne: AoE (UTC-12)\nOfficial source: https://2027.ecoop.org/track/ecoop-202
+ 7-technical-papers\nVerified: 2026-08-18T11:49:39Z
+URL:https://2027.ecoop.org/track/ecoop-2027-technical-papers
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-nano-2027-full-paper@conference-deadlines
+DTSTAMP:20260818T114939Z
+LAST-MODIFIED:20260818T114939Z
+SEQUENCE:0
+SUMMARY:IEEE NANO 2027 — Full paper
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+DESCRIPTION:Submission type: Full paper\nOfficial timezone: Not specified
+ \nOfficial source: https://2027.ieeenano.org/\nVerified: 2026-08-18T11:49
+ :39Z\nNotes: The site's presentation-only abstract date shows 2026 and wa
+ s excluded as inconsistent with the 2027 edition.
+URL:https://2027.ieeenano.org/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
