@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conference Deadlines</title>
+  <meta name="description" content="Officially sourced submission deadlines for research conferences.">
+  <style>
+    :root { color-scheme: light; --ink:#17202a; --muted:#62707d; --line:#dbe2e8; --panel:#fff; --accent:#145da0; --wash:#f4f7fa; }
+    * { box-sizing: border-box; }
+    body { margin:0; font:16px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color:var(--ink); background:var(--wash); }
+    main { width:min(1080px,calc(100% - 32px)); margin:48px auto 80px; }
+    header { display:grid; gap:16px; margin-bottom:32px; }
+    h1 { margin:0; font-size:clamp(2rem,5vw,3.6rem); letter-spacing:-.04em; }
+    p { margin:0; }
+    .lede { max-width:760px; color:var(--muted); font-size:1.08rem; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; }
+    .button { display:inline-block; padding:10px 15px; border-radius:8px; background:var(--accent); color:#fff; text-decoration:none; font-weight:650; }
+    .button.secondary { background:#fff; color:var(--accent); border:1px solid var(--line); }
+    .notice { padding:14px 16px; border:1px solid #bcd7ee; border-radius:10px; background:#eaf4fc; }
+    section { margin-top:28px; }
+    h2 { margin:0 0 14px; font-size:1.25rem; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:12px; }
+    article { padding:16px; border:1px solid var(--line); border-radius:10px; background:var(--panel); }
+    article h3 { margin:0 0 6px; font-size:1rem; }
+    .meta { color:var(--muted); font-size:.9rem; }
+    .deadline { display:grid; gap:7px; }
+    .deadline time { font-size:1.1rem; font-weight:700; }
+    .deadline a { overflow-wrap:anywhere; }
+    footer { margin-top:36px; color:var(--muted); font-size:.9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <h1>Conference Deadlines</h1>
+        <p class="lede">A public, read-only calendar of submission deadlines. Dates are published only after verification against an official conference source.</p>
+      </div>
+      <div class="actions">
+        <a class="button" href="calendar.ics">Subscribe to calendar</a>
+        <a class="button secondary" href="data/deadlines.json">Deadline data</a>
+      </div>
+      <p class="notice" id="status">Loading verified deadlines…</p>
+    </header>
+
+    <section>
+      <h2>Verified deadlines</h2>
+      <div class="grid" id="deadlines"></div>
+    </section>
+
+    <section>
+      <h2>Monitored conferences</h2>
+      <div class="grid" id="conferences"></div>
+    </section>
+
+    <footer>Rough deadline windows are discovery hints only. Every published event retains its official source URL and verification timestamp.</footer>
+  </main>
+  <script>
+    const escapeHtml = (value) => String(value).replace(/[&<>"']/g, character => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"})[character]);
+
+    Promise.all([
+      fetch("data/deadlines.json").then(response => response.json()),
+      fetch("data/conferences.json").then(response => response.json())
+    ]).then(([deadlineData, conferenceData]) => {
+      const deadlines = deadlineData.deadlines;
+      document.querySelector("#status").textContent = deadlines.length
+        ? `${deadlines.length} officially verified deadline${deadlines.length === 1 ? "" : "s"} published.`
+        : "No exact deadlines have been published yet. Official sources are being located and verified.";
+
+      document.querySelector("#deadlines").innerHTML = deadlines.length
+        ? deadlines.map(item => {
+            const displayDate = item.all_day ? item.deadline_date : new Date(item.deadline_at).toLocaleString(undefined, {dateStyle:"full", timeStyle:"short"});
+            return `<article class="deadline"><h3>${escapeHtml(item.conference)} ${escapeHtml(item.edition)} — ${escapeHtml(item.submission_type)}</h3><time>${escapeHtml(displayDate)}</time><p class="meta">${escapeHtml(item.timezone || "Official timezone not specified")}</p><a href="${escapeHtml(item.source.url)}">Official source</a><p class="meta">Verified ${escapeHtml(item.source.verified_at)}</p></article>`;
+          }).join("")
+        : "";
+
+      document.querySelector("#conferences").innerHTML = conferenceData.conferences.map(item =>
+        `<article><h3>${escapeHtml(item.name)}</h3><p class="meta">${escapeHtml(item.community)}</p><p>Discovery window: ${escapeHtml(item.rough_deadline_windows.join(", "))}</p></article>`
+      ).join("");
+    }).catch(error => {
+      document.querySelector("#status").textContent = `Could not load calendar data: ${error.message}`;
+    });
+  </script>
+</body>
+</html>
