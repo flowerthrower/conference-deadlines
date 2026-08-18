@@ -51,6 +51,11 @@ function nextDate(value) {
   return date.toISOString().slice(0, 10);
 }
 
+function deadlineDate(event) {
+  if (!event.deadline_at) throw new Error(`Deadline ${event.id} is missing deadline_at`);
+  return event.deadline_at.slice(0, 10);
+}
+
 function eventLines(event) {
   const required = ["id", "conference", "edition", "submission_type", "source"];
   for (const field of required) {
@@ -69,17 +74,17 @@ function eventLines(event) {
     `SUMMARY:${escapeText(`${event.conference} ${event.edition} — ${event.submission_type}`)}`,
   ];
 
-  if (event.all_day) {
-    lines.push(`DTSTART;VALUE=DATE:${dateStamp(event.deadline_date)}`);
-    lines.push(`DTEND;VALUE=DATE:${dateStamp(nextDate(event.deadline_date))}`);
-  } else {
-    if (!event.deadline_at) throw new Error(`Deadline ${event.id} is missing deadline_at`);
-    lines.push(`DTSTART:${utcStamp(event.deadline_at)}`);
-    lines.push(`DTEND:${utcStamp(new Date(new Date(event.deadline_at).getTime() + 30 * 60 * 1000))}`);
-  }
+  const date = deadlineDate(event);
+  lines.push(`DTSTART;VALUE=DATE:${dateStamp(date)}`);
+  lines.push(`DTEND;VALUE=DATE:${dateStamp(nextDate(date))}`);
+
+  const aoeNote = event.timezone === "AoE (UTC-12)"
+    ? "AoE note: the cutoff is 14:00 on the following day in Central European summer time (CEST, UTC+2), or 13:00 in winter (CET, UTC+1)."
+    : null;
 
   const description = [
     `Submission type: ${event.submission_type}`,
+    aoeNote,
     `Official source: ${event.source.url}`,
     `Verified: ${event.source.verified_at}`,
     event.notes ? `Notes: ${event.notes}` : null,

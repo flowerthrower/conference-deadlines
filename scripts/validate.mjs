@@ -43,8 +43,11 @@ for (const deadline of deadlines.deadlines) {
   if (!conferenceIds.includes(deadline.conference_id)) {
     throw new Error(`Unknown conference_id: ${deadline.conference_id}`);
   }
-  if (deadline.all_day || !deadline.deadline_at) {
-    throw new Error(`Deadline ${deadline.id} must have an exact time; use 23:59 AoE when no official time is specified`);
+  if (!deadline.all_day) {
+    throw new Error(`Deadline ${deadline.id} must be published as an all-day event`);
+  }
+  if (!deadline.deadline_at) {
+    throw new Error(`Deadline ${deadline.id} must retain its exact cutoff; use 23:59 AoE when no official time is specified`);
   }
   if (!deadline.timezone || deadline.timezone.startsWith("Not specified")) {
     throw new Error(`Deadline ${deadline.id} lacks a timezone`);
@@ -58,6 +61,17 @@ if (!calendar.startsWith("BEGIN:VCALENDAR\r\n")) throw new Error("Invalid calend
 if (!calendar.endsWith("END:VCALENDAR\r\n")) throw new Error("Invalid calendar footer");
 if ((calendar.match(/BEGIN:VEVENT/g) ?? []).length !== deadlines.deadlines.length) {
   throw new Error("Calendar event count does not match deadlines.json");
+}
+if ((calendar.match(/DTSTART;VALUE=DATE:/g) ?? []).length !== deadlines.deadlines.length) {
+  throw new Error("Every calendar deadline must be an all-day event");
+}
+if (calendar.includes("\r\nDTSTART:")) {
+  throw new Error("Calendar contains a timed deadline event");
+}
+const unfoldedCalendar = calendar.replaceAll("\r\n ", "");
+const aoeDeadlineCount = deadlines.deadlines.filter((deadline) => deadline.timezone === "AoE (UTC-12)").length;
+if ((unfoldedCalendar.match(/\\nAoE note:/g) ?? []).length !== aoeDeadlineCount) {
+  throw new Error("Every AoE calendar event must explain the Central European cutoff");
 }
 
 console.log(`Validated ${conferenceIds.length} conferences and ${deadlineIds.length} deadline(s).`);
