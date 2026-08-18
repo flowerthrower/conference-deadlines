@@ -1,44 +1,912 @@
 {
   "schema_version": 1,
-  "policy": "Only exact deadlines confirmed by an official conference source become calendar events. Rough windows are discovery hints only.",
+  "policy": "Only exact deadlines confirmed by an official conference source become calendar events. Discovery windows are hints only.",
+  "generated_from": "conferences.yaml",
   "conferences": [
-    {"id":"iccad","community":"Design Automation","name":"ICCAD","aliases":[],"rough_deadline_windows":["mid April"],"official_sources":[{"url":"https://iccad.com/2026","title":"Official ICCAD 2026 site","status":"2027 deadlines not announced"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"asp-dac","community":"Design Automation","name":"ASP-DAC","aliases":[],"rough_deadline_windows":["early July"],"official_sources":[{"url":"https://www.aspdac.com/aspdac2027/cfp/","title":"Official ASP-DAC 2027 call for papers","status":"confirmed"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"date","community":"Design Automation","name":"DATE","aliases":[],"rough_deadline_windows":["mid September"],"official_sources":[{"url":"https://www.date-conference.com/date-2027-call-papers","title":"Official DATE 2027 call for papers","status":"confirmed"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"dac","community":"Design Automation","name":"DAC","aliases":[],"rough_deadline_windows":["mid November"],"official_sources":[{"url":"https://dac.com/2026/call-for-contributions","title":"Official DAC call for contributions","status":"2027 deadlines not announced"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"ismvl","community":"Design Automation","name":"ISMVL","aliases":[],"rough_deadline_windows":["mid December"],"official_sources":[{"url":"https://www.ismvl.org/","title":"Official ISMVL conference-series site","status":"2027 deadlines not announced"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"isvlsi","community":"Design Automation","name":"ISVLSI","aliases":[],"rough_deadline_windows":["late March"],"official_sources":[{"url":"https://www.ieee-isvlsi.org/","title":"Official IEEE ISVLSI site","status":"2027 deadlines not announced"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"iwls","community":"Design Automation","name":"IWLS","aliases":[],"rough_deadline_windows":["early May"],"official_sources":[{"url":"https://www.iwls.org/","title":"Official IWLS site","status":"2027 deadlines not announced"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"isqed","community":"Design Automation","name":"ISQED","aliases":["isQED"],"rough_deadline_windows":["early October"],"official_sources":[{"url":"https://www.isqed.org/English/Conference/Call_for_Papers.html","title":"Official ISQED 2027 call for papers","status":"confirmed"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"iccd","community":"Design Automation","name":"ICCD","aliases":[],"rough_deadline_windows":["mid June"],"official_sources":[{"url":"https://www.iccd-conf.com/2026/","title":"Official IEEE ICCD site","status":"2027 deadlines not announced"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"qsw","community":"Quantum Computing","name":"QSW","aliases":[],"rough_deadline_windows":["late February"],"official_sources":[{"url":"https://services.conferences.computer.org/2026/qsw/qsw-call-for-papers/","title":"Official IEEE QSW call for papers","status":"2027 deadlines not announced"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"qce","community":"Quantum Computing","name":"QCE","aliases":["IEEE Quantum Week"],"rough_deadline_windows":["early April"],"official_sources":[{"url":"https://qce.quantum.ieee.org/2026/news-and-updates/","title":"Official IEEE Quantum Week site","status":"2027 deadlines not announced"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"tqc","community":"Quantum Computing","name":"TQC","aliases":[],"rough_deadline_windows":["mid February"],"official_sources":[{"url":"https://tqc.iaqi.org/","title":"Official TQC conference-series site","status":"2027 call not announced"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"qip","community":"Quantum Computing","name":"QIP","aliases":[],"rough_deadline_windows":["late September"],"official_sources":[{"url":"https://qipconference.org/2027/","title":"Official QIP 2027 site","status":"confirmed"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"aqisc","community":"Quantum Computing","name":"Asian Quantum Information Science Conference","aliases":["AQIS"],"rough_deadline_windows":["mid December"],"official_sources":[{"url":"https://aqis-conf.org/2026/","title":"Official AQIS site","status":"2027 deadlines not announced"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"qctip","community":"Quantum Computing","name":"QCTIP","aliases":["QCTiP"],"rough_deadline_windows":["late January"],"official_sources":[{"url":"https://qctipconf.github.io/","title":"Official QCTiP conference-series site","status":"2027 location and deadlines not announced"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"aps-march-meeting","community":"Quantum Computing","name":"APS March Meeting","aliases":["APS Global Physics Summit"],"rough_deadline_windows":["mid October"],"official_sources":[{"url":"https://info.aps.org/summit27","title":"Official APS Global Physics Summit 2027 site","status":"abstract deadline not announced"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"reversible-computation","community":"Quantum Computing / Software Engineering","name":"Reversible Computation","aliases":["RC"],"rough_deadline_windows":["early February","late February"],"official_sources":[{"url":"https://reversible-computation.github.io/","title":"Official Reversible Computation site","status":"2027 venue announced; deadlines not announced"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"ieee-nano","community":"Nanotech","name":"IEEE NANO","aliases":[],"rough_deadline_windows":["late February"],"official_sources":[{"url":"https://2027.ieeenano.org/","title":"Official IEEE NANO 2027 site","status":"confirmed","notes":"The presentation-only abstract year conflicts with the 2027 edition and is excluded until corrected."}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"microtas","community":"Nanotech","name":"μTAS","aliases":["MicroTAS"],"rough_deadline_windows":["late May"],"official_sources":[{"url":"https://cbmsociety.org/","title":"Official CBMS/MicroTAS conference-series site","status":"2027 venue announced; deadlines not announced"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"mdpi-biosensors","community":"Nanotech","name":"MDPI Biosensors","aliases":["International Electronic Conference on Biosensors","IECB"],"rough_deadline_windows":["late April"],"official_sources":[{"url":"https://www.mdpi.com/journal/biosensors/events","title":"Official MDPI Biosensors events page","status":"confirmed"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"ebsa","community":"Nanotech","name":"EBSA","aliases":["IUPAB/EBSA Congress"],"rough_deadline_windows":["early March"],"official_sources":[{"url":"https://iupab.org/event/international-biophysics-congress/","title":"Official IUPAB/EBSA 2027 congress page","status":"submission deadlines not announced"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"nanoarch","community":"Nanotech","name":"NANOARCH","aliases":[],"rough_deadline_windows":["late August"],"official_sources":[{"url":"https://nanoarch.acm.org/","title":"Official ACM NANOARCH site","status":"2027 edition not announced","notes":"The official site currently presents an expired TLS certificate; monitor via indexed official content until repaired."}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"micro","community":"Computer Architecture","name":"MICRO","aliases":[],"rough_deadline_windows":["early April"],"official_sources":[{"url":"https://www.microarch.org/","title":"Official MICRO conference-series site","status":"2027 deadlines not announced"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"hpca","community":"Computer Architecture","name":"HPCA","aliases":[],"rough_deadline_windows":["late July"],"official_sources":[{"url":"https://conf.researchr.org/track/hpca-2027/hpca-2027-main-conference","title":"Official HPCA 2027 call for papers","status":"submission deadlines passed"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"isca","community":"Computer Architecture","name":"ISCA","aliases":[],"rough_deadline_windows":["mid November"],"official_sources":[{"url":"https://iscaconf.org/isca2026/","title":"Official ISCA site","status":"2027 deadlines not announced"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"asplos","community":"Computer Architecture","name":"ASPLOS","aliases":[],"rough_deadline_windows":["late February","mid June","mid October"],"official_sources":[{"url":"https://www.asplos-conference.org/asplos2027/cfp/","title":"Official ASPLOS 2027 call for papers","status":"confirmed"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"sc","community":"Super Computing","name":"SC","aliases":["The International Conference for High Performance Computing, Networking, Storage and Analysis"],"rough_deadline_windows":["early April"],"official_sources":[{"url":"https://sc26.supercomputing.org/all-dates-deadlines/","title":"Official SC conference site","status":"SC27 deadlines not announced"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"isc","community":"Super Computing","name":"ISC","aliases":["ISC High Performance"],"rough_deadline_windows":["late February"],"official_sources":[{"url":"https://isc-hpc.com/submissions/workshop/","title":"Official ISC 2027 workshop submissions page","status":"confirmed"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"esop","community":"Software Engineering","name":"ESOP","aliases":[],"rough_deadline_windows":["mid October"],"official_sources":[{"url":"https://etaps.org/2027/cfp/","title":"Official ETAPS 2027 joint call for papers","status":"confirmed"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"tacas","community":"Software Engineering","name":"TACAS","aliases":[],"rough_deadline_windows":["mid October"],"official_sources":[{"url":"https://etaps.org/2027/cfp/","title":"Official ETAPS 2027 joint call for papers","status":"confirmed"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"oopsla","community":"Software Engineering","name":"OOPSLA","aliases":[],"rough_deadline_windows":["late March","mid October"],"official_sources":[{"url":"https://conf.researchr.org/track/splash-2026/oopsla-2026","title":"Official OOPSLA call for papers","status":"2027 deadlines not announced"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"sat","community":"Software Engineering","name":"SAT","aliases":["International Conference on Theory and Applications of Satisfiability Testing"],"rough_deadline_windows":["late February"],"official_sources":[{"url":"https://satisfiability.org/","title":"Official SAT Association site","status":"2027 deadlines not announced"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"sea","community":"Software Engineering","name":"SEA","aliases":["Symposium on Experimental Algorithms"],"rough_deadline_windows":["mid February"],"official_sources":[{"url":"https://sea2027.iti.kit.edu/","title":"Official SEA 2027 site","status":"submission deadline TBD"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"atmos","community":"Software Engineering","name":"ATMOS","aliases":["Algorithmic Approaches for Transportation Modelling, Optimization, and Systems"],"rough_deadline_windows":["late June"],"official_sources":[{"url":"https://www.atmos-symposium.eu/","title":"Official ATMOS conference-series site","status":"2027 deadlines not announced"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"ecoop","community":"Programming Languages","name":"ECOOP","aliases":[],"rough_deadline_windows":["early January","early March"],"official_sources":[{"url":"https://2027.ecoop.org/track/ecoop-2027-technical-papers","title":"Official ECOOP 2027 technical-papers call","status":"confirmed"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"pldi","community":"Programming Languages","name":"PLDI","aliases":[],"rough_deadline_windows":["mid November"],"official_sources":[{"url":"https://conf.researchr.org/home/pldi-2027","title":"Official PLDI 2027 site","status":"submission deadline not announced"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"itsc","community":"Transportation","name":"ITSC","aliases":["IEEE Intelligent Transportation Systems Conference"],"rough_deadline_windows":["mid May"],"official_sources":[{"url":"https://ieee-itsc.org/","title":"Official IEEE ITSC conference-series site","status":"2027 venue announced; deadlines not announced"}],"last_checked":"2026-08-18T11:49:39Z"},
-    {"id":"heureka","community":"Miscellaneous","name":"HEUREKA","aliases":[],"rough_deadline_windows":["mid September"],"official_sources":[{"url":"https://eraw.easychair.org/cfp/HEUREKA2027","title":"Official HEUREKA 2027 EasyChair call for papers","status":"confirmed"}],"last_checked":"2026-08-18T11:49:39Z"}
+    {
+      "id": "iccad",
+      "community": "Design Automation",
+      "name": "ICCAD",
+      "aliases": [],
+      "monitored_submissions": [
+        "abstract registration",
+        "regular paper",
+        "workshop proposal",
+        "tutorial proposal",
+        "special-session proposal",
+        "panel proposal"
+      ],
+      "official_sources": [
+        {
+          "url": "https://iccad.com/2026",
+          "title": "Official ICCAD site",
+          "status": "2027 deadlines not announced"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "mid April"
+      ]
+    },
+    {
+      "id": "asp-dac",
+      "community": "Design Automation",
+      "name": "ASP-DAC",
+      "aliases": [],
+      "monitored_submissions": [
+        "abstract registration",
+        "full paper",
+        "panel proposal",
+        "special-session proposal",
+        "tutorial proposal"
+      ],
+      "official_sources": [
+        {
+          "url": "https://www.aspdac.com/aspdac2027/cfp/",
+          "title": "Official ASP-DAC call for papers",
+          "status": "confirmed"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "early July"
+      ]
+    },
+    {
+      "id": "date",
+      "community": "Design Automation",
+      "name": "DATE",
+      "aliases": [],
+      "monitored_submissions": [
+        "paper registration",
+        "full paper",
+        "workshop proposal",
+        "tutorial proposal",
+        "special-session proposal",
+        "hot-topic session proposal"
+      ],
+      "official_sources": [
+        {
+          "url": "https://www.date-conference.com/date-2027-call-papers",
+          "title": "Official DATE call for papers",
+          "status": "confirmed"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "mid September"
+      ]
+    },
+    {
+      "id": "dac",
+      "community": "Design Automation",
+      "name": "DAC",
+      "aliases": [],
+      "monitored_submissions": [
+        "research manuscript",
+        "late-breaking result",
+        "workshop proposal",
+        "tutorial proposal",
+        "panel proposal",
+        "special-session proposal",
+        "engineering-track presentation"
+      ],
+      "official_sources": [
+        {
+          "url": "https://dac.com/2026/call-for-contributions",
+          "title": "Official DAC call for contributions",
+          "status": "2027 deadlines not announced"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "mid November"
+      ]
+    },
+    {
+      "id": "ismvl",
+      "community": "Design Automation",
+      "name": "ISMVL",
+      "aliases": [],
+      "monitored_submissions": [
+        "regular paper",
+        "short paper",
+        "special-session proposal"
+      ],
+      "official_sources": [
+        {
+          "url": "https://www.ismvl.org/",
+          "title": "Official ISMVL conference-series site",
+          "status": "2027 deadlines not announced"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "mid December"
+      ]
+    },
+    {
+      "id": "isvlsi",
+      "community": "Design Automation",
+      "name": "ISVLSI",
+      "aliases": [],
+      "monitored_submissions": [
+        "regular paper",
+        "late-breaking result",
+        "workshop proposal",
+        "tutorial proposal"
+      ],
+      "official_sources": [
+        {
+          "url": "https://www.ieee-isvlsi.org/",
+          "title": "Official IEEE ISVLSI site",
+          "status": "2027 deadlines not announced"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "late March"
+      ]
+    },
+    {
+      "id": "iwls",
+      "community": "Design Automation",
+      "name": "IWLS",
+      "aliases": [],
+      "monitored_submissions": [
+        "regular paper",
+        "short paper",
+        "poster"
+      ],
+      "official_sources": [
+        {
+          "url": "https://www.iwls.org/",
+          "title": "Official IWLS site",
+          "status": "2027 deadlines not announced"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "early May"
+      ]
+    },
+    {
+      "id": "isqed",
+      "community": "Design Automation",
+      "name": "ISQED",
+      "aliases": [
+        "isQED"
+      ],
+      "monitored_submissions": [
+        "regular paper",
+        "work-in-progress paper",
+        "poster",
+        "special-session paper",
+        "workshop proposal",
+        "tutorial proposal"
+      ],
+      "official_sources": [
+        {
+          "url": "https://www.isqed.org/English/Conference/Call_for_Papers.html",
+          "title": "Official ISQED call for papers",
+          "status": "confirmed"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "early October"
+      ]
+    },
+    {
+      "id": "iccd",
+      "community": "Design Automation",
+      "name": "ICCD",
+      "aliases": [],
+      "monitored_submissions": [
+        "regular paper",
+        "short paper",
+        "special-session proposal",
+        "tutorial proposal"
+      ],
+      "official_sources": [
+        {
+          "url": "https://www.iccd-conf.com/2026/",
+          "title": "Official IEEE ICCD site",
+          "status": "2027 deadlines not announced"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "mid June"
+      ]
+    },
+    {
+      "id": "qsw",
+      "community": "Quantum Computing",
+      "name": "QSW",
+      "aliases": [],
+      "monitored_submissions": [
+        "regular paper",
+        "short paper",
+        "work-in-progress paper",
+        "workshop paper"
+      ],
+      "official_sources": [
+        {
+          "url": "https://services.conferences.computer.org/2026/qsw/qsw-call-for-papers/",
+          "title": "Official IEEE QSW call for papers",
+          "status": "2027 deadlines not announced"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "late February"
+      ]
+    },
+    {
+      "id": "qce",
+      "community": "Quantum Computing",
+      "name": "QCE",
+      "aliases": [
+        "IEEE Quantum Week"
+      ],
+      "monitored_submissions": [
+        "technical paper",
+        "workshop proposal",
+        "workshop paper",
+        "tutorial proposal",
+        "panel proposal",
+        "poster"
+      ],
+      "official_sources": [
+        {
+          "url": "https://qce.quantum.ieee.org/2026/news-and-updates/",
+          "title": "Official IEEE Quantum Week site",
+          "status": "2027 deadlines not announced"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "early April"
+      ]
+    },
+    {
+      "id": "tqc",
+      "community": "Quantum Computing",
+      "name": "TQC",
+      "aliases": [],
+      "monitored_submissions": [
+        "talk",
+        "poster"
+      ],
+      "official_sources": [
+        {
+          "url": "https://tqc.iaqi.org/",
+          "title": "Official TQC conference-series site",
+          "status": "2027 call not announced"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "mid February"
+      ]
+    },
+    {
+      "id": "qip",
+      "community": "Quantum Computing",
+      "name": "QIP",
+      "aliases": [],
+      "monitored_submissions": [
+        "talk registration",
+        "talk submission",
+        "poster"
+      ],
+      "official_sources": [
+        {
+          "url": "https://qipconference.org/2027/",
+          "title": "Official QIP site",
+          "status": "confirmed"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "late September"
+      ]
+    },
+    {
+      "id": "aqisc",
+      "community": "Quantum Computing",
+      "name": "Asian Quantum Information Science Conference",
+      "aliases": [
+        "AQIS"
+      ],
+      "monitored_submissions": [
+        "talk",
+        "poster"
+      ],
+      "official_sources": [
+        {
+          "url": "https://aqis-conf.org/2026/",
+          "title": "Official AQIS site",
+          "status": "2027 deadlines not announced"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "mid December"
+      ]
+    },
+    {
+      "id": "qctip",
+      "community": "Quantum Computing",
+      "name": "QCTIP",
+      "aliases": [
+        "QCTiP"
+      ],
+      "monitored_submissions": [
+        "talk",
+        "poster"
+      ],
+      "official_sources": [
+        {
+          "url": "https://qctipconf.github.io/",
+          "title": "Official QCTiP conference-series site",
+          "status": "2027 location and deadlines not announced"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "late January"
+      ]
+    },
+    {
+      "id": "aps-march-meeting",
+      "community": "Quantum Computing",
+      "name": "APS March Meeting",
+      "aliases": [
+        "APS Global Physics Summit"
+      ],
+      "monitored_submissions": [
+        "contributed abstract",
+        "invited abstract",
+        "poster"
+      ],
+      "official_sources": [
+        {
+          "url": "https://info.aps.org/summit27",
+          "title": "Official APS Global Physics Summit site",
+          "status": "abstract deadline not announced"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "mid October"
+      ]
+    },
+    {
+      "id": "reversible-computation",
+      "community": "Quantum Computing / Software Engineering",
+      "name": "Reversible Computation",
+      "aliases": [
+        "RC"
+      ],
+      "monitored_submissions": [
+        "research paper",
+        "tool demonstration",
+        "work-in-progress report"
+      ],
+      "official_sources": [
+        {
+          "url": "https://reversible-computation.github.io/",
+          "title": "Official Reversible Computation site",
+          "status": "2027 venue announced; deadlines not announced"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "early February",
+        "late February"
+      ]
+    },
+    {
+      "id": "ieee-nano",
+      "community": "Nanotech",
+      "name": "IEEE NANO",
+      "aliases": [],
+      "monitored_submissions": [
+        "full paper",
+        "presentation-only abstract",
+        "special-session proposal"
+      ],
+      "official_sources": [
+        {
+          "url": "https://2027.ieeenano.org/",
+          "title": "Official IEEE NANO site",
+          "status": "confirmed",
+          "notes": "The presentation-only abstract year conflicts with the 2027 edition and is excluded until corrected."
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "late February"
+      ]
+    },
+    {
+      "id": "microtas",
+      "community": "Nanotech",
+      "name": "μTAS",
+      "aliases": [
+        "MicroTAS"
+      ],
+      "monitored_submissions": [
+        "abstract",
+        "late-news abstract"
+      ],
+      "official_sources": [
+        {
+          "url": "https://cbmsociety.org/",
+          "title": "Official CBMS/MicroTAS conference-series site",
+          "status": "2027 venue announced; deadlines not announced"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "late May"
+      ]
+    },
+    {
+      "id": "mdpi-biosensors",
+      "community": "Nanotech",
+      "name": "MDPI Biosensors",
+      "aliases": [
+        "International Electronic Conference on Biosensors",
+        "IECB"
+      ],
+      "monitored_submissions": [
+        "abstract",
+        "extended paper"
+      ],
+      "official_sources": [
+        {
+          "url": "https://www.mdpi.com/journal/biosensors/events",
+          "title": "Official MDPI Biosensors events page",
+          "status": "confirmed"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "late April"
+      ]
+    },
+    {
+      "id": "ebsa",
+      "community": "Nanotech",
+      "name": "EBSA",
+      "aliases": [
+        "IUPAB/EBSA Congress"
+      ],
+      "monitored_submissions": [
+        "oral abstract",
+        "poster abstract"
+      ],
+      "official_sources": [
+        {
+          "url": "https://iupab.org/event/international-biophysics-congress/",
+          "title": "Official IUPAB/EBSA congress page",
+          "status": "submission deadlines not announced"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "early March"
+      ]
+    },
+    {
+      "id": "nanoarch",
+      "community": "Nanotech",
+      "name": "NANOARCH",
+      "aliases": [],
+      "monitored_submissions": [
+        "regular paper",
+        "short paper"
+      ],
+      "official_sources": [
+        {
+          "url": "https://nanoarch.acm.org/",
+          "title": "Official ACM NANOARCH site",
+          "status": "2027 edition not announced",
+          "notes": "The official site currently presents an expired TLS certificate; monitor indexed official content until repaired."
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "late August"
+      ]
+    },
+    {
+      "id": "micro",
+      "community": "Computer Architecture",
+      "name": "MICRO",
+      "aliases": [],
+      "monitored_submissions": [
+        "abstract registration",
+        "full paper",
+        "workshop proposal",
+        "tutorial proposal"
+      ],
+      "official_sources": [
+        {
+          "url": "https://www.microarch.org/",
+          "title": "Official MICRO conference-series site",
+          "status": "2027 deadlines not announced"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "early April"
+      ]
+    },
+    {
+      "id": "hpca",
+      "community": "Computer Architecture",
+      "name": "HPCA",
+      "aliases": [],
+      "monitored_submissions": [
+        "abstract registration",
+        "full paper",
+        "industry-track paper",
+        "workshop proposal",
+        "tutorial proposal"
+      ],
+      "official_sources": [
+        {
+          "url": "https://conf.researchr.org/track/hpca-2027/hpca-2027-main-conference",
+          "title": "Official HPCA call for papers",
+          "status": "submission deadlines passed"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "late July"
+      ]
+    },
+    {
+      "id": "isca",
+      "community": "Computer Architecture",
+      "name": "ISCA",
+      "aliases": [],
+      "monitored_submissions": [
+        "abstract registration",
+        "full paper",
+        "industrial-session paper",
+        "workshop proposal",
+        "tutorial proposal"
+      ],
+      "official_sources": [
+        {
+          "url": "https://iscaconf.org/isca2026/",
+          "title": "Official ISCA site",
+          "status": "2027 deadlines not announced"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "mid November"
+      ]
+    },
+    {
+      "id": "asplos",
+      "community": "Computer Architecture",
+      "name": "ASPLOS",
+      "aliases": [],
+      "monitored_submissions": [
+        "full paper",
+        "artifact",
+        "workshop proposal",
+        "tutorial proposal"
+      ],
+      "official_sources": [
+        {
+          "url": "https://www.asplos-conference.org/asplos2027/cfp/",
+          "title": "Official ASPLOS call for papers",
+          "status": "confirmed"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "late February",
+        "mid June",
+        "mid October"
+      ]
+    },
+    {
+      "id": "sc",
+      "community": "Super Computing",
+      "name": "SC",
+      "aliases": [
+        "The International Conference for High Performance Computing, Networking, Storage and Analysis"
+      ],
+      "monitored_submissions": [
+        "technical paper",
+        "workshop proposal",
+        "workshop paper",
+        "tutorial proposal",
+        "poster",
+        "Birds-of-a-Feather proposal",
+        "panel proposal",
+        "doctoral showcase"
+      ],
+      "official_sources": [
+        {
+          "url": "https://sc26.supercomputing.org/all-dates-deadlines/",
+          "title": "Official SC conference site",
+          "status": "SC27 deadlines not announced"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "early April"
+      ]
+    },
+    {
+      "id": "isc",
+      "community": "Super Computing",
+      "name": "ISC",
+      "aliases": [
+        "ISC High Performance"
+      ],
+      "monitored_submissions": [
+        "research paper",
+        "research poster",
+        "project poster",
+        "workshop proposal",
+        "workshop paper",
+        "tutorial proposal",
+        "Birds-of-a-Feather proposal"
+      ],
+      "official_sources": [
+        {
+          "url": "https://isc-hpc.com/submissions/workshop/",
+          "title": "Official ISC workshop submissions page",
+          "status": "confirmed"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "late February"
+      ]
+    },
+    {
+      "id": "esop",
+      "community": "Software Engineering",
+      "name": "ESOP",
+      "aliases": [],
+      "monitored_submissions": [
+        "research paper",
+        "experience report",
+        "fresh-perspectives paper",
+        "artifact"
+      ],
+      "official_sources": [
+        {
+          "url": "https://etaps.org/2027/cfp/",
+          "title": "Official ETAPS joint call for papers",
+          "status": "confirmed"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "mid October"
+      ]
+    },
+    {
+      "id": "tacas",
+      "community": "Software Engineering",
+      "name": "TACAS",
+      "aliases": [],
+      "monitored_submissions": [
+        "research paper",
+        "case-study paper",
+        "tool paper",
+        "tool-demonstration paper",
+        "artifact"
+      ],
+      "official_sources": [
+        {
+          "url": "https://etaps.org/2027/cfp/",
+          "title": "Official ETAPS joint call for papers",
+          "status": "confirmed"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "mid October"
+      ]
+    },
+    {
+      "id": "oopsla",
+      "community": "Software Engineering",
+      "name": "OOPSLA",
+      "aliases": [],
+      "monitored_submissions": [
+        "research paper",
+        "artifact",
+        "poster",
+        "tool demonstration"
+      ],
+      "official_sources": [
+        {
+          "url": "https://conf.researchr.org/track/splash-2026/oopsla-2026",
+          "title": "Official OOPSLA call for papers",
+          "status": "2027 deadlines not announced"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "late March",
+        "mid October"
+      ]
+    },
+    {
+      "id": "sat",
+      "community": "Software Engineering",
+      "name": "SAT",
+      "aliases": [
+        "International Conference on Theory and Applications of Satisfiability Testing"
+      ],
+      "monitored_submissions": [
+        "regular paper",
+        "short paper",
+        "tool paper"
+      ],
+      "official_sources": [
+        {
+          "url": "https://satisfiability.org/",
+          "title": "Official SAT Association site",
+          "status": "2027 deadlines not announced"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "late February"
+      ]
+    },
+    {
+      "id": "sea",
+      "community": "Software Engineering",
+      "name": "SEA",
+      "aliases": [
+        "Symposium on Experimental Algorithms"
+      ],
+      "monitored_submissions": [
+        "regular paper",
+        "short paper"
+      ],
+      "official_sources": [
+        {
+          "url": "https://sea2027.iti.kit.edu/",
+          "title": "Official SEA site",
+          "status": "submission deadline TBD"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "mid February"
+      ]
+    },
+    {
+      "id": "atmos",
+      "community": "Software Engineering",
+      "name": "ATMOS",
+      "aliases": [
+        "Algorithmic Approaches for Transportation Modelling, Optimization, and Systems"
+      ],
+      "monitored_submissions": [
+        "full paper"
+      ],
+      "official_sources": [
+        {
+          "url": "https://www.atmos-symposium.eu/",
+          "title": "Official ATMOS conference-series site",
+          "status": "2027 deadlines not announced"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "late June"
+      ]
+    },
+    {
+      "id": "ecoop",
+      "community": "Programming Languages",
+      "name": "ECOOP",
+      "aliases": [],
+      "monitored_submissions": [
+        "technical paper",
+        "artifact"
+      ],
+      "official_sources": [
+        {
+          "url": "https://2027.ecoop.org/track/ecoop-2027-technical-papers",
+          "title": "Official ECOOP technical-papers call",
+          "status": "confirmed"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "early January",
+        "early March"
+      ]
+    },
+    {
+      "id": "pldi",
+      "community": "Programming Languages",
+      "name": "PLDI",
+      "aliases": [],
+      "monitored_submissions": [
+        "research paper",
+        "artifact",
+        "workshop proposal",
+        "tutorial proposal",
+        "poster"
+      ],
+      "official_sources": [
+        {
+          "url": "https://conf.researchr.org/home/pldi-2027",
+          "title": "Official PLDI site",
+          "status": "submission deadline not announced"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "mid November"
+      ]
+    },
+    {
+      "id": "itsc",
+      "community": "Transportation",
+      "name": "ITSC",
+      "aliases": [
+        "IEEE Intelligent Transportation Systems Conference"
+      ],
+      "monitored_submissions": [
+        "regular paper",
+        "invited-session paper",
+        "workshop proposal",
+        "tutorial proposal",
+        "industry-track contribution"
+      ],
+      "official_sources": [
+        {
+          "url": "https://ieee-itsc.org/",
+          "title": "Official IEEE ITSC conference-series site",
+          "status": "2027 venue announced; deadlines not announced"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "mid May"
+      ]
+    },
+    {
+      "id": "heureka",
+      "community": "Miscellaneous",
+      "name": "HEUREKA",
+      "aliases": [],
+      "monitored_submissions": [
+        "reviewed contribution"
+      ],
+      "official_sources": [
+        {
+          "url": "https://eraw.easychair.org/cfp/HEUREKA2027",
+          "title": "Official HEUREKA EasyChair call for papers",
+          "status": "confirmed"
+        }
+      ],
+      "last_checked": "2026-08-18T11:49:39Z",
+      "rough_deadline_windows": [
+        "mid September"
+      ]
+    }
   ]
 }

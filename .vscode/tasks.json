@@ -2,15 +2,22 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "label": "Install dependencies",
+      "type": "shell",
+      "command": "npm_config_cache=.npm-cache npm ci",
+      "problemMatcher": []
+    },
+    {
       "label": "Generate calendar feed",
       "type": "shell",
-      "command": "node scripts/generate.mjs",
+      "command": "npm run generate",
+      "dependsOn": "Install dependencies",
       "problemMatcher": []
     },
     {
       "label": "Validate calendar feed",
       "type": "shell",
-      "command": "node scripts/validate.mjs",
+      "command": "npm run validate",
       "dependsOn": "Generate calendar feed",
       "problemMatcher": []
     }

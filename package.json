@@ -1,0 +1,12 @@
+{
+  "name": "conference-deadlines",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate.mjs",
+    "validate": "node scripts/validate.mjs"
+  },
+  "dependencies": {
+    "yaml": "2.9.0"
+  }
+}

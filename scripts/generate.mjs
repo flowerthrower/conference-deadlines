@@ -1,9 +1,12 @@
 import { readFile, writeFile } from "node:fs/promises";
+import { writeConferenceData } from "./conferences.mjs";
 
 const root = new URL("../", import.meta.url);
 const deadlinesPath = new URL("data/deadlines.json", root);
 const calendarPath = new URL("calendar.ics", root);
 const payload = JSON.parse(await readFile(deadlinesPath, "utf8"));
+
+const conferenceCount = await writeConferenceData();
 
 function escapeText(value) {
   return String(value ?? "")
@@ -112,4 +115,4 @@ const lines = [
 ];
 
 await writeFile(calendarPath, `${lines.map(fold).join("\r\n")}\r\n`, "utf8");
-console.log(`Generated calendar.ics with ${events.length} verified deadline(s).`);
+console.log(`Generated data for ${conferenceCount} conferences and calendar.ics with ${events.length} verified deadline(s).`);

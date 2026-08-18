@@ -10,7 +10,9 @@ After GitHub Pages is enabled, subscribe to:
 
 ## Source policy
 
-- Rough windows in `data/conferences.json` are discovery hints, never published deadlines.
+- `conferences.yaml` is the single maintained conference registry.
+- Each conference lists the submission types to monitor in `monitored_submissions`.
+- Discovery windows in `conferences.yaml` are search hints, never published deadlines.
 - A deadline enters `data/deadlines.json` only when an official conference source provides an exact date.
 - Separate submission types receive separate events.
 - Event IDs remain stable when dates move; `SEQUENCE` increases so calendar clients update instead of duplicating.
@@ -21,6 +23,8 @@ After GitHub Pages is enabled, subscribe to:
 
 Each verified deadline contains a stable `id`, conference edition, submission type, exact timestamp or all-day date, official timezone, source URL, verification time, and sequence number.
 
+`data/conferences.json` is generated for the website. Do not edit it directly.
+
 ## Rebuild and validate
 
-Run the maintained VS Code task **Validate calendar feed**. It regenerates `calendar.ics` and checks the registry and feed structure.
+Run the maintained VS Code task **Validate calendar feed**. It installs dependencies using a repository-local cache, regenerates the website data and `calendar.ics`, then checks the registry and feed structure.

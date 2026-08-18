@@ -76,7 +76,7 @@
         : "";
 
       document.querySelector("#conferences").innerHTML = conferenceData.conferences.map(item =>
-        `<article><h3>${escapeHtml(item.name)}</h3><p class="meta">${escapeHtml(item.community)}</p><p>Discovery window: ${escapeHtml(item.rough_deadline_windows.join(", "))}</p></article>`
+        `<article><h3>${escapeHtml(item.name)}</h3><p class="meta">${escapeHtml(item.community)}</p><p>Monitoring: ${escapeHtml(item.monitored_submissions.join(", "))}</p><p class="meta">Discovery window: ${escapeHtml(item.rough_deadline_windows.join(", "))}</p></article>`
       ).join("");
     }).catch(error => {
       document.querySelector("#status").textContent = `Could not load calendar data: ${error.message}`;
