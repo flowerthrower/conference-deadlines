@@ -8,12 +8,12 @@
       "conference": "ASP-DAC",
       "edition": "2027",
       "submission_type": "Panel, special-session, and tutorial proposals",
-      "all_day": true,
-      "deadline_date": "2026-09-07",
-      "timezone": "Not specified",
+      "all_day": false,
+      "deadline_at": "2026-09-07T23:59:00-12:00",
+      "timezone": "AoE (UTC-12)",
       "source": {"url": "https://www.aspdac.com/aspdac2027/cfp/", "title": "Official ASP-DAC 2027 call for papers", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 0,
-      "notes": "The official page says proposals must be received no later than September 7; no time is stated."
+      "sequence": 1,
+      "notes": "The official page says proposals must be received no later than September 7. No official time was stated; normalized to 23:59 AoE."
     },
     {
       "id": "date-2027-paper-registration",
@@ -72,11 +72,12 @@
       "conference": "ISQED",
       "edition": "2027",
       "submission_type": "Workshop or tutorial proposal",
-      "all_day": true,
-      "deadline_date": "2026-10-22",
-      "timezone": "Not specified for this proposal deadline",
+      "all_day": false,
+      "deadline_at": "2026-10-22T23:59:00-12:00",
+      "timezone": "AoE (UTC-12)",
       "source": {"url": "https://www.isqed.org/English/Conference/Call_for_Papers.html", "title": "Official ISQED 2027 call for papers", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 0
+      "sequence": 1,
+      "notes": "No official time was stated; normalized to 23:59 AoE."
     },
     {
       "id": "qip-2027-talk-registration",
@@ -121,11 +122,12 @@
       "conference": "IEEE NANO",
       "edition": "2027",
       "submission_type": "Special-session proposal",
-      "all_day": true,
-      "deadline_date": "2027-01-15",
-      "timezone": "Not specified",
+      "all_day": false,
+      "deadline_at": "2027-01-15T23:59:00-12:00",
+      "timezone": "AoE (UTC-12)",
       "source": {"url": "https://2027.ieeenano.org/", "title": "Official IEEE NANO 2027 site", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 0
+      "sequence": 1,
+      "notes": "No official time was stated; normalized to 23:59 AoE."
     },
     {
       "id": "ieee-nano-2027-full-paper",
@@ -133,12 +135,12 @@
       "conference": "IEEE NANO",
       "edition": "2027",
       "submission_type": "Full paper",
-      "all_day": true,
-      "deadline_date": "2027-03-05",
-      "timezone": "Not specified",
+      "all_day": false,
+      "deadline_at": "2027-03-05T23:59:00-12:00",
+      "timezone": "AoE (UTC-12)",
       "source": {"url": "https://2027.ieeenano.org/", "title": "Official IEEE NANO 2027 site", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 0,
-      "notes": "The site's presentation-only abstract date shows 2026 and was excluded as inconsistent with the 2027 edition."
+      "sequence": 1,
+      "notes": "No official time was stated; normalized to 23:59 AoE. The site's presentation-only abstract date shows 2026 and was excluded as inconsistent with the 2027 edition."
     },
     {
       "id": "mdpi-iecb-2027-abstract",
@@ -146,12 +148,12 @@
       "conference": "MDPI Biosensors / IECB",
       "edition": "2027",
       "submission_type": "Abstract",
-      "all_day": true,
-      "deadline_date": "2026-10-23",
-      "timezone": "Not specified",
+      "all_day": false,
+      "deadline_at": "2026-10-23T23:59:00-12:00",
+      "timezone": "AoE (UTC-12)",
       "source": {"url": "https://www.mdpi.com/journal/biosensors/events", "title": "Official MDPI Biosensors events page", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 0,
-      "notes": "Deadline for the 6th International Electronic Conference on Biosensors (IECB 2027)."
+      "sequence": 1,
+      "notes": "No official time was stated; normalized to 23:59 AoE. Deadline for the 6th International Electronic Conference on Biosensors (IECB 2027)."
     },
     {
       "id": "asplos-2027-september-full-paper",
@@ -172,11 +174,12 @@
       "conference": "ISC High Performance",
       "edition": "2027",
       "submission_type": "Workshop-with-proceedings proposal",
-      "all_day": true,
-      "deadline_date": "2026-10-07",
-      "timezone": "Not specified",
+      "all_day": false,
+      "deadline_at": "2026-10-07T23:59:00-12:00",
+      "timezone": "AoE (UTC-12)",
       "source": {"url": "https://isc-hpc.com/submissions/workshop/", "title": "Official ISC 2027 workshop submissions page", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 0
+      "sequence": 1,
+      "notes": "No official time was stated; normalized to 23:59 AoE."
     },
     {
       "id": "isc-2027-regular-workshop-proposal",
@@ -184,11 +187,12 @@
       "conference": "ISC High Performance",
       "edition": "2027",
       "submission_type": "Regular-workshop proposal",
-      "all_day": true,
-      "deadline_date": "2026-12-09",
-      "timezone": "Not specified",
+      "all_day": false,
+      "deadline_at": "2026-12-09T23:59:00-12:00",
+      "timezone": "AoE (UTC-12)",
       "source": {"url": "https://isc-hpc.com/submissions/workshop/", "title": "Official ISC 2027 workshop submissions page", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 0
+      "sequence": 1,
+      "notes": "No official time was stated; normalized to 23:59 AoE."
     },
     {
       "id": "isc-2027-research-poster",
@@ -196,11 +200,12 @@
       "conference": "ISC High Performance",
       "edition": "2027",
       "submission_type": "Research poster",
-      "all_day": true,
-      "deadline_date": "2027-01-20",
-      "timezone": "Not specified",
+      "all_day": false,
+      "deadline_at": "2027-01-20T23:59:00-12:00",
+      "timezone": "AoE (UTC-12)",
       "source": {"url": "https://isc-hpc.com/submissions/", "title": "Official ISC 2027 submissions page", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 0
+      "sequence": 1,
+      "notes": "No official time was stated; normalized to 23:59 AoE."
     },
     {
       "id": "isc-2027-project-poster",
@@ -208,11 +213,12 @@
       "conference": "ISC High Performance",
       "edition": "2027",
       "submission_type": "Project poster",
-      "all_day": true,
-      "deadline_date": "2027-01-20",
-      "timezone": "Not specified",
+      "all_day": false,
+      "deadline_at": "2027-01-20T23:59:00-12:00",
+      "timezone": "AoE (UTC-12)",
       "source": {"url": "https://isc-hpc.com/submissions/", "title": "Official ISC 2027 submissions page", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 0
+      "sequence": 1,
+      "notes": "No official time was stated; normalized to 23:59 AoE."
     },
     {
       "id": "isc-2027-birds-of-a-feather",
@@ -220,11 +226,12 @@
       "conference": "ISC High Performance",
       "edition": "2027",
       "submission_type": "Birds-of-a-Feather proposal",
-      "all_day": true,
-      "deadline_date": "2027-01-21",
-      "timezone": "Not specified",
+      "all_day": false,
+      "deadline_at": "2027-01-21T23:59:00-12:00",
+      "timezone": "AoE (UTC-12)",
       "source": {"url": "https://isc-hpc.com/submissions/", "title": "Official ISC 2027 submissions page", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 0
+      "sequence": 1,
+      "notes": "No official time was stated; normalized to 23:59 AoE."
     },
     {
       "id": "esop-2027-round-2-paper",
@@ -280,12 +287,12 @@
       "conference": "HEUREKA",
       "edition": "2027",
       "submission_type": "Reviewed contribution",
-      "all_day": true,
-      "deadline_date": "2026-09-13",
-      "timezone": "Not specified",
+      "all_day": false,
+      "deadline_at": "2026-09-13T23:59:00-12:00",
+      "timezone": "AoE (UTC-12)",
       "source": {"url": "https://eraw.easychair.org/cfp/HEUREKA2027", "title": "Official HEUREKA 2027 EasyChair call for papers", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 0,
-      "notes": "The official call requests a 6–15 page PDF contribution."
+      "sequence": 1,
+      "notes": "No official time was stated; normalized to 23:59 AoE. The official call requests a 6–15 page PDF contribution."
     }
   ]
 }

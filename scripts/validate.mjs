@@ -43,6 +43,12 @@ for (const deadline of deadlines.deadlines) {
   if (!conferenceIds.includes(deadline.conference_id)) {
     throw new Error(`Unknown conference_id: ${deadline.conference_id}`);
   }
+  if (deadline.all_day || !deadline.deadline_at) {
+    throw new Error(`Deadline ${deadline.id} must have an exact time; use 23:59 AoE when no official time is specified`);
+  }
+  if (!deadline.timezone || deadline.timezone.startsWith("Not specified")) {
+    throw new Error(`Deadline ${deadline.id} lacks a timezone`);
+  }
   if (!deadline.source?.url?.startsWith("https://")) {
     throw new Error(`Deadline ${deadline.id} lacks an HTTPS official source`);
   }

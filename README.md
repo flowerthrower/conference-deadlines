@@ -14,6 +14,7 @@ After GitHub Pages is enabled, subscribe to:
 - Each conference lists the submission types to monitor in `monitored_submissions`.
 - Discovery windows in `conferences.yaml` are search hints, never published deadlines.
 - A deadline enters `data/deadlines.json` only when an official conference source provides an exact date.
+- When an official source gives a date but no time, the deadline is recorded as 23:59 Anywhere on Earth (`UTC-12`).
 - Separate submission types receive separate events.
 - Event IDs remain stable when dates move; `SEQUENCE` increases so calendar clients update instead of duplicating.
 - Conflicting official sources are flagged for review rather than guessed.
@@ -21,7 +22,7 @@ After GitHub Pages is enabled, subscribe to:
 
 ## Data format
 
-Each verified deadline contains a stable `id`, conference edition, submission type, exact timestamp or all-day date, official timezone, source URL, verification time, and sequence number.
+Each verified deadline contains a stable `id`, conference edition, submission type, exact timestamp, timezone, source URL, verification time, and sequence number.
 
 `data/conferences.json` is generated for the website. Do not edit it directly.
 

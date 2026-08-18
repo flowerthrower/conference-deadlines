@@ -11,15 +11,15 @@ BEGIN:VEVENT
 UID:asp-dac-2027-proposals@conference-deadlines
 DTSTAMP:20260818T114939Z
 LAST-MODIFIED:20260818T114939Z
-SEQUENCE:0
+SEQUENCE:1
 SUMMARY:ASP-DAC 2027 — Panel\, special-session\, and tutorial proposals
-DTSTART;VALUE=DATE:20260907
-DTEND;VALUE=DATE:20260908
+DTSTART:20260908T115900Z
+DTEND:20260908T122900Z
 DESCRIPTION:Submission type: Panel\, special-session\, and tutorial propo
- sals\nOfficial timezone: Not specified\nOfficial source: https://www.aspd
- ac.com/aspdac2027/cfp/\nVerified: 2026-08-18T11:49:39Z\nNotes: The offici
- al page says proposals must be received no later than September 7\; no ti
- me is stated.
+ sals\nOfficial timezone: AoE (UTC-12)\nOfficial source: https://www.aspda
+ c.com/aspdac2027/cfp/\nVerified: 2026-08-18T11:49:39Z\nNotes: The officia
+ l page says proposals must be received no later than September 7. No offi
+ cial time was stated\; normalized to 23:59 AoE.
 URL:https://www.aspdac.com/aspdac2027/cfp/
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -41,22 +41,6 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:heureka-2027-paper@conference-deadlines
-DTSTAMP:20260818T114939Z
-LAST-MODIFIED:20260818T114939Z
-SEQUENCE:0
-SUMMARY:HEUREKA 2027 — Reviewed contribution
-DTSTART;VALUE=DATE:20260913
-DTEND;VALUE=DATE:20260914
-DESCRIPTION:Submission type: Reviewed contribution\nOfficial timezone: No
- t specified\nOfficial source: https://eraw.easychair.org/cfp/HEUREKA2027\
- nVerified: 2026-08-18T11:49:39Z\nNotes: The official call requests a 6–
- 15 page PDF contribution.
-URL:https://eraw.easychair.org/cfp/HEUREKA2027
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:date-2027-paper-registration@conference-deadlines
 DTSTAMP:20260818T114939Z
 LAST-MODIFIED:20260818T114939Z
@@ -70,6 +54,23 @@ DESCRIPTION:Submission type: Paper registration (title\, abstract\, and c
  .date-conference.com/date-2027-call-papers\nVerified: 2026-08-18T11:49:39
  Z
 URL:https://www.date-conference.com/date-2027-call-papers
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:heureka-2027-paper@conference-deadlines
+DTSTAMP:20260818T114939Z
+LAST-MODIFIED:20260818T114939Z
+SEQUENCE:1
+SUMMARY:HEUREKA 2027 — Reviewed contribution
+DTSTART:20260914T115900Z
+DTEND:20260914T122900Z
+DESCRIPTION:Submission type: Reviewed contribution\nOfficial timezone: Ao
+ E (UTC-12)\nOfficial source: https://eraw.easychair.org/cfp/HEUREKA2027\n
+ Verified: 2026-08-18T11:49:39Z\nNotes: No official time was stated\; norm
+ alized to 23:59 AoE. The official call requests a 6–15 page PDF contrib
+ ution.
+URL:https://eraw.easychair.org/cfp/HEUREKA2027
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -157,13 +158,14 @@ BEGIN:VEVENT
 UID:isc-2027-workshop-with-proceedings-proposal@conference-deadlines
 DTSTAMP:20260818T114939Z
 LAST-MODIFIED:20260818T114939Z
-SEQUENCE:0
+SEQUENCE:1
 SUMMARY:ISC High Performance 2027 — Workshop-with-proceedings proposal
-DTSTART;VALUE=DATE:20261007
-DTEND;VALUE=DATE:20261008
+DTSTART:20261008T115900Z
+DTEND:20261008T122900Z
 DESCRIPTION:Submission type: Workshop-with-proceedings proposal\nOfficial
-  timezone: Not specified\nOfficial source: https://isc-hpc.com/submission
- s/workshop/\nVerified: 2026-08-18T11:49:39Z
+  timezone: AoE (UTC-12)\nOfficial source: https://isc-hpc.com/submissions
+ /workshop/\nVerified: 2026-08-18T11:49:39Z\nNotes: No official time was s
+ tated\; normalized to 23:59 AoE.
 URL:https://isc-hpc.com/submissions/workshop/
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -201,14 +203,14 @@ BEGIN:VEVENT
 UID:isqed-2027-workshop-tutorial-proposal@conference-deadlines
 DTSTAMP:20260818T114939Z
 LAST-MODIFIED:20260818T114939Z
-SEQUENCE:0
+SEQUENCE:1
 SUMMARY:ISQED 2027 — Workshop or tutorial proposal
-DTSTART;VALUE=DATE:20261022
-DTEND;VALUE=DATE:20261023
+DTSTART:20261023T115900Z
+DTEND:20261023T122900Z
 DESCRIPTION:Submission type: Workshop or tutorial proposal\nOfficial time
- zone: Not specified for this proposal deadline\nOfficial source: https://
- www.isqed.org/English/Conference/Call_for_Papers.html\nVerified: 2026-08-
- 18T11:49:39Z
+ zone: AoE (UTC-12)\nOfficial source: https://www.isqed.org/English/Confer
+ ence/Call_for_Papers.html\nVerified: 2026-08-18T11:49:39Z\nNotes: No offi
+ cial time was stated\; normalized to 23:59 AoE.
 URL:https://www.isqed.org/English/Conference/Call_for_Papers.html
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -217,14 +219,15 @@ BEGIN:VEVENT
 UID:mdpi-iecb-2027-abstract@conference-deadlines
 DTSTAMP:20260818T114939Z
 LAST-MODIFIED:20260818T114939Z
-SEQUENCE:0
+SEQUENCE:1
 SUMMARY:MDPI Biosensors / IECB 2027 — Abstract
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-DESCRIPTION:Submission type: Abstract\nOfficial timezone: Not specified\n
- Official source: https://www.mdpi.com/journal/biosensors/events\nVerified
- : 2026-08-18T11:49:39Z\nNotes: Deadline for the 6th International Electro
- nic Conference on Biosensors (IECB 2027).
+DTSTART:20261024T115900Z
+DTEND:20261024T122900Z
+DESCRIPTION:Submission type: Abstract\nOfficial timezone: AoE (UTC-12)\nO
+ fficial source: https://www.mdpi.com/journal/biosensors/events\nVerified:
+  2026-08-18T11:49:39Z\nNotes: No official time was stated\; normalized to
+  23:59 AoE. Deadline for the 6th International Electronic Conference on B
+ iosensors (IECB 2027).
 URL:https://www.mdpi.com/journal/biosensors/events
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -264,13 +267,14 @@ BEGIN:VEVENT
 UID:isc-2027-regular-workshop-proposal@conference-deadlines
 DTSTAMP:20260818T114939Z
 LAST-MODIFIED:20260818T114939Z
-SEQUENCE:0
+SEQUENCE:1
 SUMMARY:ISC High Performance 2027 — Regular-workshop proposal
-DTSTART;VALUE=DATE:20261209
-DTEND;VALUE=DATE:20261210
+DTSTART:20261210T115900Z
+DTEND:20261210T122900Z
 DESCRIPTION:Submission type: Regular-workshop proposal\nOfficial timezone
- : Not specified\nOfficial source: https://isc-hpc.com/submissions/worksho
- p/\nVerified: 2026-08-18T11:49:39Z
+ : AoE (UTC-12)\nOfficial source: https://isc-hpc.com/submissions/workshop
+ /\nVerified: 2026-08-18T11:49:39Z\nNotes: No official time was stated\; n
+ ormalized to 23:59 AoE.
 URL:https://isc-hpc.com/submissions/workshop/
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -279,13 +283,14 @@ BEGIN:VEVENT
 UID:ieee-nano-2027-special-session-proposal@conference-deadlines
 DTSTAMP:20260818T114939Z
 LAST-MODIFIED:20260818T114939Z
-SEQUENCE:0
+SEQUENCE:1
 SUMMARY:IEEE NANO 2027 — Special-session proposal
-DTSTART;VALUE=DATE:20270115
-DTEND;VALUE=DATE:20270116
+DTSTART:20270116T115900Z
+DTEND:20270116T122900Z
 DESCRIPTION:Submission type: Special-session proposal\nOfficial timezone:
-  Not specified\nOfficial source: https://2027.ieeenano.org/\nVerified: 20
- 26-08-18T11:49:39Z
+  AoE (UTC-12)\nOfficial source: https://2027.ieeenano.org/\nVerified: 202
+ 6-08-18T11:49:39Z\nNotes: No official time was stated\; normalized to 23:
+ 59 AoE.
 URL:https://2027.ieeenano.org/
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -294,13 +299,14 @@ BEGIN:VEVENT
 UID:isc-2027-research-poster@conference-deadlines
 DTSTAMP:20260818T114939Z
 LAST-MODIFIED:20260818T114939Z
-SEQUENCE:0
+SEQUENCE:1
 SUMMARY:ISC High Performance 2027 — Research poster
-DTSTART;VALUE=DATE:20270120
-DTEND;VALUE=DATE:20270121
-DESCRIPTION:Submission type: Research poster\nOfficial timezone: Not spec
- ified\nOfficial source: https://isc-hpc.com/submissions/\nVerified: 2026-
- 08-18T11:49:39Z
+DTSTART:20270121T115900Z
+DTEND:20270121T122900Z
+DESCRIPTION:Submission type: Research poster\nOfficial timezone: AoE (UTC
+ -12)\nOfficial source: https://isc-hpc.com/submissions/\nVerified: 2026-0
+ 8-18T11:49:39Z\nNotes: No official time was stated\; normalized to 23:59 
+ AoE.
 URL:https://isc-hpc.com/submissions/
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -309,13 +315,14 @@ BEGIN:VEVENT
 UID:isc-2027-project-poster@conference-deadlines
 DTSTAMP:20260818T114939Z
 LAST-MODIFIED:20260818T114939Z
-SEQUENCE:0
+SEQUENCE:1
 SUMMARY:ISC High Performance 2027 — Project poster
-DTSTART;VALUE=DATE:20270120
-DTEND;VALUE=DATE:20270121
-DESCRIPTION:Submission type: Project poster\nOfficial timezone: Not speci
- fied\nOfficial source: https://isc-hpc.com/submissions/\nVerified: 2026-0
- 8-18T11:49:39Z
+DTSTART:20270121T115900Z
+DTEND:20270121T122900Z
+DESCRIPTION:Submission type: Project poster\nOfficial timezone: AoE (UTC-
+ 12)\nOfficial source: https://isc-hpc.com/submissions/\nVerified: 2026-08
+ -18T11:49:39Z\nNotes: No official time was stated\; normalized to 23:59 A
+ oE.
 URL:https://isc-hpc.com/submissions/
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -324,13 +331,14 @@ BEGIN:VEVENT
 UID:isc-2027-birds-of-a-feather@conference-deadlines
 DTSTAMP:20260818T114939Z
 LAST-MODIFIED:20260818T114939Z
-SEQUENCE:0
+SEQUENCE:1
 SUMMARY:ISC High Performance 2027 — Birds-of-a-Feather proposal
-DTSTART;VALUE=DATE:20270121
-DTEND;VALUE=DATE:20270122
+DTSTART:20270122T115900Z
+DTEND:20270122T122900Z
 DESCRIPTION:Submission type: Birds-of-a-Feather proposal\nOfficial timezo
- ne: Not specified\nOfficial source: https://isc-hpc.com/submissions/\nVer
- ified: 2026-08-18T11:49:39Z
+ ne: AoE (UTC-12)\nOfficial source: https://isc-hpc.com/submissions/\nVeri
+ fied: 2026-08-18T11:49:39Z\nNotes: No official time was stated\; normaliz
+ ed to 23:59 AoE.
 URL:https://isc-hpc.com/submissions/
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -354,14 +362,15 @@ BEGIN:VEVENT
 UID:ieee-nano-2027-full-paper@conference-deadlines
 DTSTAMP:20260818T114939Z
 LAST-MODIFIED:20260818T114939Z
-SEQUENCE:0
+SEQUENCE:1
 SUMMARY:IEEE NANO 2027 — Full paper
-DTSTART;VALUE=DATE:20270305
-DTEND;VALUE=DATE:20270306
-DESCRIPTION:Submission type: Full paper\nOfficial timezone: Not specified
- \nOfficial source: https://2027.ieeenano.org/\nVerified: 2026-08-18T11:49
- :39Z\nNotes: The site's presentation-only abstract date shows 2026 and wa
- s excluded as inconsistent with the 2027 edition.
+DTSTART:20270306T115900Z
+DTEND:20270306T122900Z
+DESCRIPTION:Submission type: Full paper\nOfficial timezone: AoE (UTC-12)\
+ nOfficial source: https://2027.ieeenano.org/\nVerified: 2026-08-18T11:49:
+ 39Z\nNotes: No official time was stated\; normalized to 23:59 AoE. The si
+ te's presentation-only abstract date shows 2026 and was excluded as incon
+ sistent with the 2027 edition.
 URL:https://2027.ieeenano.org/
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
