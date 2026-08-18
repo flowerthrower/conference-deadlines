@@ -4,7 +4,7 @@ PRODID:-//Conference Deadlines//Public Feed//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Conference Deadlines
-X-WR-CALDESC:Verified submission deadlines with official sources
+X-WR-CALDESC:Confirmed and clearly labeled placeholder submission deadlines
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
@@ -261,6 +261,26 @@ DESCRIPTION:Submission type: Abstract\nAoE note: the cutoff is 14:00 on t
 URL:https://www.mdpi.com/journal/biosensors/events
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:pldi-2027-research-paper@conference-deadlines
+DTSTAMP:20260818T123856Z
+LAST-MODIFIED:20260818T123856Z
+SEQUENCE:0
+SUMMARY:PLDI 2027 (PLACEHOLDER) — Research paper
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+DESCRIPTION:Submission type: Research paper\nStatus: PLACEHOLDER — proj
+ ected from the official 2026 deadline\; this is not a confirmed 2027 date
+ .\nPrevious deadline: 2025-11-13T23:59:00-12:00\nAoE note: the cutoff is 
+ 14:00 on the following day in Central European summer time (CEST\, UTC+2)
+ \, or 13:00 in winter (CET\, UTC+1).\nHistorical official source: https:/
+ /pldi26.sigplan.org/track/pldi-2026-papers\nHistorical source verified: 2
+ 026-08-18T12:38:56Z\nNotes: Projected from the previous edition's month a
+ nd day\; PLDI 2027 has not confirmed this deadline.
+URL:https://pldi26.sigplan.org/track/pldi-2026-papers
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 UID:ecoop-2027-round-1-paper@conference-deadlines

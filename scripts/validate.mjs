@@ -55,6 +55,14 @@ for (const deadline of deadlines.deadlines) {
   if (!deadline.source?.url?.startsWith("https://")) {
     throw new Error(`Deadline ${deadline.id} lacks an HTTPS official source`);
   }
+  if (deadline.placeholder) {
+    if (!deadline.placeholder.based_on_edition || !deadline.placeholder.based_on_deadline_at) {
+      throw new Error(`Placeholder ${deadline.id} lacks its previous-edition basis`);
+    }
+    if (deadline.placeholder.based_on_edition === deadline.edition) {
+      throw new Error(`Placeholder ${deadline.id} must be based on an earlier edition`);
+    }
+  }
 }
 
 if (!calendar.startsWith("BEGIN:VCALENDAR\r\n")) throw new Error("Invalid calendar header");
@@ -73,5 +81,12 @@ const aoeDeadlineCount = deadlines.deadlines.filter((deadline) => deadline.timez
 if ((unfoldedCalendar.match(/\\nAoE note:/g) ?? []).length !== aoeDeadlineCount) {
   throw new Error("Every AoE calendar event must explain the Central European cutoff");
 }
+const placeholderCount = deadlines.deadlines.filter((deadline) => deadline.placeholder).length;
+if ((unfoldedCalendar.match(/ \(PLACEHOLDER\) — /g) ?? []).length !== placeholderCount) {
+  throw new Error("Every placeholder must be labeled in its calendar title");
+}
+if ((calendar.match(/STATUS:TENTATIVE/g) ?? []).length !== placeholderCount) {
+  throw new Error("Every placeholder must be tentative");
+}
 
-console.log(`Validated ${conferenceIds.length} conferences and ${deadlineIds.length} deadline(s).`);
+console.log(`Validated ${conferenceIds.length} conferences and ${deadlineIds.length - placeholderCount} confirmed plus ${placeholderCount} placeholder deadline(s).`);

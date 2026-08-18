@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Conference Deadlines</title>
-  <meta name="description" content="Officially sourced submission deadlines for research conferences.">
+  <meta name="description" content="Confirmed and clearly labeled placeholder submission deadlines for research conferences.">
   <style>
     :root { color-scheme: light; --ink:#17202a; --muted:#62707d; --line:#dbe2e8; --panel:#fff; --accent:#145da0; --wash:#f4f7fa; }
     * { box-sizing: border-box; }
@@ -25,6 +25,8 @@
     article h3 { margin:0 0 6px; font-size:1rem; }
     .meta { color:var(--muted); font-size:.9rem; }
     .deadline { display:grid; gap:7px; }
+    .deadline.placeholder { border-color:#d6aa42; background:#fff9e8; }
+    .badge { width:max-content; padding:2px 7px; border-radius:999px; background:#f4d98e; font-size:.75rem; font-weight:750; }
     .deadline time { font-size:1.1rem; font-weight:700; }
     .deadline a { overflow-wrap:anywhere; }
     footer { margin-top:36px; color:var(--muted); font-size:.9rem; }
@@ -35,17 +37,17 @@
     <header>
       <div>
         <h1>Conference Deadlines</h1>
-        <p class="lede">A public, read-only calendar of submission deadlines. Dates are published only after verification against an official conference source.</p>
+        <p class="lede">A public, read-only calendar of confirmed submission deadlines and clearly labeled estimates based on official previous-edition dates.</p>
       </div>
       <div class="actions">
         <a class="button" href="calendar.ics">Subscribe to calendar</a>
         <a class="button secondary" href="data/deadlines.json">Deadline data</a>
       </div>
-      <p class="notice" id="status">Loading verified deadlines…</p>
+      <p class="notice" id="status">Loading deadlines…</p>
     </header>
 
     <section>
-      <h2>Verified deadlines</h2>
+      <h2>Calendar deadlines</h2>
       <div class="grid" id="deadlines"></div>
     </section>
 
@@ -54,7 +56,7 @@
       <div class="grid" id="conferences"></div>
     </section>
 
-    <footer>Rough deadline windows are discovery hints only. Every published event retains its official source URL and verification timestamp.</footer>
+    <footer>Placeholders are estimates based only on official previous-edition dates. They are replaced in place when the upcoming edition publishes its timeline.</footer>
   </main>
   <script>
     const escapeHtml = (value) => String(value).replace(/[&<>"']/g, character => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"})[character]);
@@ -64,14 +66,19 @@
       fetch("data/conferences.json").then(response => response.json())
     ]).then(([deadlineData, conferenceData]) => {
       const deadlines = deadlineData.deadlines;
+      const placeholders = deadlines.filter(item => item.placeholder).length;
+      const confirmed = deadlines.length - placeholders;
       document.querySelector("#status").textContent = deadlines.length
-        ? `${deadlines.length} officially verified deadline${deadlines.length === 1 ? "" : "s"} published.`
-        : "No exact deadlines have been published yet. Official sources are being located and verified.";
+        ? `${confirmed} confirmed deadline${confirmed === 1 ? "" : "s"} and ${placeholders} placeholder${placeholders === 1 ? "" : "s"} published.`
+        : "No deadlines have been published yet. Official sources are being located and verified.";
 
       document.querySelector("#deadlines").innerHTML = deadlines.length
         ? deadlines.map(item => {
-            const displayDate = item.all_day ? item.deadline_date : new Date(item.deadline_at).toLocaleString(undefined, {dateStyle:"full", timeStyle:"short"});
-            return `<article class="deadline"><h3>${escapeHtml(item.conference)} ${escapeHtml(item.edition)} — ${escapeHtml(item.submission_type)}</h3><time>${escapeHtml(displayDate)}</time><p class="meta">${escapeHtml(item.timezone || "Official timezone not specified")}</p><a href="${escapeHtml(item.source.url)}">Official source</a><p class="meta">Verified ${escapeHtml(item.source.verified_at)}</p></article>`;
+            const date = item.deadline_at.slice(0, 10);
+            const displayDate = new Date(`${date}T00:00:00`).toLocaleDateString(undefined, {dateStyle:"full"});
+            const placeholderLabel = item.placeholder ? " (PLACEHOLDER)" : "";
+            const basis = item.placeholder ? `<p class="meta">Projected from ${escapeHtml(item.placeholder.based_on_edition)}: ${escapeHtml(item.placeholder.based_on_deadline_at)}</p>` : "";
+            return `<article class="deadline${item.placeholder ? " placeholder" : ""}">${item.placeholder ? '<span class="badge">PLACEHOLDER</span>' : ""}<h3>${escapeHtml(item.conference)} ${escapeHtml(item.edition)}${placeholderLabel} — ${escapeHtml(item.submission_type)}</h3><time>${escapeHtml(displayDate)}</time><p class="meta">${escapeHtml(item.timezone)}</p>${basis}<a href="${escapeHtml(item.source.url)}">${item.placeholder ? "Historical official source" : "Official source"}</a><p class="meta">${item.placeholder ? "Historical source verified" : "Verified"} ${escapeHtml(item.source.verified_at)}</p></article>`;
           }).join("")
         : "";
 

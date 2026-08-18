@@ -65,13 +65,16 @@ function eventLines(event) {
     throw new Error(`Deadline ${event.id} must include an official source URL and verification time`);
   }
 
+  const isPlaceholder = Boolean(event.placeholder);
+  const editionLabel = isPlaceholder ? `${event.edition} (PLACEHOLDER)` : event.edition;
+
   const lines = [
     "BEGIN:VEVENT",
     `UID:${escapeText(event.id)}@conference-deadlines`,
     `DTSTAMP:${utcStamp(event.source.verified_at)}`,
     `LAST-MODIFIED:${utcStamp(event.source.verified_at)}`,
     `SEQUENCE:${Number(event.sequence ?? 0)}`,
-    `SUMMARY:${escapeText(`${event.conference} ${event.edition} — ${event.submission_type}`)}`,
+    `SUMMARY:${escapeText(`${event.conference} ${editionLabel} — ${event.submission_type}`)}`,
   ];
 
   const date = deadlineDate(event);
@@ -81,19 +84,25 @@ function eventLines(event) {
   const aoeNote = event.timezone === "AoE (UTC-12)"
     ? "AoE note: the cutoff is 14:00 on the following day in Central European summer time (CEST, UTC+2), or 13:00 in winter (CET, UTC+1)."
     : null;
+  const placeholderNote = isPlaceholder
+    ? `Status: PLACEHOLDER — projected from the official ${event.placeholder.based_on_edition} deadline; this is not a confirmed ${event.edition} date.`
+    : null;
+  const sourceLabel = isPlaceholder ? "Historical official source" : "Official source";
 
   const description = [
     `Submission type: ${event.submission_type}`,
+    placeholderNote,
+    isPlaceholder ? `Previous deadline: ${event.placeholder.based_on_deadline_at}` : null,
     aoeNote,
-    `Official source: ${event.source.url}`,
-    `Verified: ${event.source.verified_at}`,
+    `${sourceLabel}: ${event.source.url}`,
+    `${isPlaceholder ? "Historical source verified" : "Verified"}: ${event.source.verified_at}`,
     event.notes ? `Notes: ${event.notes}` : null,
   ].filter(Boolean).join("\n");
 
   lines.push(`DESCRIPTION:${escapeText(description)}`);
   lines.push(`URL:${event.source.url}`);
   lines.push("TRANSP:TRANSPARENT");
-  lines.push("STATUS:CONFIRMED");
+  lines.push(`STATUS:${isPlaceholder ? "TENTATIVE" : "CONFIRMED"}`);
   lines.push("END:VEVENT");
   return lines;
 }
@@ -111,7 +120,7 @@ const lines = [
   "CALSCALE:GREGORIAN",
   "METHOD:PUBLISH",
   "X-WR-CALNAME:Conference Deadlines",
-  "X-WR-CALDESC:Verified submission deadlines with official sources",
+  "X-WR-CALDESC:Confirmed and clearly labeled placeholder submission deadlines",
   "REFRESH-INTERVAL;VALUE=DURATION:PT12H",
   "X-PUBLISHED-TTL:PT12H",
   ...events.flatMap(eventLines),
@@ -119,4 +128,5 @@ const lines = [
 ];
 
 await writeFile(calendarPath, `${lines.map(fold).join("\r\n")}\r\n`, "utf8");
-console.log(`Generated data for ${conferenceCount} conferences and calendar.ics with ${events.length} verified deadline(s).`);
+const placeholderCount = events.filter((event) => event.placeholder).length;
+console.log(`Generated data for ${conferenceCount} conferences and calendar.ics with ${events.length - placeholderCount} confirmed and ${placeholderCount} placeholder deadline(s).`);

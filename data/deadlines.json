@@ -306,6 +306,23 @@
       "source": {"url": "https://eraw.easychair.org/cfp/HEUREKA2027", "title": "Official HEUREKA 2027 EasyChair call for papers", "verified_at": "2026-08-18T11:49:39Z"},
       "sequence": 2,
       "notes": "No official time was stated; normalized to 23:59 AoE. The official call requests a 6–15 page PDF contribution."
+    },
+    {
+      "id": "pldi-2027-research-paper",
+      "conference_id": "pldi",
+      "conference": "PLDI",
+      "edition": "2027",
+      "submission_type": "Research paper",
+      "all_day": true,
+      "deadline_at": "2026-11-13T23:59:00-12:00",
+      "timezone": "AoE (UTC-12)",
+      "placeholder": {
+        "based_on_edition": "2026",
+        "based_on_deadline_at": "2025-11-13T23:59:00-12:00"
+      },
+      "source": {"url": "https://pldi26.sigplan.org/track/pldi-2026-papers", "title": "Official PLDI 2026 research-papers call", "verified_at": "2026-08-18T12:38:56Z"},
+      "sequence": 0,
+      "notes": "Projected from the previous edition's month and day; PLDI 2027 has not confirmed this deadline."
     }
   ]
 }
