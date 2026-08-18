@@ -569,10 +569,10 @@ conferences:
       - tutorial proposal
       - poster
     official_sources:
-      - url: https://conf.researchr.org/home/pldi-2027
-        title: Official PLDI site
-        status: submission deadline not announced
-    last_checked: "2026-08-18T11:49:39Z"
+      - url: https://pldi27.sigplan.org/track/pldi-2027-papers
+        title: Official PLDI 2027 research-papers call
+        status: confirmed
+    last_checked: "2026-08-18T13:32:25Z"
 
   - id: itsc
     community: Transportation
@@ -696,10 +696,10 @@ conferences:
       - poster
       - demonstration
     official_sources:
-      - url: https://ieee-sensors.org/conferences/
-        title: Official IEEE Sensors Council conference page
-        status: 2027 conference announced; deadlines not announced
-    last_checked: "2026-08-18T12:23:22Z"
+      - url: https://2027.ieee-apscon.org/?page_id=107
+        title: Official IEEE APSCON 2027 call for papers
+        status: confirmed
+    last_checked: "2026-08-18T13:32:25Z"
 
   - id: iscas
     community: Design Automation
@@ -727,10 +727,10 @@ conferences:
       - workshop proposal
       - panel proposal
     official_sources:
-      - url: https://ieee-uffc.org/symposia/ius
-        title: Official IEEE UFFC IUS conference-series page
+      - url: https://ieee-uffc.org/event/conference/2027-ieee-international-ultrasonics-symposium
+        title: Official IEEE IUS 2027 event page
         status: 2027 conference announced; deadlines not announced
-    last_checked: "2026-08-18T12:23:22Z"
+    last_checked: "2026-08-18T13:32:25Z"
 
   - id: lanano
     community: Nanotech
@@ -790,8 +790,8 @@ conferences:
     official_sources:
       - url: https://radarconf2027.org/
         title: Official IEEE Radar Conference 2027 site
-        status: 2027 conference announced; submission deadlines not announced
-    last_checked: "2026-08-18T12:23:22Z"
+        status: confirmed
+    last_checked: "2026-08-18T13:32:25Z"
 
   - id: ieee-sensors
     community: Sensors
@@ -1076,10 +1076,10 @@ conferences:
       - poster
       - special-session proposal
     official_sources:
-      - url: https://www.ddecs.org/
-        title: Official DDECS conference-series site
-        status: monitoring next call
-    last_checked: "2026-08-18T12:23:22Z"
+      - url: https://ddecs.rss-lab.de/ddecs/call-for-papers
+        title: Official DDECS 2027 call for papers
+        status: confirmed
+    last_checked: "2026-08-18T13:32:25Z"
 
   - id: isdcs
     community: Design Automation

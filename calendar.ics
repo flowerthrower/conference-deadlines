@@ -389,26 +389,6 @@ TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
-UID:apscon-2027-regular-paper@conference-deadlines
-DTSTAMP:20260818T130625Z
-LAST-MODIFIED:20260818T130625Z
-SEQUENCE:0
-SUMMARY:APSCON 2027 (PLACEHOLDER) — Regular paper
-DTSTART;VALUE=DATE:20261010
-DTEND;VALUE=DATE:20261011
-DESCRIPTION:Submission type: Regular paper\nContent: Maximum 4 pages incl
- uding figures\, tables\, and references (previous-edition requirement)\n\
- nOfficial source: https://2026.ieee-apscon.org/authors/author-instruction
- s/\nVerified: 2026-08-18T13:06:25Z\n\nNotes: PLACEHOLDER: projected from 
- the official 2026 deadline at 2025-10-10T23:59:00-12:00\; this is not a c
- onfirmed 2027 date and the official source below is historical. 23:59 AoE
-  means the cutoff is 14:00 on the following day in Central European summe
- r time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).
-URL:https://2026.ieee-apscon.org/authors/author-instructions/
-TRANSP:TRANSPARENT
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
 UID:iscas-2027-regular-paper@conference-deadlines
 DTSTAMP:20260818T130625Z
 LAST-MODIFIED:20260818T130625Z
@@ -457,6 +437,25 @@ DESCRIPTION:Submission type: Paper\nContent: See the official source for
  4:00 on the following day in Central European summer time (CEST\, UTC+2)\
  , or 13:00 in winter (CET\, UTC+1).
 URL:https://etaps.org/2027/cfp/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:apscon-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T133225Z
+LAST-MODIFIED:20260818T133225Z
+SEQUENCE:1
+SUMMARY:APSCON 2027 — Regular paper
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+DESCRIPTION:Submission type: Regular paper\nContent: 4 pages in the stand
+ ard IEEE conference template\n\nOfficial source: https://2027.ieee-apscon
+ .org/?page_id=107\nVerified: 2026-08-18T13:32:25Z\n\nNotes: This is the O
+ ption A conference-paper deadline. The official site states October 20\, 
+ 2026 without a time\; normalized to 23:59 AoE. 23:59 AoE means the cutoff
+  is 14:00 on the following day in Central European summer time (CEST\, UT
+ C+2)\, or 13:00 in winter (CET\, UTC+1).
+URL:https://2027.ieee-apscon.org/?page_id=107
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -522,6 +521,24 @@ TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
+UID:radarconf-2027-regular-paper@conference-deadlines
+DTSTAMP:20260818T133225Z
+LAST-MODIFIED:20260818T133225Z
+SEQUENCE:1
+SUMMARY:IEEE Radar Conference 2027 — Regular paper
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+DESCRIPTION:Submission type: Regular paper\nContent: See the official sou
+ rce for submission requirements.\n\nOfficial source: https://radarconf202
+ 7.org/\nVerified: 2026-08-18T13:32:25Z\n\nNotes: The official site states
+  October 31\, 2026 without a time\; normalized to 23:59 AoE. 23:59 AoE me
+ ans the cutoff is 14:00 on the following day in Central European summer t
+ ime (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).
+URL:https://radarconf2027.org/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:ismvl-2027-regular-paper@conference-deadlines
 DTSTAMP:20260818T130625Z
 LAST-MODIFIED:20260818T130625Z
@@ -537,26 +554,6 @@ DESCRIPTION:Submission type: Regular paper\nContent: See the official sou
  cal. 23:59 AoE means the cutoff is 14:00 on the following day in Central 
  European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).
 URL:https://www.ismvl.org/mvl26_CFP.html
-TRANSP:TRANSPARENT
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-UID:radarconf-2027-regular-paper@conference-deadlines
-DTSTAMP:20260818T130625Z
-LAST-MODIFIED:20260818T130625Z
-SEQUENCE:0
-SUMMARY:IEEE Radar Conference 2027 (PLACEHOLDER) — Regular paper
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
-DESCRIPTION:Submission type: Regular paper\nContent: 4–6 page full pape
- r including figures and citations (previous-edition requirement)\n\nOffic
- ial source: https://ieee-aess.org/event/conference/2026-ieee-radar-confer
- ence\nVerified: 2026-08-18T13:06:25Z\n\nNotes: PLACEHOLDER: projected fro
- m the official 2026 deadline at 2025-11-03T23:59:00-12:00\; this is not a
-  confirmed 2027 date and the official source below is historical. 23:59 A
- oE means the cutoff is 14:00 on the following day in Central European sum
- mer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).
-URL:https://ieee-aess.org/event/conference/2026-ieee-radar-conference
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 END:VEVENT
@@ -582,24 +579,21 @@ STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 UID:pldi-2027-research-paper@conference-deadlines
-DTSTAMP:20260818T123856Z
-LAST-MODIFIED:20260818T123856Z
-SEQUENCE:1
-SUMMARY:PLDI 2027 (PLACEHOLDER) — Research paper
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-DESCRIPTION:Submission type: Research paper\nContent: Up to 20 pages of t
- ext\, excluding bibliography (previous-edition requirement)\n\nOfficial s
- ource: https://pldi26.sigplan.org/track/pldi-2026-papers\nVerified: 2026-
- 08-18T12:38:56Z\n\nNotes: PLACEHOLDER: projected from the official 2026 d
- eadline at 2025-11-13T23:59:00-12:00\; this is not a confirmed 2027 date 
- and the official source below is historical. Projected from the previous 
- edition's month and day\; PLDI 2027 has not confirmed this deadline. 23:5
- 9 AoE means the cutoff is 14:00 on the following day in Central European 
- summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).
-URL:https://pldi26.sigplan.org/track/pldi-2026-papers
+DTSTAMP:20260818T133225Z
+LAST-MODIFIED:20260818T133225Z
+SEQUENCE:2
+SUMMARY:PLDI 2027 — Research paper
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+DESCRIPTION:Submission type: Research paper\nContent: See the official so
+ urce for submission requirements.\n\nOfficial source: https://pldi27.sigp
+ lan.org/track/pldi-2027-papers\nVerified: 2026-08-18T13:32:25Z\n\nNotes: 
+ The official site specifies AoE. 23:59 AoE means the cutoff is 14:00 on t
+ he following day in Central European summer time (CEST\, UTC+2)\, or 13:0
+ 0 in winter (CET\, UTC+1).
+URL:https://pldi27.sigplan.org/track/pldi-2027-papers
 TRANSP:TRANSPARENT
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:isca-2027-regular-paper@conference-deadlines
@@ -715,23 +709,21 @@ STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 UID:ddecs-2027-regular-paper@conference-deadlines
-DTSTAMP:20260818T130625Z
-LAST-MODIFIED:20260818T130625Z
-SEQUENCE:0
-SUMMARY:DDECS 2027 (PLACEHOLDER) — Regular paper
-DTSTART;VALUE=DATE:20270111
-DTEND;VALUE=DATE:20270112
+DTSTAMP:20260818T133225Z
+LAST-MODIFIED:20260818T133225Z
+SEQUENCE:1
+SUMMARY:DDECS 2027 — Regular paper
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
 DESCRIPTION:Submission type: Regular paper\nContent: See the official sou
- rce for submission requirements.\n\nOfficial source: https://www.ddecs.or
- g/ddecs2026/1stCfP_DDECS2026.pdf\nVerified: 2026-08-18T13:06:25Z\n\nNotes
- : PLACEHOLDER: projected from the official 2026 deadline at 2026-01-11T23
- :59:00-12:00\; this is not a confirmed 2027 date and the official source 
- below is historical. 23:59 AoE means the cutoff is 14:00 on the following
-  day in Central European summer time (CEST\, UTC+2)\, or 13:00 in winter 
- (CET\, UTC+1).
-URL:https://www.ddecs.org/ddecs2026/1stCfP_DDECS2026.pdf
+ rce for submission requirements.\n\nOfficial source: https://ddecs.rss-la
+ b.de/ddecs/call-for-papers\nVerified: 2026-08-18T13:32:25Z\n\nNotes: The 
+ official site states January 8\, 2027 without a time\; normalized to 23:5
+ 9 AoE. 23:59 AoE means the cutoff is 14:00 on the following day in Centra
+ l European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).
+URL:https://ddecs.rss-lab.de/ddecs/call-for-papers
 TRANSP:TRANSPARENT
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-nano-2027-special-session-proposal@conference-deadlines

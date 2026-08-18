@@ -314,17 +314,13 @@
       "conference": "PLDI",
       "edition": "2027",
       "submission_type": "Research paper",
-      "content": "Up to 20 pages of text, excluding bibliography (previous-edition requirement)",
+      "content": "See the official source for submission requirements.",
       "all_day": true,
-      "deadline_at": "2026-11-13T23:59:00-12:00",
+      "deadline_at": "2026-11-12T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
-      "placeholder": {
-        "based_on_edition": "2026",
-        "based_on_deadline_at": "2025-11-13T23:59:00-12:00"
-      },
-      "source": {"url": "https://pldi26.sigplan.org/track/pldi-2026-papers", "title": "Official PLDI 2026 research-papers call", "verified_at": "2026-08-18T12:38:56Z"},
-      "sequence": 1,
-      "notes": "Projected from the previous edition's month and day; PLDI 2027 has not confirmed this deadline."
+      "source": {"url": "https://pldi27.sigplan.org/track/pldi-2027-papers", "title": "Official PLDI 2027 research-papers call", "verified_at": "2026-08-18T13:32:25Z"},
+      "sequence": 2,
+      "notes": "The official site specifies AoE."
     },
     {
       "id": "iccad-2027-abstract-registration",
@@ -603,13 +599,13 @@
       "conference": "IEEE Radar Conference",
       "edition": "2027",
       "submission_type": "Regular paper",
-      "content": "4–6 page full paper including figures and citations (previous-edition requirement)",
+      "content": "See the official source for submission requirements.",
       "all_day": true,
-      "deadline_at": "2026-11-03T23:59:00-12:00",
+      "deadline_at": "2026-10-31T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
-      "placeholder": {"based_on_edition": "2026", "based_on_deadline_at": "2025-11-03T23:59:00-12:00"},
-      "source": {"url": "https://ieee-aess.org/event/conference/2026-ieee-radar-conference", "title": "Official IEEE AESS RadarConf 2026 call", "verified_at": "2026-08-18T13:06:25Z"},
-      "sequence": 0
+      "source": {"url": "https://radarconf2027.org/", "title": "Official IEEE Radar Conference 2027 site", "verified_at": "2026-08-18T13:32:25Z"},
+      "sequence": 1,
+      "notes": "The official site states October 31, 2026 without a time; normalized to 23:59 AoE."
     },
     {
       "id": "ieee-sensors-2027-regular-paper",
@@ -686,11 +682,11 @@
       "edition": "2027",
       "submission_type": "Regular paper",
       "all_day": true,
-      "deadline_at": "2027-01-11T23:59:00-12:00",
+      "deadline_at": "2027-01-08T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
-      "placeholder": {"based_on_edition": "2026", "based_on_deadline_at": "2026-01-11T23:59:00-12:00"},
-      "source": {"url": "https://www.ddecs.org/ddecs2026/1stCfP_DDECS2026.pdf", "title": "Official DDECS 2026 call for papers", "verified_at": "2026-08-18T13:06:25Z"},
-      "sequence": 0
+      "source": {"url": "https://ddecs.rss-lab.de/ddecs/call-for-papers", "title": "Official DDECS 2027 call for papers", "verified_at": "2026-08-18T13:32:25Z"},
+      "sequence": 1,
+      "notes": "The official site states January 8, 2027 without a time; normalized to 23:59 AoE."
     },
     {
       "id": "icmla-2027-regular-paper",
@@ -876,13 +872,13 @@
       "conference": "APSCON",
       "edition": "2027",
       "submission_type": "Regular paper",
-      "content": "Maximum 4 pages including figures, tables, and references (previous-edition requirement)",
+      "content": "4 pages in the standard IEEE conference template",
       "all_day": true,
-      "deadline_at": "2026-10-10T23:59:00-12:00",
+      "deadline_at": "2026-10-20T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
-      "placeholder": {"based_on_edition": "2026", "based_on_deadline_at": "2025-10-10T23:59:00-12:00"},
-      "source": {"url": "https://2026.ieee-apscon.org/authors/author-instructions/", "title": "Official IEEE APSCON 2026 author instructions", "verified_at": "2026-08-18T13:06:25Z"},
-      "sequence": 0
+      "source": {"url": "https://2027.ieee-apscon.org/?page_id=107", "title": "Official IEEE APSCON 2027 call for papers", "verified_at": "2026-08-18T13:32:25Z"},
+      "sequence": 1,
+      "notes": "This is the Option A conference-paper deadline. The official site states October 20, 2026 without a time; normalized to 23:59 AoE."
     },
     {
       "id": "ius-2027-abstract",
