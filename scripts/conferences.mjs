@@ -11,10 +11,7 @@ export async function readConferenceRegistry() {
     schema_version: registry.schema_version,
     policy: registry.policy,
     generated_from: "conferences.yaml",
-    conferences: registry.conferences.map(({ discovery_windows, ...conference }) => ({
-      ...conference,
-      rough_deadline_windows: discovery_windows,
-    })),
+    conferences: registry.conferences,
   };
 }
 

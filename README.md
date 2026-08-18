@@ -26,7 +26,7 @@ All calendar entries are full-day events. Confirmed dates use their official cut
 
 | File | Purpose | Edit directly? |
 | --- | --- | --- |
-| `conferences.yaml` | Maintained conference list, submission types, discovery windows, and official sources | Yes |
+| `conferences.yaml` | Maintained conference list, submission types, and official sources | Yes |
 | `data/deadlines.json` | Confirmed deadlines and sourced placeholders | Yes |
 | `data/history.json` | Superseded confirmed deadlines | Yes |
 | `data/conferences.json` | Website data generated from `conferences.yaml` | No |
@@ -43,7 +43,6 @@ Add or update an entry in `conferences.yaml`:
   community: Design Automation
   name: ICCAD
   aliases: []
-  discovery_windows: [mid April]
   monitored_submissions:
     - abstract registration
     - regular paper
@@ -79,7 +78,7 @@ Verified: 2026-08-18T12:14:05Z
 Notes: Free-form context, including the AoE conversion when applicable.
 ```
 
-Never create a confirmed date from a rough discovery window or an unofficial source.
+Never create a confirmed date from an unofficial source.
 
 ## Generate and validate
 

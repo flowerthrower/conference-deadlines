@@ -1,5 +1,5 @@
 schema_version: 1
-policy: Only exact deadlines confirmed by an official conference source become calendar events. Discovery windows are hints only.
+policy: Confirmed deadlines require an exact date from an official source. Placeholders require an exact same-type deadline from an official previous-edition source.
 
 # This is the only maintained conference registry.
 # Keep IDs stable because deadline events refer to them.
@@ -10,7 +10,6 @@ conferences:
     community: Design Automation
     name: ICCAD
     aliases: []
-    discovery_windows: [mid April]
     monitored_submissions:
       - abstract registration
       - regular paper
@@ -28,7 +27,6 @@ conferences:
     community: Design Automation
     name: ASP-DAC
     aliases: []
-    discovery_windows: [early July]
     monitored_submissions:
       - abstract registration
       - full paper
@@ -45,7 +43,6 @@ conferences:
     community: Design Automation
     name: DATE
     aliases: []
-    discovery_windows: [mid September]
     monitored_submissions:
       - paper registration
       - full paper
@@ -63,7 +60,6 @@ conferences:
     community: Design Automation
     name: DAC
     aliases: []
-    discovery_windows: [mid November]
     monitored_submissions:
       - research manuscript
       - late-breaking result
@@ -82,7 +78,6 @@ conferences:
     community: Design Automation
     name: ISMVL
     aliases: []
-    discovery_windows: [mid December]
     monitored_submissions:
       - regular paper
       - short paper
@@ -97,7 +92,6 @@ conferences:
     community: Design Automation
     name: ISVLSI
     aliases: []
-    discovery_windows: [late March]
     monitored_submissions:
       - regular paper
       - late-breaking result
@@ -113,7 +107,6 @@ conferences:
     community: Design Automation
     name: IWLS
     aliases: []
-    discovery_windows: [early May]
     monitored_submissions:
       - regular paper
       - short paper
@@ -128,7 +121,6 @@ conferences:
     community: Design Automation
     name: ISQED
     aliases: [isQED]
-    discovery_windows: [early October]
     monitored_submissions:
       - regular paper
       - work-in-progress paper
@@ -146,7 +138,6 @@ conferences:
     community: Design Automation
     name: ICCD
     aliases: []
-    discovery_windows: [mid June]
     monitored_submissions:
       - regular paper
       - short paper
@@ -162,7 +153,6 @@ conferences:
     community: Quantum Computing
     name: QSW
     aliases: []
-    discovery_windows: [late February]
     monitored_submissions:
       - regular paper
       - short paper
@@ -178,7 +168,6 @@ conferences:
     community: Quantum Computing
     name: QCE
     aliases: [IEEE Quantum Week]
-    discovery_windows: [early April]
     monitored_submissions:
       - technical paper
       - workshop proposal
@@ -196,7 +185,6 @@ conferences:
     community: Quantum Computing
     name: TQC
     aliases: []
-    discovery_windows: [mid February]
     monitored_submissions:
       - talk
       - poster
@@ -210,7 +198,6 @@ conferences:
     community: Quantum Computing
     name: QIP
     aliases: []
-    discovery_windows: [late September]
     monitored_submissions:
       - talk registration
       - talk submission
@@ -225,7 +212,6 @@ conferences:
     community: Quantum Computing
     name: Asian Quantum Information Science Conference
     aliases: [AQIS]
-    discovery_windows: [mid December]
     monitored_submissions:
       - talk
       - poster
@@ -239,7 +225,6 @@ conferences:
     community: Quantum Computing
     name: QCTIP
     aliases: [QCTiP]
-    discovery_windows: [late January]
     monitored_submissions:
       - talk
       - poster
@@ -253,7 +238,6 @@ conferences:
     community: Quantum Computing
     name: APS March Meeting
     aliases: [APS Global Physics Summit]
-    discovery_windows: [mid October]
     monitored_submissions:
       - contributed abstract
       - invited abstract
@@ -268,7 +252,6 @@ conferences:
     community: Quantum Computing / Software Engineering
     name: Reversible Computation
     aliases: [RC]
-    discovery_windows: [early February, late February]
     monitored_submissions:
       - research paper
       - tool demonstration
@@ -283,7 +266,6 @@ conferences:
     community: Nanotech
     name: IEEE NANO
     aliases: []
-    discovery_windows: [late February]
     monitored_submissions:
       - full paper
       - presentation-only abstract
@@ -299,7 +281,6 @@ conferences:
     community: Nanotech
     name: μTAS
     aliases: [MicroTAS]
-    discovery_windows: [late May]
     monitored_submissions:
       - abstract
       - late-news abstract
@@ -313,7 +294,6 @@ conferences:
     community: Nanotech
     name: MDPI Biosensors
     aliases: [International Electronic Conference on Biosensors, IECB]
-    discovery_windows: [late April]
     monitored_submissions:
       - abstract
       - extended paper
@@ -327,7 +307,6 @@ conferences:
     community: Nanotech
     name: EBSA
     aliases: [IUPAB/EBSA Congress]
-    discovery_windows: [early March]
     monitored_submissions:
       - oral abstract
       - poster abstract
@@ -341,7 +320,6 @@ conferences:
     community: Nanotech
     name: NANOARCH
     aliases: []
-    discovery_windows: [late August]
     monitored_submissions:
       - regular paper
       - short paper
@@ -356,7 +334,6 @@ conferences:
     community: Computer Architecture
     name: MICRO
     aliases: []
-    discovery_windows: [early April]
     monitored_submissions:
       - abstract registration
       - full paper
@@ -372,7 +349,6 @@ conferences:
     community: Computer Architecture
     name: HPCA
     aliases: []
-    discovery_windows: [late July]
     monitored_submissions:
       - abstract registration
       - full paper
@@ -389,7 +365,6 @@ conferences:
     community: Computer Architecture
     name: ISCA
     aliases: []
-    discovery_windows: [mid November]
     monitored_submissions:
       - abstract registration
       - full paper
@@ -406,7 +381,6 @@ conferences:
     community: Computer Architecture
     name: ASPLOS
     aliases: []
-    discovery_windows: [late February, mid June, mid October]
     monitored_submissions:
       - full paper
       - artifact
@@ -422,7 +396,6 @@ conferences:
     community: Super Computing
     name: SC
     aliases: ["The International Conference for High Performance Computing, Networking, Storage and Analysis"]
-    discovery_windows: [early April]
     monitored_submissions:
       - technical paper
       - workshop proposal
@@ -442,7 +415,6 @@ conferences:
     community: Super Computing
     name: SupercomputingAsia
     aliases: [SCA, SC Asia, Supercomputing Asia]
-    discovery_windows: [mid July, mid September, late October, late November]
     monitored_submissions:
       - research paper
       - workshop proposal
@@ -460,7 +432,6 @@ conferences:
     community: Super Computing
     name: HPC Asia
     aliases: [HPCAsia, "International Conference on High Performance Computing in Asia-Pacific Region"]
-    discovery_windows: [mid September]
     monitored_submissions:
       - research paper
       - workshop proposal
@@ -475,7 +446,6 @@ conferences:
     community: Super Computing
     name: ISC
     aliases: [ISC High Performance]
-    discovery_windows: [late February]
     monitored_submissions:
       - research paper
       - research poster
@@ -494,7 +464,6 @@ conferences:
     community: Software Engineering
     name: ESOP
     aliases: []
-    discovery_windows: [mid October]
     monitored_submissions:
       - research paper
       - experience report
@@ -510,7 +479,6 @@ conferences:
     community: Software Engineering
     name: TACAS
     aliases: []
-    discovery_windows: [mid October]
     monitored_submissions:
       - research paper
       - case-study paper
@@ -527,7 +495,6 @@ conferences:
     community: Software Engineering
     name: OOPSLA
     aliases: []
-    discovery_windows: [late March, mid October]
     monitored_submissions:
       - research paper
       - artifact
@@ -543,7 +510,6 @@ conferences:
     community: Software Engineering
     name: SAT
     aliases: [International Conference on Theory and Applications of Satisfiability Testing]
-    discovery_windows: [late February]
     monitored_submissions:
       - regular paper
       - short paper
@@ -558,7 +524,6 @@ conferences:
     community: Software Engineering
     name: SEA
     aliases: [Symposium on Experimental Algorithms]
-    discovery_windows: [mid February]
     monitored_submissions:
       - regular paper
       - short paper
@@ -572,7 +537,6 @@ conferences:
     community: Software Engineering
     name: ATMOS
     aliases: ["Algorithmic Approaches for Transportation Modelling, Optimization, and Systems"]
-    discovery_windows: [late June]
     monitored_submissions:
       - full paper
     official_sources:
@@ -585,7 +549,6 @@ conferences:
     community: Programming Languages
     name: ECOOP
     aliases: []
-    discovery_windows: [early January, early March]
     monitored_submissions:
       - technical paper
       - artifact
@@ -599,7 +562,6 @@ conferences:
     community: Programming Languages
     name: PLDI
     aliases: []
-    discovery_windows: [mid November]
     monitored_submissions:
       - research paper
       - artifact
@@ -616,7 +578,6 @@ conferences:
     community: Transportation
     name: ITSC
     aliases: [IEEE Intelligent Transportation Systems Conference]
-    discovery_windows: [mid May]
     monitored_submissions:
       - regular paper
       - invited-session paper
@@ -633,7 +594,6 @@ conferences:
     community: Miscellaneous
     name: HEUREKA
     aliases: []
-    discovery_windows: [mid September]
     monitored_submissions:
       - reviewed contribution
     official_sources:
@@ -647,7 +607,6 @@ conferences:
     community: Multimedia
     name: ICMR
     aliases: [ACM International Conference on Multimedia Retrieval]
-    discovery_windows: []
     monitored_submissions:
       - long research paper
       - short research paper
@@ -667,7 +626,6 @@ conferences:
     community: Computer Science
     name: FedCSIS
     aliases: [Conference on Computer Science and Intelligence Systems]
-    discovery_windows: [mid April, mid May]
     monitored_submissions:
       - regular paper
       - position paper
@@ -684,7 +642,6 @@ conferences:
     community: Design Automation
     name: DSD
     aliases: [Euromicro Conference on Digital System Design]
-    discovery_windows: []
     monitored_submissions:
       - regular paper
       - short paper
@@ -701,7 +658,6 @@ conferences:
     community: Sensors
     name: EuroSense
     aliases: [European Conference on Sensory and Consumer Research]
-    discovery_windows: []
     monitored_submissions:
       - oral-presentation abstract
       - poster abstract
@@ -716,7 +672,6 @@ conferences:
     community: Computer Science
     name: FDG
     aliases: [Foundations of Digital Games]
-    discovery_windows: [mid December, late March]
     monitored_submissions:
       - regular paper
       - late-breaking short paper
@@ -735,7 +690,6 @@ conferences:
     community: Sensors
     name: APSCON
     aliases: [IEEE Applied Sensing Conference]
-    discovery_windows: []
     monitored_submissions:
       - regular paper
       - special-session proposal
@@ -751,7 +705,6 @@ conferences:
     community: Design Automation
     name: ISCAS
     aliases: [IEEE International Symposium on Circuits and Systems]
-    discovery_windows: [mid October]
     monitored_submissions:
       - regular paper
       - special-session proposal
@@ -767,7 +720,6 @@ conferences:
     community: Sensors
     name: IUS
     aliases: [IEEE International Ultrasonics Symposium]
-    discovery_windows: []
     monitored_submissions:
       - abstract
       - proceedings paper
@@ -784,7 +736,6 @@ conferences:
     community: Nanotech
     name: IEEE LANANO
     aliases: [IEEE Latin American Conference on Nanotechnology]
-    discovery_windows: []
     monitored_submissions:
       - regular paper
       - poster
@@ -800,7 +751,6 @@ conferences:
     community: Design Automation
     name: LASCAS
     aliases: [IEEE Latin American Symposium on Circuits and Systems]
-    discovery_windows: [early September]
     monitored_submissions:
       - regular paper
       - special-session proposal
@@ -815,7 +765,6 @@ conferences:
     community: Sensors
     name: MAPCON
     aliases: [IEEE Microwave, Antennas, and Propagation Conference]
-    discovery_windows: []
     monitored_submissions:
       - regular paper
       - special-session proposal
@@ -833,7 +782,6 @@ conferences:
     community: Sensors
     name: IEEE Radar Conference
     aliases: [RadarConf]
-    discovery_windows: []
     monitored_submissions:
       - regular paper
       - special-session proposal
@@ -849,7 +797,6 @@ conferences:
     community: Sensors
     name: IEEE SENSORS
     aliases: [IEEE Conference on Sensors]
-    discovery_windows: []
     monitored_submissions:
       - regular paper
       - focused-session proposal
@@ -866,7 +813,6 @@ conferences:
     community: Computer Vision
     name: WACV
     aliases: [IEEE/CVF Winter Conference on Applications of Computer Vision]
-    discovery_windows: [late June, late August]
     monitored_submissions:
       - paper enrollment
       - conference paper
@@ -882,7 +828,6 @@ conferences:
     community: Transportation
     name: IEEE IV
     aliases: [IEEE Intelligent Vehicles Symposium]
-    discovery_windows: []
     monitored_submissions:
       - regular paper
       - workshop proposal
@@ -898,7 +843,6 @@ conferences:
     community: Signal Processing
     name: ICASSP
     aliases: [IEEE International Conference on Acoustics, Speech, and Signal Processing]
-    discovery_windows: [mid September]
     monitored_submissions:
       - full paper
       - special-session proposal
@@ -914,7 +858,6 @@ conferences:
     community: Artificial Intelligence
     name: ICAART
     aliases: [International Conference on Agents and Artificial Intelligence]
-    discovery_windows: [mid September, late October]
     monitored_submissions:
       - regular paper
       - position paper
@@ -932,7 +875,6 @@ conferences:
     community: Artificial Intelligence
     name: ICANN
     aliases: [International Conference on Artificial Neural Networks]
-    discovery_windows: []
     monitored_submissions:
       - regular paper
       - short paper
@@ -948,7 +890,6 @@ conferences:
     community: Sensors
     name: CIVEMSA
     aliases: [International Conference on Computational Intelligence and Virtual Environments for Measurement Systems and Applications]
-    discovery_windows: []
     monitored_submissions:
       - regular paper
       - special-session proposal
@@ -964,7 +905,6 @@ conferences:
     community: Databases
     name: DEXA
     aliases: [International Conference on Database and Expert Systems Applications]
-    discovery_windows: []
     monitored_submissions:
       - research paper
       - short paper
@@ -980,7 +920,6 @@ conferences:
     community: Computer Architecture
     name: SAMOS
     aliases: [International Conference on Embedded Computer Systems Architectures Modeling and Simulation]
-    discovery_windows: []
     monitored_submissions:
       - regular paper
       - short paper
@@ -997,7 +936,6 @@ conferences:
     community: Distributed Systems
     name: FMEC
     aliases: [International Conference on Fog and Mobile Edge Computing]
-    discovery_windows: []
     monitored_submissions:
       - regular paper
       - short paper
@@ -1013,7 +951,6 @@ conferences:
     community: Robotics
     name: IROS
     aliases: [IEEE/RSJ International Conference on Intelligent Robots and Systems]
-    discovery_windows: [early March]
     monitored_submissions:
       - regular paper
       - workshop or tutorial proposal
@@ -1028,7 +965,6 @@ conferences:
     community: Artificial Intelligence
     name: ICMLA
     aliases: [International Conference on Machine Learning and Applications]
-    discovery_windows: []
     monitored_submissions:
       - regular paper
       - short paper
@@ -1044,7 +980,6 @@ conferences:
     community: Super Computing
     name: ICPP
     aliases: [International Conference on Parallel Processing]
-    discovery_windows: []
     monitored_submissions:
       - regular paper
       - workshop proposal
@@ -1060,7 +995,6 @@ conferences:
     community: Quantum Computing
     name: QPL
     aliases: [International Conference on Quantum Physics and Logic]
-    discovery_windows: [late February, early March]
     monitored_submissions:
       - contributed talk
       - proceedings paper
@@ -1075,7 +1009,6 @@ conferences:
     community: Transportation
     name: RSSRail
     aliases: [International Conference on Reliability Safety and Security of Railway Systems]
-    discovery_windows: []
     monitored_submissions:
       - research paper
       - industry paper
@@ -1091,7 +1024,6 @@ conferences:
     community: Energy
     name: ICRERA
     aliases: [International Conference on Renewable Energy Research and Applications]
-    discovery_windows: []
     monitored_submissions:
       - regular paper
       - special-session proposal
@@ -1107,7 +1039,6 @@ conferences:
     community: Software Engineering
     name: SEFM
     aliases: [International Conference on Software Engineering and Formal Methods]
-    discovery_windows: []
     monitored_submissions:
       - regular paper
       - tool paper
@@ -1124,7 +1055,6 @@ conferences:
     community: Design Automation
     name: VLSI Design
     aliases: [International Conference on VLSI Design, International Conference on Embedded Systems]
-    discovery_windows: [early August]
     monitored_submissions:
       - regular paper
       - embedded-systems paper
@@ -1141,7 +1071,6 @@ conferences:
     community: Design Automation
     name: DDECS
     aliases: [International Symposium on Design and Diagnostics of Electronic Circuits and Systems]
-    discovery_windows: []
     monitored_submissions:
       - regular paper
       - poster
@@ -1156,7 +1085,6 @@ conferences:
     community: Design Automation
     name: ISDCS
     aliases: [International Symposium on Devices Circuits and Systems]
-    discovery_windows: []
     monitored_submissions:
       - regular paper
       - special-session proposal
@@ -1171,7 +1099,6 @@ conferences:
     community: Design Automation
     name: MLCAD
     aliases: [International Symposium on Machine Learning for CAD]
-    discovery_windows: [late May]
     monitored_submissions:
       - abstract registration
       - full manuscript
@@ -1187,7 +1114,6 @@ conferences:
     community: Software Engineering
     name: SPIN
     aliases: [International Symposium on Model Checking of Software]
-    discovery_windows: []
     monitored_submissions:
       - regular paper
       - short paper
@@ -1204,7 +1130,6 @@ conferences:
     community: Design Automation
     name: ISPD
     aliases: [International Symposium on Physical Design]
-    discovery_windows: [late September]
     monitored_submissions:
       - title and abstract registration
       - full manuscript
@@ -1219,7 +1144,6 @@ conferences:
     community: Sensors
     name: SSI
     aliases: [Smart Systems Integration Conference and Exhibition, SSICE]
-    discovery_windows: []
     monitored_submissions:
       - abstract
       - paper
@@ -1235,7 +1159,6 @@ conferences:
     community: Artificial Intelligence
     name: XAI World Conference
     aliases: [World Conference on Explainable Artificial Intelligence]
-    discovery_windows: []
     monitored_submissions:
       - research paper
       - late-breaking result or demonstration

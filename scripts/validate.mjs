@@ -18,7 +18,7 @@ for (const conference of conferences.conferences) {
   for (const field of ["id", "community", "name", "last_checked"]) {
     if (!conference[field]) throw new Error(`Conference ${conference.id ?? "<unknown>"} is missing ${field}`);
   }
-  for (const field of ["aliases", "rough_deadline_windows", "monitored_submissions", "official_sources"]) {
+  for (const field of ["aliases", "monitored_submissions", "official_sources"]) {
     if (!Array.isArray(conference[field])) {
       throw new Error(`Conference ${conference.id} must define ${field} as a list`);
     }
