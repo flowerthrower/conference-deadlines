@@ -77,8 +77,19 @@ if (calendar.includes("\r\nDTSTART:")) {
   throw new Error("Calendar contains a timed deadline event");
 }
 const unfoldedCalendar = calendar.replaceAll("\r\n ", "");
+for (const [field, pattern] of [
+  ["Submission type", /DESCRIPTION:Submission type: /g],
+  ["Content", /\\nContent: /g],
+  ["Official source", /\\n\\nOfficial source: https:\/\//g],
+  ["Verified", /\\nVerified: /g],
+  ["Notes", /\\n\\nNotes: /g],
+]) {
+  if ((unfoldedCalendar.match(pattern) ?? []).length !== deadlines.deadlines.length) {
+    throw new Error(`Every calendar event description must contain the ${field} template field`);
+  }
+}
 const aoeDeadlineCount = deadlines.deadlines.filter((deadline) => deadline.timezone === "AoE (UTC-12)").length;
-if ((unfoldedCalendar.match(/\\nAoE note:/g) ?? []).length !== aoeDeadlineCount) {
+if ((unfoldedCalendar.match(/23:59 AoE means the cutoff/g) ?? []).length !== aoeDeadlineCount) {
   throw new Error("Every AoE calendar event must explain the Central European cutoff");
 }
 const placeholderCount = deadlines.deadlines.filter((deadline) => deadline.placeholder).length;
@@ -87,6 +98,9 @@ if ((unfoldedCalendar.match(/ \(PLACEHOLDER\) — /g) ?? []).length !== placehol
 }
 if ((calendar.match(/STATUS:TENTATIVE/g) ?? []).length !== placeholderCount) {
   throw new Error("Every placeholder must be tentative");
+}
+if ((unfoldedCalendar.match(/\\n\\nNotes: PLACEHOLDER:/g) ?? []).length !== placeholderCount) {
+  throw new Error("Every placeholder must be explained in the Notes template field");
 }
 
 console.log(`Validated ${conferenceIds.length} conferences and ${deadlineIds.length - placeholderCount} confirmed plus ${placeholderCount} placeholder deadline(s).`);

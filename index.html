@@ -78,7 +78,8 @@
             const displayDate = new Date(`${date}T00:00:00`).toLocaleDateString(undefined, {dateStyle:"full"});
             const placeholderLabel = item.placeholder ? " (PLACEHOLDER)" : "";
             const basis = item.placeholder ? `<p class="meta">Projected from ${escapeHtml(item.placeholder.based_on_edition)}: ${escapeHtml(item.placeholder.based_on_deadline_at)}</p>` : "";
-            return `<article class="deadline${item.placeholder ? " placeholder" : ""}">${item.placeholder ? '<span class="badge">PLACEHOLDER</span>' : ""}<h3>${escapeHtml(item.conference)} ${escapeHtml(item.edition)}${placeholderLabel} — ${escapeHtml(item.submission_type)}</h3><time>${escapeHtml(displayDate)}</time><p class="meta">${escapeHtml(item.timezone)}</p>${basis}<a href="${escapeHtml(item.source.url)}">${item.placeholder ? "Historical official source" : "Official source"}</a><p class="meta">${item.placeholder ? "Historical source verified" : "Verified"} ${escapeHtml(item.source.verified_at)}</p></article>`;
+            const content = item.content || "See the official source for submission requirements.";
+            return `<article class="deadline${item.placeholder ? " placeholder" : ""}">${item.placeholder ? '<span class="badge">PLACEHOLDER</span>' : ""}<h3>${escapeHtml(item.conference)} ${escapeHtml(item.edition)}${placeholderLabel} — ${escapeHtml(item.submission_type)}</h3><time>${escapeHtml(displayDate)}</time><p>${escapeHtml(content)}</p><p class="meta">${escapeHtml(item.timezone)}</p>${basis}<a href="${escapeHtml(item.source.url)}">${item.placeholder ? "Historical official source" : "Official source"}</a><p class="meta">${item.placeholder ? "Historical source verified" : "Verified"} ${escapeHtml(item.source.verified_at)}</p></article>`;
           }).join("")
         : "";
 

@@ -12,7 +12,7 @@
       "deadline_at": "2026-09-07T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
       "source": {"url": "https://www.aspdac.com/aspdac2027/cfp/", "title": "Official ASP-DAC 2027 call for papers", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 2,
+      "sequence": 3,
       "notes": "The official page says proposals must be received no later than September 7. No official time was stated; normalized to 23:59 AoE."
     },
     {
@@ -25,7 +25,7 @@
       "deadline_at": "2026-09-13T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
       "source": {"url": "https://www.date-conference.com/date-2027-call-papers", "title": "Official DATE 2027 call for papers", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 1
+      "sequence": 2
     },
     {
       "id": "date-2027-full-paper",
@@ -37,7 +37,7 @@
       "deadline_at": "2026-09-20T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
       "source": {"url": "https://www.date-conference.com/date-2027-call-papers", "title": "Official DATE 2027 call for papers", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 1,
+      "sequence": 2,
       "notes": "The official call marks this deadline as firm."
     },
     {
@@ -50,7 +50,7 @@
       "deadline_at": "2026-09-13T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
       "source": {"url": "https://hpcasia2027.org/", "title": "Official HPC Asia 2027 site", "verified_at": "2026-08-18T12:14:05Z"},
-      "sequence": 1,
+      "sequence": 2,
       "notes": "The official site states September 13, 2026 without a time; normalized to 23:59 AoE."
     },
     {
@@ -63,7 +63,7 @@
       "deadline_at": "2026-09-17T23:59:00-07:00",
       "timezone": "US Pacific Time (PDT, UTC-07)",
       "source": {"url": "https://www.isqed.org/English/Conference/Call_for_Papers.html", "title": "Official ISQED 2027 call for papers", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 1,
+      "sequence": 2,
       "notes": "The source states midnight US Pacific Time; represented as 23:59 PDT on the stated date."
     },
     {
@@ -76,7 +76,7 @@
       "deadline_at": "2026-09-17T23:59:00-07:00",
       "timezone": "US Pacific Time (PDT, UTC-07)",
       "source": {"url": "https://www.isqed.org/English/Conference/Call-for-Special-Sessions.html", "title": "Official ISQED call for special sessions", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 1,
+      "sequence": 2,
       "notes": "The source states midnight US Pacific Time; represented as 23:59 PDT on the stated date."
     },
     {
@@ -89,7 +89,7 @@
       "deadline_at": "2026-10-22T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
       "source": {"url": "https://www.isqed.org/English/Conference/Call_for_Papers.html", "title": "Official ISQED 2027 call for papers", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 2,
+      "sequence": 3,
       "notes": "No official time was stated; normalized to 23:59 AoE."
     },
     {
@@ -102,7 +102,7 @@
       "deadline_at": "2026-09-28T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
       "source": {"url": "https://qipconference.org/2027/", "title": "Official QIP 2027 site", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 1
+      "sequence": 2
     },
     {
       "id": "qip-2027-talk-submission",
@@ -114,7 +114,7 @@
       "deadline_at": "2026-10-05T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
       "source": {"url": "https://qipconference.org/2027/", "title": "Official QIP 2027 site", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 1
+      "sequence": 2
     },
     {
       "id": "qip-2027-poster-submission",
@@ -126,7 +126,7 @@
       "deadline_at": "2026-12-04T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
       "source": {"url": "https://qipconference.org/2027/", "title": "Official QIP 2027 site", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 1,
+      "sequence": 2,
       "notes": "Poster decisions are rolling and normally made within two weeks of submission."
     },
     {
@@ -139,7 +139,7 @@
       "deadline_at": "2027-01-15T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
       "source": {"url": "https://2027.ieeenano.org/", "title": "Official IEEE NANO 2027 site", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 2,
+      "sequence": 3,
       "notes": "No official time was stated; normalized to 23:59 AoE."
     },
     {
@@ -152,7 +152,7 @@
       "deadline_at": "2027-03-05T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
       "source": {"url": "https://2027.ieeenano.org/", "title": "Official IEEE NANO 2027 site", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 2,
+      "sequence": 3,
       "notes": "No official time was stated; normalized to 23:59 AoE. The site's presentation-only abstract date shows 2026 and was excluded as inconsistent with the 2027 edition."
     },
     {
@@ -165,7 +165,7 @@
       "deadline_at": "2026-10-23T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
       "source": {"url": "https://www.mdpi.com/journal/biosensors/events", "title": "Official MDPI Biosensors events page", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 2,
+      "sequence": 3,
       "notes": "No official time was stated; normalized to 23:59 AoE. Deadline for the 6th International Electronic Conference on Biosensors (IECB 2027)."
     },
     {
@@ -178,7 +178,7 @@
       "deadline_at": "2026-09-09T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
       "source": {"url": "https://www.asplos-conference.org/asplos2027/cfp/", "title": "Official ASPLOS 2027 call for papers", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 1,
+      "sequence": 2,
       "notes": "ASPLOS 2027 has no separate abstract-registration deadline."
     },
     {
@@ -191,7 +191,7 @@
       "deadline_at": "2026-10-07T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
       "source": {"url": "https://isc-hpc.com/submissions/workshop/", "title": "Official ISC 2027 workshop submissions page", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 2,
+      "sequence": 3,
       "notes": "No official time was stated; normalized to 23:59 AoE."
     },
     {
@@ -204,7 +204,7 @@
       "deadline_at": "2026-12-09T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
       "source": {"url": "https://isc-hpc.com/submissions/workshop/", "title": "Official ISC 2027 workshop submissions page", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 2,
+      "sequence": 3,
       "notes": "No official time was stated; normalized to 23:59 AoE."
     },
     {
@@ -217,7 +217,7 @@
       "deadline_at": "2027-01-20T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
       "source": {"url": "https://isc-hpc.com/submissions/", "title": "Official ISC 2027 submissions page", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 2,
+      "sequence": 3,
       "notes": "No official time was stated; normalized to 23:59 AoE."
     },
     {
@@ -230,7 +230,7 @@
       "deadline_at": "2027-01-20T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
       "source": {"url": "https://isc-hpc.com/submissions/", "title": "Official ISC 2027 submissions page", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 2,
+      "sequence": 3,
       "notes": "No official time was stated; normalized to 23:59 AoE."
     },
     {
@@ -243,7 +243,7 @@
       "deadline_at": "2027-01-21T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
       "source": {"url": "https://isc-hpc.com/submissions/", "title": "Official ISC 2027 submissions page", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 2,
+      "sequence": 3,
       "notes": "No official time was stated; normalized to 23:59 AoE."
     },
     {
@@ -256,7 +256,7 @@
       "deadline_at": "2026-10-15T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
       "source": {"url": "https://etaps.org/2027/cfp/", "title": "Official ETAPS 2027 joint call for papers", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 1
+      "sequence": 2
     },
     {
       "id": "tacas-2027-paper",
@@ -268,7 +268,7 @@
       "deadline_at": "2026-10-15T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
       "source": {"url": "https://etaps.org/2027/cfp/", "title": "Official ETAPS 2027 joint call for papers", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 1
+      "sequence": 2
     },
     {
       "id": "ecoop-2027-round-1-paper",
@@ -280,7 +280,7 @@
       "deadline_at": "2026-11-19T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
       "source": {"url": "https://2027.ecoop.org/track/ecoop-2027-technical-papers", "title": "Official ECOOP 2027 technical-papers call", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 1
+      "sequence": 2
     },
     {
       "id": "ecoop-2027-round-2-paper",
@@ -292,7 +292,7 @@
       "deadline_at": "2027-02-11T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
       "source": {"url": "https://2027.ecoop.org/track/ecoop-2027-technical-papers", "title": "Official ECOOP 2027 technical-papers call", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 1
+      "sequence": 2
     },
     {
       "id": "heureka-2027-paper",
@@ -300,11 +300,12 @@
       "conference": "HEUREKA",
       "edition": "2027",
       "submission_type": "Reviewed contribution",
+      "content": "6–15 page PDF contribution",
       "all_day": true,
       "deadline_at": "2026-09-13T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
       "source": {"url": "https://eraw.easychair.org/cfp/HEUREKA2027", "title": "Official HEUREKA 2027 EasyChair call for papers", "verified_at": "2026-08-18T11:49:39Z"},
-      "sequence": 2,
+      "sequence": 3,
       "notes": "No official time was stated; normalized to 23:59 AoE. The official call requests a 6–15 page PDF contribution."
     },
     {
@@ -313,6 +314,7 @@
       "conference": "PLDI",
       "edition": "2027",
       "submission_type": "Research paper",
+      "content": "Up to 20 pages of text, excluding bibliography (previous-edition requirement)",
       "all_day": true,
       "deadline_at": "2026-11-13T23:59:00-12:00",
       "timezone": "AoE (UTC-12)",
@@ -321,7 +323,7 @@
         "based_on_deadline_at": "2025-11-13T23:59:00-12:00"
       },
       "source": {"url": "https://pldi26.sigplan.org/track/pldi-2026-papers", "title": "Official PLDI 2026 research-papers call", "verified_at": "2026-08-18T12:38:56Z"},
-      "sequence": 0,
+      "sequence": 1,
       "notes": "Projected from the previous edition's month and day; PLDI 2027 has not confirmed this deadline."
     }
   ]

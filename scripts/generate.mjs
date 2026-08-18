@@ -82,22 +82,22 @@ function eventLines(event) {
   lines.push(`DTEND;VALUE=DATE:${dateStamp(nextDate(date))}`);
 
   const aoeNote = event.timezone === "AoE (UTC-12)"
-    ? "AoE note: the cutoff is 14:00 on the following day in Central European summer time (CEST, UTC+2), or 13:00 in winter (CET, UTC+1)."
+    ? "23:59 AoE means the cutoff is 14:00 on the following day in Central European summer time (CEST, UTC+2), or 13:00 in winter (CET, UTC+1)."
     : null;
   const placeholderNote = isPlaceholder
-    ? `Status: PLACEHOLDER — projected from the official ${event.placeholder.based_on_edition} deadline; this is not a confirmed ${event.edition} date.`
+    ? `PLACEHOLDER: projected from the official ${event.placeholder.based_on_edition} deadline at ${event.placeholder.based_on_deadline_at}; this is not a confirmed ${event.edition} date and the official source below is historical.`
     : null;
-  const sourceLabel = isPlaceholder ? "Historical official source" : "Official source";
+  const notes = [placeholderNote, event.notes, aoeNote].filter(Boolean).join(" ") || "No additional notes.";
 
   const description = [
     `Submission type: ${event.submission_type}`,
-    placeholderNote,
-    isPlaceholder ? `Previous deadline: ${event.placeholder.based_on_deadline_at}` : null,
-    aoeNote,
-    `${sourceLabel}: ${event.source.url}`,
-    `${isPlaceholder ? "Historical source verified" : "Verified"}: ${event.source.verified_at}`,
-    event.notes ? `Notes: ${event.notes}` : null,
-  ].filter(Boolean).join("\n");
+    `Content: ${event.content ?? "See the official source for submission requirements."}`,
+    "",
+    `Official source: ${event.source.url}`,
+    `Verified: ${event.source.verified_at}`,
+    "",
+    `Notes: ${notes}`,
+  ].join("\n");
 
   lines.push(`DESCRIPTION:${escapeText(description)}`);
   lines.push(`URL:${event.source.url}`);

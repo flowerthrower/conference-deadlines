@@ -59,13 +59,25 @@ Include recurring main conferences only. Do not add individual workshops as conf
 
 ## Edit a deadline
 
-Entries in `data/deadlines.json` contain a stable ID, conference ID, edition, submission type, exact cutoff, timezone, official source, verification time, and sequence number.
+Entries in `data/deadlines.json` contain a stable ID, conference ID, edition, submission type, optional concise `content` requirement, exact cutoff, timezone, official source, verification time, and sequence number.
 
 - Set `all_day` to `true`; the exact cutoff remains in `deadline_at`.
 - Use `23:59` AoE (`UTC-12`) when an official source provides a date without a time.
 - Increment `sequence` when an existing event changes.
 - For a placeholder, add `placeholder.based_on_edition` and `placeholder.based_on_deadline_at`, and cite the official previous-edition source.
 - When a placeholder becomes confirmed, keep its ID, replace its date and source, remove `placeholder`, and increment `sequence`.
+
+Every generated calendar comment uses this template:
+
+```text
+Submission type: Research paper
+Content: See the official source for submission requirements.
+
+Official source: https://example.org/
+Verified: 2026-08-18T12:14:05Z
+
+Notes: Free-form context, including the AoE conversion when applicable.
+```
 
 Never create a confirmed date from a rough discovery window or an unofficial source.
 
