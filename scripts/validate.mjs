@@ -78,7 +78,8 @@ if (calendar.includes("\r\nDTSTART:")) {
 }
 const unfoldedCalendar = calendar.replaceAll("\r\n ", "");
 for (const [field, pattern] of [
-  ["Submission type", /DESCRIPTION:Submission type: /g],
+  ["Community", /DESCRIPTION:Community: /g],
+  ["Submission type", /\\nSubmission type: /g],
   ["Content", /\\nContent: /g],
   ["Official source", /\\n\\nOfficial source: https:\/\//g],
   ["Verified", /\\nVerified: /g],
@@ -87,6 +88,10 @@ for (const [field, pattern] of [
   if ((unfoldedCalendar.match(pattern) ?? []).length !== deadlines.deadlines.length) {
     throw new Error(`Every calendar event description must contain the ${field} template field`);
   }
+}
+const descriptions = unfoldedCalendar.split("\r\n").filter((line) => line.startsWith("DESCRIPTION:"));
+if (!descriptions.every((description) => /\\n\\nOfficial source: https:\/\/.+\\nVerified: \d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/.test(description))) {
+  throw new Error("Every calendar event description must end with Official source and Verified");
 }
 const aoeDeadlineCount = deadlines.deadlines.filter((deadline) => deadline.timezone === "AoE (UTC-12)").length;
 if ((unfoldedCalendar.match(/23:59 AoE means the cutoff/g) ?? []).length !== aoeDeadlineCount) {

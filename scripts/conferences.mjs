@@ -18,5 +18,5 @@ export async function readConferenceRegistry() {
 export async function writeConferenceData() {
   const registry = await readConferenceRegistry();
   await writeFile(generatedPath, `${JSON.stringify(registry, null, 2)}\n`, "utf8");
-  return registry.conferences.length;
+  return registry;
 }

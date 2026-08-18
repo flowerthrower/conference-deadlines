@@ -6,7 +6,8 @@ const deadlinesPath = new URL("data/deadlines.json", root);
 const calendarPath = new URL("calendar.ics", root);
 const payload = JSON.parse(await readFile(deadlinesPath, "utf8"));
 
-const conferenceCount = await writeConferenceData();
+const conferenceRegistry = await writeConferenceData();
+const conferencesById = new Map(conferenceRegistry.conferences.map((conference) => [conference.id, conference]));
 
 function escapeText(value) {
   return String(value ?? "")
@@ -64,6 +65,8 @@ function eventLines(event) {
   if (!event.source.url || !event.source.verified_at) {
     throw new Error(`Deadline ${event.id} must include an official source URL and verification time`);
   }
+  const conference = conferencesById.get(event.conference_id);
+  if (!conference) throw new Error(`Deadline ${event.id} has an unknown conference_id`);
 
   const isPlaceholder = Boolean(event.placeholder);
   const editionLabel = isPlaceholder ? `${event.edition} (PLACEHOLDER)` : event.edition;
@@ -90,13 +93,14 @@ function eventLines(event) {
   const notes = [placeholderNote, event.notes, aoeNote].filter(Boolean).join(" ") || "No additional notes.";
 
   const description = [
+    `Community: ${conference.community}`,
     `Submission type: ${event.submission_type}`,
     `Content: ${event.content ?? "See the official source for submission requirements."}`,
     "",
+    `Notes: ${notes}`,
+    "",
     `Official source: ${event.source.url}`,
     `Verified: ${event.source.verified_at}`,
-    "",
-    `Notes: ${notes}`,
   ].join("\n");
 
   lines.push(`DESCRIPTION:${escapeText(description)}`);
@@ -129,4 +133,4 @@ const lines = [
 
 await writeFile(calendarPath, `${lines.map(fold).join("\r\n")}\r\n`, "utf8");
 const placeholderCount = events.filter((event) => event.placeholder).length;
-console.log(`Generated data for ${conferenceCount} conferences and calendar.ics with ${events.length - placeholderCount} confirmed and ${placeholderCount} placeholder deadline(s).`);
+console.log(`Generated data for ${conferenceRegistry.conferences.length} conferences and calendar.ics with ${events.length - placeholderCount} confirmed and ${placeholderCount} placeholder deadline(s).`);
