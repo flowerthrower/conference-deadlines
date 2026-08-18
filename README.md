@@ -22,34 +22,25 @@ Subscribe instead of importing the file. A subscription receives later deadline 
 
 All calendar entries are full-day events. Confirmed dates use their official cutoff internally. Placeholder titles contain `(PLACEHOLDER)` and remain tentative until the upcoming edition publishes its timeline. For AoE deadlines, the event description explains the corresponding cutoff in Central European time.
 
-## Read the data
-
-| File | Purpose | Edit directly? |
-| --- | --- | --- |
-| `conferences.yaml` | Maintained conference list, submission types, and official sources | Yes |
-| `data/deadlines.json` | Confirmed deadlines and sourced placeholders | Yes |
-| `data/history.json` | Superseded confirmed deadlines | Yes |
-| `data/conferences.json` | Website data generated from `conferences.yaml` | No |
-| `calendar.ics` | Generated subscription feed | No |
-
-`conferences.yaml` is the single source of truth for which conferences are monitored. IDs must remain stable because deadline events refer to them.
-
 ## Edit a conference
 
-Add or update an entry in `conferences.yaml`:
+Add or update an entry in `conferences.yaml`. For example, IEEE Quantum Week (QCE) is represented as:
 
 ```yaml
-- id: iccad
-  community: Design Automation
-  name: ICCAD
-  aliases: []
+- id: qce
+  community: Quantum Computing
+  name: QCE
+  aliases: [IEEE Quantum Week]
   monitored_submissions:
-    - abstract registration
-    - regular paper
+    - technical paper
     - workshop proposal
+    - workshop paper
+    - tutorial proposal
+    - panel proposal
+    - poster
   official_sources:
-    - url: https://iccad.com/2026
-      title: Official ICCAD site
+    - url: https://qce.quantum.ieee.org/2026/news-and-updates/
+      title: Official IEEE Quantum Week site
       status: 2027 deadlines not announced
   last_checked: "2026-08-18T11:49:39Z"
 ```
