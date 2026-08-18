@@ -4,6 +4,7 @@ policy: Only exact deadlines confirmed by an official conference source become c
 # This is the only maintained conference registry.
 # Keep IDs stable because deadline events refer to them.
 # Add every submission category that the daily sweep should monitor.
+# Include recurring main conference series only; do not add individual workshops.
 conferences:
   - id: iccad
     community: Design Automation
@@ -640,3 +641,608 @@ conferences:
         title: Official HEUREKA EasyChair call for papers
         status: confirmed
     last_checked: "2026-08-18T11:49:39Z"
+
+  # Recurring main conference series represented in the CDA publication record since 2022.
+  - id: icmr
+    community: Multimedia
+    name: ICMR
+    aliases: [ACM International Conference on Multimedia Retrieval]
+    discovery_windows: []
+    monitored_submissions:
+      - long research paper
+      - short research paper
+      - industry paper
+      - demonstration
+      - workshop proposal
+      - tutorial proposal
+      - grand-challenge proposal
+      - doctoral symposium
+    official_sources:
+      - url: https://www.acmicmr.org/
+        title: Official ACM ICMR conference-series site
+        status: 2027 call announced; deadlines not announced
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: fedcsis
+    community: Computer Science
+    name: FedCSIS
+    aliases: [Conference on Computer Science and Intelligence Systems]
+    discovery_windows: [mid April, mid May]
+    monitored_submissions:
+      - regular paper
+      - position paper
+      - industrial-track contribution
+      - special-session proposal
+      - summer-school proposal
+    official_sources:
+      - url: https://2026.fedcsis.org/about
+        title: Official FedCSIS site
+        status: 2026 submission deadlines passed; 2027 call not announced
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: dsd
+    community: Design Automation
+    name: DSD
+    aliases: [Euromicro Conference on Digital System Design]
+    discovery_windows: []
+    monitored_submissions:
+      - regular paper
+      - short paper
+      - work-in-progress paper
+      - special-session proposal
+      - demonstration
+    official_sources:
+      - url: https://dsd-seaa.com/
+        title: Official DSD/SEAA conference-series site
+        status: monitoring next DSD call
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: eurosense
+    community: Sensors
+    name: EuroSense
+    aliases: [European Conference on Sensory and Consumer Research]
+    discovery_windows: []
+    monitored_submissions:
+      - oral-presentation abstract
+      - poster abstract
+      - early-career contribution
+    official_sources:
+      - url: https://www.eurosense.elsevier.com/
+        title: Official EuroSense conference site
+        status: 2026 submissions closed; next call not announced
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: fdg
+    community: Computer Science
+    name: FDG
+    aliases: [Foundations of Digital Games]
+    discovery_windows: [mid December, late March]
+    monitored_submissions:
+      - regular paper
+      - late-breaking short paper
+      - game or demonstration
+      - panel proposal
+      - competition proposal
+      - doctoral consortium
+      - workshop proposal
+    official_sources:
+      - url: https://fdg2026.org/
+        title: Official FDG 2026 site
+        status: 2026 submissions closed; 2027 call not announced
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: apscon
+    community: Sensors
+    name: APSCON
+    aliases: [IEEE Applied Sensing Conference]
+    discovery_windows: []
+    monitored_submissions:
+      - regular paper
+      - special-session proposal
+      - poster
+      - demonstration
+    official_sources:
+      - url: https://ieee-sensors.org/conferences/
+        title: Official IEEE Sensors Council conference page
+        status: 2027 conference announced; deadlines not announced
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: iscas
+    community: Design Automation
+    name: ISCAS
+    aliases: [IEEE International Symposium on Circuits and Systems]
+    discovery_windows: [mid October]
+    monitored_submissions:
+      - regular paper
+      - special-session proposal
+      - tutorial proposal
+      - live demonstration
+    official_sources:
+      - url: https://2027.ieee-iscas.org/
+        title: Official ISCAS 2027 site
+        status: confirmed
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: ius
+    community: Sensors
+    name: IUS
+    aliases: [IEEE International Ultrasonics Symposium]
+    discovery_windows: []
+    monitored_submissions:
+      - abstract
+      - proceedings paper
+      - student paper
+      - workshop proposal
+      - panel proposal
+    official_sources:
+      - url: https://ieee-uffc.org/symposia/ius
+        title: Official IEEE UFFC IUS conference-series page
+        status: 2027 conference announced; deadlines not announced
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: lanano
+    community: Nanotech
+    name: IEEE LANANO
+    aliases: [IEEE Latin American Conference on Nanotechnology]
+    discovery_windows: []
+    monitored_submissions:
+      - regular paper
+      - poster
+      - special-session proposal
+      - tutorial proposal
+    official_sources:
+      - url: https://ieeenano.org/conferences/lanano/
+        title: Official IEEE Nanotechnology Council LANANO page
+        status: monitoring next call
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: lascas
+    community: Design Automation
+    name: LASCAS
+    aliases: [IEEE Latin American Symposium on Circuits and Systems]
+    discovery_windows: [early September]
+    monitored_submissions:
+      - regular paper
+      - special-session proposal
+      - tutorial proposal
+    official_sources:
+      - url: https://ieee-cas.org/conference-events
+        title: Official IEEE Circuits and Systems conference page
+        status: 2027 call confirmed
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: mapcon
+    community: Sensors
+    name: MAPCON
+    aliases: [IEEE Microwave, Antennas, and Propagation Conference]
+    discovery_windows: []
+    monitored_submissions:
+      - regular paper
+      - special-session proposal
+      - workshop proposal
+      - tutorial proposal
+      - student design competition
+      - doctoral initiative
+    official_sources:
+      - url: https://ieeemapcon.org/
+        title: Official IEEE MAPCON site
+        status: monitoring next call
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: radarconf
+    community: Sensors
+    name: IEEE Radar Conference
+    aliases: [RadarConf]
+    discovery_windows: []
+    monitored_submissions:
+      - regular paper
+      - special-session proposal
+      - tutorial proposal
+      - student paper
+    official_sources:
+      - url: https://radarconf2027.org/
+        title: Official IEEE Radar Conference 2027 site
+        status: 2027 conference announced; submission deadlines not announced
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: ieee-sensors
+    community: Sensors
+    name: IEEE SENSORS
+    aliases: [IEEE Conference on Sensors]
+    discovery_windows: []
+    monitored_submissions:
+      - regular paper
+      - focused-session proposal
+      - tutorial proposal
+      - demonstration
+      - student paper
+    official_sources:
+      - url: https://ieee-sensors.org/conferences/
+        title: Official IEEE Sensors Council conference page
+        status: 2027 edition not announced
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: wacv
+    community: Computer Vision
+    name: WACV
+    aliases: [IEEE/CVF Winter Conference on Applications of Computer Vision]
+    discovery_windows: [late June, late August]
+    monitored_submissions:
+      - paper enrollment
+      - conference paper
+      - workshop proposal
+      - tutorial proposal
+    official_sources:
+      - url: https://wacv.thecvf.com/
+        title: Official WACV site
+        status: 2027 round-two call active
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: ieee-iv
+    community: Transportation
+    name: IEEE IV
+    aliases: [IEEE Intelligent Vehicles Symposium]
+    discovery_windows: []
+    monitored_submissions:
+      - regular paper
+      - workshop proposal
+      - tutorial proposal
+      - poster
+    official_sources:
+      - url: https://ieee-iv.org/2027/
+        title: Official IEEE IV 2027 site
+        status: deadlines TBA
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: icassp
+    community: Signal Processing
+    name: ICASSP
+    aliases: [IEEE International Conference on Acoustics, Speech, and Signal Processing]
+    discovery_windows: [mid September]
+    monitored_submissions:
+      - full paper
+      - special-session proposal
+      - tutorial proposal
+      - journal-paper presentation
+    official_sources:
+      - url: https://ieeeicassp.org/
+        title: Official IEEE ICASSP conference-series site
+        status: 2027 call confirmed
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: icaart
+    community: Artificial Intelligence
+    name: ICAART
+    aliases: [International Conference on Agents and Artificial Intelligence]
+    discovery_windows: [mid September, late October]
+    monitored_submissions:
+      - regular paper
+      - position paper
+      - abstract
+      - workshop proposal
+      - special-session proposal
+      - tutorial, demonstration, or panel proposal
+    official_sources:
+      - url: https://icaart.scitevents.org/
+        title: Official ICAART conference site
+        status: 2027 call confirmed
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: icann
+    community: Artificial Intelligence
+    name: ICANN
+    aliases: [International Conference on Artificial Neural Networks]
+    discovery_windows: []
+    monitored_submissions:
+      - regular paper
+      - short paper
+      - special-session paper
+      - tutorial proposal
+    official_sources:
+      - url: https://e-nns.org/icann2026/
+        title: Official ICANN 2026 site
+        status: 2027 call not announced
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: civemsa
+    community: Sensors
+    name: CIVEMSA
+    aliases: [International Conference on Computational Intelligence and Virtual Environments for Measurement Systems and Applications]
+    discovery_windows: []
+    monitored_submissions:
+      - regular paper
+      - special-session proposal
+      - poster
+      - demonstration
+    official_sources:
+      - url: https://civemsa2025.ieee-ims.org/
+        title: Official IEEE CIVEMSA 2025 site
+        status: next edition not announced
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: dexa
+    community: Databases
+    name: DEXA
+    aliases: [International Conference on Database and Expert Systems Applications]
+    discovery_windows: []
+    monitored_submissions:
+      - research paper
+      - short paper
+      - application paper
+      - workshop proposal
+    official_sources:
+      - url: https://www.dexa.org/
+        title: Official DEXA conference-series site
+        status: monitoring next call
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: samos
+    community: Computer Architecture
+    name: SAMOS
+    aliases: [International Conference on Embedded Computer Systems Architectures Modeling and Simulation]
+    discovery_windows: []
+    monitored_submissions:
+      - regular paper
+      - short paper
+      - poster
+      - demonstration
+      - workshop or tutorial proposal
+    official_sources:
+      - url: https://samos-conference.com/
+        title: Official SAMOS conference site
+        status: monitoring next call
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: fmec
+    community: Distributed Systems
+    name: FMEC
+    aliases: [International Conference on Fog and Mobile Edge Computing]
+    discovery_windows: []
+    monitored_submissions:
+      - regular paper
+      - short paper
+      - poster or demonstration
+      - workshop proposal
+    official_sources:
+      - url: https://emergingtechnet.org/FMEC2026/
+        title: Official FMEC 2026 site
+        status: monitoring next call
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: iros
+    community: Robotics
+    name: IROS
+    aliases: [IEEE/RSJ International Conference on Intelligent Robots and Systems]
+    discovery_windows: [early March]
+    monitored_submissions:
+      - regular paper
+      - workshop or tutorial proposal
+      - late-breaking result
+    official_sources:
+      - url: https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros/
+        title: Official IEEE Robotics and Automation Society IROS page
+        status: 2027 paper deadline announced
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: icmla
+    community: Artificial Intelligence
+    name: ICMLA
+    aliases: [International Conference on Machine Learning and Applications]
+    discovery_windows: []
+    monitored_submissions:
+      - regular paper
+      - short paper
+      - special-track proposal
+      - workshop proposal
+    official_sources:
+      - url: https://www.icmla-conference.org/
+        title: Official ICMLA conference-series site
+        status: monitoring next call
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: icpp
+    community: Super Computing
+    name: ICPP
+    aliases: [International Conference on Parallel Processing]
+    discovery_windows: []
+    monitored_submissions:
+      - regular paper
+      - workshop proposal
+      - poster
+      - doctoral symposium
+    official_sources:
+      - url: https://icpp2026.github.io/
+        title: Official ICPP 2026 site
+        status: monitoring next call
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: qpl
+    community: Quantum Computing
+    name: QPL
+    aliases: [International Conference on Quantum Physics and Logic]
+    discovery_windows: [late February, early March]
+    monitored_submissions:
+      - contributed talk
+      - proceedings paper
+      - poster
+    official_sources:
+      - url: https://qplconference.org/
+        title: Official QPL conference-series site
+        status: monitoring next call
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: rssrail
+    community: Transportation
+    name: RSSRail
+    aliases: [International Conference on Reliability Safety and Security of Railway Systems]
+    discovery_windows: []
+    monitored_submissions:
+      - research paper
+      - industry paper
+      - poster
+      - artifact
+    official_sources:
+      - url: https://rssrail2025.isti.cnr.it/
+        title: Official RSSRail 2025 site
+        status: next edition not announced
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: icrera
+    community: Energy
+    name: ICRERA
+    aliases: [International Conference on Renewable Energy Research and Applications]
+    discovery_windows: []
+    monitored_submissions:
+      - regular paper
+      - special-session proposal
+      - workshop proposal
+      - tutorial proposal
+    official_sources:
+      - url: https://www.icrera.com/
+        title: Official ICRERA conference site
+        status: monitoring current call
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: sefm
+    community: Software Engineering
+    name: SEFM
+    aliases: [International Conference on Software Engineering and Formal Methods]
+    discovery_windows: []
+    monitored_submissions:
+      - regular paper
+      - tool paper
+      - research-idea paper
+      - artifact
+      - workshop proposal
+    official_sources:
+      - url: https://sefm-conference.github.io/
+        title: Official SEFM conference-series site
+        status: monitoring next call
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: vlsi-design
+    community: Design Automation
+    name: VLSI Design
+    aliases: [International Conference on VLSI Design, International Conference on Embedded Systems]
+    discovery_windows: [early August]
+    monitored_submissions:
+      - regular paper
+      - embedded-systems paper
+      - special-session proposal
+      - tutorial proposal
+      - student research forum
+    official_sources:
+      - url: https://vlsid.org/
+        title: Official VLSI Design conference site
+        status: 2027 call confirmed; submission deadline passed
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: ddecs
+    community: Design Automation
+    name: DDECS
+    aliases: [International Symposium on Design and Diagnostics of Electronic Circuits and Systems]
+    discovery_windows: []
+    monitored_submissions:
+      - regular paper
+      - poster
+      - special-session proposal
+    official_sources:
+      - url: https://www.ddecs.org/
+        title: Official DDECS conference-series site
+        status: monitoring next call
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: isdcs
+    community: Design Automation
+    name: ISDCS
+    aliases: [International Symposium on Devices Circuits and Systems]
+    discovery_windows: []
+    monitored_submissions:
+      - regular paper
+      - special-session proposal
+      - poster
+    official_sources:
+      - url: https://isdcs.iiests.ac.in/
+        title: Official ISDCS conference site
+        status: monitoring next call
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: mlcad
+    community: Design Automation
+    name: MLCAD
+    aliases: [International Symposium on Machine Learning for CAD]
+    discovery_windows: [late May]
+    monitored_submissions:
+      - abstract registration
+      - full manuscript
+      - contest submission
+      - poster
+    official_sources:
+      - url: https://mlcad.org/
+        title: Official MLCAD conference site
+        status: monitoring next call
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: spin
+    community: Software Engineering
+    name: SPIN
+    aliases: [International Symposium on Model Checking of Software]
+    discovery_windows: []
+    monitored_submissions:
+      - regular paper
+      - short paper
+      - tool paper
+      - case-study paper
+      - artifact
+    official_sources:
+      - url: https://spinroot.com/spin/Workshops/
+        title: Official SPIN symposium-series page
+        status: 2027 symposium announced; deadlines not announced
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: ispd
+    community: Design Automation
+    name: ISPD
+    aliases: [International Symposium on Physical Design]
+    discovery_windows: [late September]
+    monitored_submissions:
+      - title and abstract registration
+      - full manuscript
+      - contest submission
+    official_sources:
+      - url: https://ispd.cc/
+        title: Official ISPD conference-series site
+        status: 2027 call confirmed
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: ssi
+    community: Sensors
+    name: SSI
+    aliases: [Smart Systems Integration Conference and Exhibition, SSICE]
+    discovery_windows: []
+    monitored_submissions:
+      - abstract
+      - paper
+      - poster
+      - industry contribution
+    official_sources:
+      - url: https://smartsystemsintegration.com/
+        title: Official Smart Systems Integration conference site
+        status: 2027 call not announced
+    last_checked: "2026-08-18T12:23:22Z"
+
+  - id: xai
+    community: Artificial Intelligence
+    name: XAI World Conference
+    aliases: [World Conference on Explainable Artificial Intelligence]
+    discovery_windows: []
+    monitored_submissions:
+      - research paper
+      - late-breaking result or demonstration
+      - doctoral proposal
+      - tutorial proposal
+    official_sources:
+      - url: https://xaiworldconference.com/
+        title: Official World Conference on Explainable Artificial Intelligence site
+        status: 2027 call not announced
+    last_checked: "2026-08-18T12:23:22Z"
