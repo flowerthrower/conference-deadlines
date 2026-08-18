@@ -58,6 +58,22 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:hpc-asia-2027-research-paper@conference-deadlines
+DTSTAMP:20260818T121405Z
+LAST-MODIFIED:20260818T121405Z
+SEQUENCE:0
+SUMMARY:HPC Asia 2027 — Research paper
+DTSTART:20260914T115900Z
+DTEND:20260914T122900Z
+DESCRIPTION:Submission type: Research paper\nOfficial timezone: AoE (UTC-
+ 12)\nOfficial source: https://hpcasia2027.org/\nVerified: 2026-08-18T12:1
+ 4:05Z\nNotes: The official site states September 13\, 2026 without a time
+ \; normalized to 23:59 AoE.
+URL:https://hpcasia2027.org/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:heureka-2027-paper@conference-deadlines
 DTSTAMP:20260818T114939Z
 LAST-MODIFIED:20260818T114939Z

@@ -437,6 +437,39 @@ conferences:
         status: SC27 deadlines not announced
     last_checked: "2026-08-18T11:49:39Z"
 
+  - id: sca
+    community: Super Computing
+    name: SupercomputingAsia
+    aliases: [SCA, SC Asia, Supercomputing Asia]
+    discovery_windows: [mid July, mid September, late October, late November]
+    monitored_submissions:
+      - research paper
+      - workshop proposal
+      - workshop paper
+      - poster
+      - tutorial proposal
+      - Birds-of-a-Feather proposal
+    official_sources:
+      - url: https://www.sc-asia.org/
+        title: Official SupercomputingAsia site
+        status: 2027 call announced; deadlines not announced
+    last_checked: "2026-08-18T12:14:05Z"
+
+  - id: hpc-asia
+    community: Super Computing
+    name: HPC Asia
+    aliases: [HPCAsia, "International Conference on High Performance Computing in Asia-Pacific Region"]
+    discovery_windows: [mid September]
+    monitored_submissions:
+      - research paper
+      - workshop proposal
+      - workshop paper
+    official_sources:
+      - url: https://hpcasia2027.org/
+        title: Official HPC Asia 2027 site
+        status: paper deadline confirmed; workshop deadline TBA
+    last_checked: "2026-08-18T12:14:05Z"
+
   - id: isc
     community: Super Computing
     name: ISC

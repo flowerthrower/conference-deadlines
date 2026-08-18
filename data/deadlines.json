@@ -41,6 +41,19 @@
       "notes": "The official call marks this deadline as firm."
     },
     {
+      "id": "hpc-asia-2027-research-paper",
+      "conference_id": "hpc-asia",
+      "conference": "HPC Asia",
+      "edition": "2027",
+      "submission_type": "Research paper",
+      "all_day": false,
+      "deadline_at": "2026-09-13T23:59:00-12:00",
+      "timezone": "AoE (UTC-12)",
+      "source": {"url": "https://hpcasia2027.org/", "title": "Official HPC Asia 2027 site", "verified_at": "2026-08-18T12:14:05Z"},
+      "sequence": 0,
+      "notes": "The official site states September 13, 2026 without a time; normalized to 23:59 AoE."
+    },
+    {
       "id": "isqed-2027-regular-paper",
       "conference_id": "isqed",
       "conference": "ISQED",
