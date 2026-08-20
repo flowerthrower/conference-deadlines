@@ -1,10 +1,10 @@
 {
   "name": "conference-deadlines",
   "private": true,
-  "type": "module",
   "scripts": {
-    "generate": "node scripts/generate.mjs",
-    "validate": "node scripts/validate.mjs"
+    "plan": "node scripts/maintain.mjs plan",
+    "build": "node scripts/maintain.mjs build",
+    "check": "node scripts/maintain.mjs check"
   },
   "dependencies": {
     "yaml": "2.9.0"
