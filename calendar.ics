@@ -8,9 +8,27 @@ X-WR-CALDESC:Confirmed and clearly labeled placeholder submission deadlines
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:wacv-2027-workshop-proposal@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:WACV 2027 — Workshop proposal
+DTSTART;VALUE=DATE:20260808
+DTEND;VALUE=DATE:20260809
+DESCRIPTION:Community: Computer Vision\nSubmission type: Workshop proposa
+ l\nContent: Single PDF proposal of at most 3 pages using the official tem
+ plate\n\nNotes: 23:59 AoE means the cutoff is 14:00 on the following day 
+ in Central European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\
+ , UTC+1).\n\nOfficial source: https://wacv.thecvf.com/Conferences/2027/Ca
+ llForWorkshops\nVerified: 2026-08-24T05:01:12Z
+URL:https://wacv.thecvf.com/Conferences/2027/CallForWorkshops
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:wacv-2027-round-2-paper-enrollment@conference-deadlines
-DTSTAMP:20260818T130625Z
-LAST-MODIFIED:20260818T130625Z
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
 SEQUENCE:0
 SUMMARY:WACV 2027 — Paper enrollment — round 2
 DTSTART;VALUE=DATE:20260821
@@ -20,25 +38,25 @@ DESCRIPTION:Community: Computer Vision\nSubmission type: Paper enrollment
  es: 23:59 AoE means the cutoff is 14:00 on the following day in Central E
  uropean summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\
  nOfficial source: https://wacv.thecvf.com/Conferences/2027/AuthorGuides\n
- Verified: 2026-08-18T13:06:25Z
+ Verified: 2026-08-24T05:01:12Z
 URL:https://wacv.thecvf.com/Conferences/2027/AuthorGuides
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:wacv-2027-round-2-paper@conference-deadlines
-DTSTAMP:20260818T130625Z
-LAST-MODIFIED:20260818T130625Z
-SEQUENCE:0
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:1
 SUMMARY:WACV 2027 — Paper — round 2
 DTSTART;VALUE=DATE:20260828
 DTEND;VALUE=DATE:20260829
 DESCRIPTION:Community: Computer Vision\nSubmission type: Paper — round 
- 2\nContent: See the official source for submission requirements.\n\nNotes
- : 23:59 AoE means the cutoff is 14:00 on the following day in Central Eur
- opean summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nO
- fficial source: https://wacv.thecvf.com/Conferences/2027/AuthorGuides\nVe
- rified: 2026-08-18T13:06:25Z
+ 2\nContent: Up to 8 pages in PDF format\, excluding references\; maximum 
+ 50 MB\n\nNotes: 23:59 AoE means the cutoff is 14:00 on the following day 
+ in Central European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\
+ , UTC+1).\n\nOfficial source: https://wacv.thecvf.com/Conferences/2027/Au
+ thorGuides\nVerified: 2026-08-24T05:01:12Z
 URL:https://wacv.thecvf.com/Conferences/2027/AuthorGuides
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -84,39 +102,39 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:asplos-2027-september-full-paper@conference-deadlines
-DTSTAMP:20260818T114939Z
-LAST-MODIFIED:20260818T114939Z
-SEQUENCE:2
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:3
 SUMMARY:ASPLOS 2027 — Full paper — September cycle
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
 DESCRIPTION:Community: Computer Architecture\nSubmission type: Full paper
-  — September cycle\nContent: See the official source for submission req
- uirements.\n\nNotes: ASPLOS 2027 has no separate abstract-registration de
- adline. 23:59 AoE means the cutoff is 14:00 on the following day in Centr
- al European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1)
- .\n\nOfficial source: https://www.asplos-conference.org/asplos2027/cfp/\n
- Verified: 2026-08-18T11:49:39Z
+  — September cycle\nContent: 11-page PDF\, excluding references and app
+ endices\n\nNotes: ASPLOS 2027 has no separate abstract-registration deadl
+ ine. 23:59 AoE means the cutoff is 14:00 on the following day in Central 
+ European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n
+ \nOfficial source: https://www.asplos-conference.org/asplos2027/cfp/\nVer
+ ified: 2026-08-24T05:01:12Z
 URL:https://www.asplos-conference.org/asplos2027/cfp/
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:date-2027-paper-registration@conference-deadlines
-DTSTAMP:20260818T114939Z
-LAST-MODIFIED:20260818T114939Z
-SEQUENCE:2
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:3
 SUMMARY:DATE 2027 — Paper registration (title\, abstract\, and co-autho
  rs)
 DTSTART;VALUE=DATE:20260913
 DTEND;VALUE=DATE:20260914
 DESCRIPTION:Community: Design Automation\nSubmission type: Paper registra
- tion (title\, abstract\, and co-authors)\nContent: See the official sourc
- e for submission requirements.\n\nNotes: 23:59 AoE means the cutoff is 14
- :00 on the following day in Central European summer time (CEST\, UTC+2)\,
-  or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: https://www.date-c
- onference.com/date-2027-call-papers\nVerified: 2026-08-18T11:49:39Z
-URL:https://www.date-conference.com/date-2027-call-papers
+ tion (title\, abstract\, and co-authors)\nContent: Title\, abstract\, and
+  complete author list\n\nNotes: 23:59 AoE means the cutoff is 14:00 on th
+ e following day in Central European summer time (CEST\, UTC+2)\, or 13:00
+  in winter (CET\, UTC+1).\n\nOfficial source: https://www.date-conference
+ .com/call-for-papers\nVerified: 2026-08-24T05:01:12Z
+URL:https://www.date-conference.com/call-for-papers
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -160,26 +178,26 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:icaart-2027-regular-paper@conference-deadlines
-DTSTAMP:20260818T130625Z
-LAST-MODIFIED:20260818T130625Z
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
 SEQUENCE:0
-SUMMARY:ICAART 2027 — Regular paper
+SUMMARY:ICAART 2027 — Regular paper — first cycle
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 DESCRIPTION:Community: Artificial Intelligence\nSubmission type: Regular 
- paper\nContent: See the official source for submission requirements.\n\nN
- otes: 23:59 AoE means the cutoff is 14:00 on the following day in Central
-  European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\
- n\nOfficial source: https://icaart.scitevents.org/CallforPapers.aspx?y=20
- 27\nVerified: 2026-08-18T13:06:25Z
+ paper — first cycle\nContent: See the official source for submission re
+ quirements.\n\nNotes: 23:59 AoE means the cutoff is 14:00 on the followin
+ g day in Central European summer time (CEST\, UTC+2)\, or 13:00 in winter
+  (CET\, UTC+1).\n\nOfficial source: https://icaart.scitevents.org/Callfor
+ Papers.aspx?y=2027\nVerified: 2026-08-24T05:01:12Z
 URL:https://icaart.scitevents.org/CallforPapers.aspx?y=2027
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:icassp-2027-full-paper@conference-deadlines
-DTSTAMP:20260818T130625Z
-LAST-MODIFIED:20260818T130625Z
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
 SEQUENCE:0
 SUMMARY:ICASSP 2027 — Full paper
 DTSTART;VALUE=DATE:20260916
@@ -189,81 +207,96 @@ DESCRIPTION:Community: Signal Processing\nSubmission type: Full paper\nCo
  59 AoE means the cutoff is 14:00 on the following day in Central European
   summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOffici
  al source: https://2027.ieeeicassp.org/call-for-papers/\nVerified: 2026-0
- 8-18T13:06:25Z
+ 8-24T05:01:12Z
 URL:https://2027.ieeeicassp.org/call-for-papers/
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:isqed-2027-regular-paper@conference-deadlines
-DTSTAMP:20260818T114939Z
-LAST-MODIFIED:20260818T114939Z
-SEQUENCE:2
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:3
 SUMMARY:ISQED 2027 — Regular paper
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 DESCRIPTION:Community: Design Automation\nSubmission type: Regular paper\
- nContent: See the official source for submission requirements.\n\nNotes: 
- The source states midnight US Pacific Time\; represented as 23:59 PDT on 
- the stated date.\n\nOfficial source: https://www.isqed.org/English/Confer
- ence/Call_for_Papers.html\nVerified: 2026-08-18T11:49:39Z
+ nContent: 4–8 page manuscript with an abstract of about 200 words\n\nNo
+ tes: The source states midnight US Pacific Time\; represented as 23:59 PD
+ T on the stated date.\n\nOfficial source: https://www.isqed.org/English/C
+ onference/Call_for_Papers.html\nVerified: 2026-08-24T05:01:12Z
 URL:https://www.isqed.org/English/Conference/Call_for_Papers.html
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:isqed-2027-special-session-paper@conference-deadlines
-DTSTAMP:20260818T114939Z
-LAST-MODIFIED:20260818T114939Z
-SEQUENCE:2
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:3
 SUMMARY:ISQED 2027 — Special-session paper
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 DESCRIPTION:Community: Design Automation\nSubmission type: Special-sessio
- n paper\nContent: See the official source for submission requirements.\n\
- nNotes: The source states midnight US Pacific Time\; represented as 23:59
-  PDT on the stated date.\n\nOfficial source: https://www.isqed.org/Englis
- h/Conference/Call-for-Special-Sessions.html\nVerified: 2026-08-18T11:49:3
- 9Z
+ n paper\nContent: 2–4 page proposal with four contributing presentation
+ s\n\nNotes: The source states midnight US Pacific Time\; represented as 2
+ 3:59 PDT on the stated date.\n\nOfficial source: https://www.isqed.org/En
+ glish/Conference/Call-for-Special-Sessions.html\nVerified: 2026-08-24T05:
+ 01:12Z
 URL:https://www.isqed.org/English/Conference/Call-for-Special-Sessions.html
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:sca-2027-research-paper@conference-deadlines
-DTSTAMP:20260818T130625Z
-LAST-MODIFIED:20260818T130625Z
+UID:isqed-2027-work-in-progress-paper@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
 SEQUENCE:0
-SUMMARY:SupercomputingAsia 2027 (PLACEHOLDER) — Research paper
-DTSTART;VALUE=DATE:20260919
-DTEND;VALUE=DATE:20260920
-DESCRIPTION:Community: Super Computing\nSubmission type: Research paper\n
- Content: Up to 18 pages including figures and references (previous-editio
- n requirement)\n\nNotes: PLACEHOLDER: projected from the official 2026 de
- adline at 2025-09-19T23:59:00-12:00\; this is not a confirmed 2027 date a
- nd the official source below is historical. 23:59 AoE means the cutoff is
-  14:00 on the following day in Central European summer time (CEST\, UTC+2
- )\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: https://www.sc-
- asia.org/2026/submit/papers.html\nVerified: 2026-08-18T13:06:25Z
-URL:https://www.sc-asia.org/2026/submit/papers.html
+SUMMARY:ISQED 2027 — Work-in-progress paper
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+DESCRIPTION:Community: Design Automation\nSubmission type: Work-in-progre
+ ss paper\nContent: 100-word abstract and one-page PDF manuscript\n\nNotes
+ : The source states midnight US Pacific Time\; represented as 23:59 PDT o
+ n the stated date.\n\nOfficial source: https://www.isqed.org/English/Conf
+ erence/wip.html\nVerified: 2026-08-24T05:01:12Z
+URL:https://www.isqed.org/English/Conference/wip.html
 TRANSP:TRANSPARENT
-STATUS:TENTATIVE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:sca-2027-workshop-proposal@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:SupercomputingAsia 2027 — Workshop proposal
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+DESCRIPTION:Community: Super Computing\nSubmission type: Workshop proposa
+ l\nContent: PDF proposal with workshop scope\, organizers\, structure\, a
+ nd selection plan\n\nNotes: 23:59 AoE means the cutoff is 14:00 on the fo
+ llowing day in Central European summer time (CEST\, UTC+2)\, or 13:00 in 
+ winter (CET\, UTC+1).\n\nOfficial source: https://www.sc-asia.org/sca2027
+ -call-for-workshop-proposals/\nVerified: 2026-08-24T05:01:12Z
+URL:https://www.sc-asia.org/sca2027-call-for-workshop-proposals/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:date-2027-full-paper@conference-deadlines
-DTSTAMP:20260818T114939Z
-LAST-MODIFIED:20260818T114939Z
-SEQUENCE:2
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:3
 SUMMARY:DATE 2027 — Full paper
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 DESCRIPTION:Community: Design Automation\nSubmission type: Full paper\nCo
- ntent: See the official source for submission requirements.\n\nNotes: The
-  official call marks this deadline as firm. 23:59 AoE means the cutoff is
-  14:00 on the following day in Central European summer time (CEST\, UTC+2
- )\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: https://www.dat
- e-conference.com/date-2027-call-papers\nVerified: 2026-08-18T11:49:39Z
-URL:https://www.date-conference.com/date-2027-call-papers
+ ntent: Up to 6 pages plus one references-only page\n\nNotes: The official
+  call marks this deadline as firm. 23:59 AoE means the cutoff is 14:00 on
+  the following day in Central European summer time (CEST\, UTC+2)\, or 13
+ :00 in winter (CET\, UTC+1).\n\nOfficial source: https://www.date-confere
+ nce.com/call-for-papers\nVerified: 2026-08-24T05:01:12Z
+URL:https://www.date-conference.com/call-for-papers
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -322,6 +355,43 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:sca-2027-paper-abstract@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:SupercomputingAsia 2027 — Paper abstract
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+DESCRIPTION:Community: Super Computing\nSubmission type: Paper abstract\n
+ Content: See the official source for submission requirements.\n\nNotes: A
+ bstract submission is encouraged but optional\; new abstracts remain acce
+ pted until the full-paper deadline. 23:59 AoE means the cutoff is 14:00 o
+ n the following day in Central European summer time (CEST\, UTC+2)\, or 1
+ 3:00 in winter (CET\, UTC+1).\n\nOfficial source: https://www.sc-asia.org
+ /sca2027-call-for-papers/\nVerified: 2026-08-24T05:01:12Z
+URL:https://www.sc-asia.org/sca2027-call-for-papers/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:sca-2027-tutorial-proposal@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:SupercomputingAsia 2027 — Tutorial proposal
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+DESCRIPTION:Community: Super Computing\nSubmission type: Tutorial proposa
+ l\nContent: Single PDF proposal with a tutorial plan and presenter inform
+ ation\n\nNotes: 23:59 AoE means the cutoff is 14:00 on the following day 
+ in Central European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\
+ , UTC+1).\n\nOfficial source: https://www.sc-asia.org/sca2027-call-for-tu
+ torials/\nVerified: 2026-08-24T05:01:12Z
+URL:https://www.sc-asia.org/sca2027-call-for-tutorials/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-iv-2027-regular-paper@conference-deadlines
 DTSTAMP:20260818T130625Z
 LAST-MODIFIED:20260818T130625Z
@@ -337,6 +407,82 @@ DESCRIPTION:Community: Transportation\nSubmission type: Regular paper\nCo
  13:00 in winter (CET\, UTC+1).\n\nOfficial source: https://ieee-iv.org/20
  26/\nVerified: 2026-08-18T13:06:25Z
 URL:https://ieee-iv.org/2026/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:icaart-2027-workshop-proposal@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:ICAART 2027 — Workshop proposal
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+DESCRIPTION:Community: Artificial Intelligence\nSubmission type: Workshop
+  proposal\nContent: See the official source for submission requirements.\
+ n\nNotes: No official time was stated\; normalized to 23:59 AoE. 23:59 Ao
+ E means the cutoff is 14:00 on the following day in Central European summ
+ er time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial so
+ urce: https://icaart.scitevents.org/CallforPapers.aspx?y=2027\nVerified: 
+ 2026-08-24T05:01:12Z
+URL:https://icaart.scitevents.org/CallforPapers.aspx?y=2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:icaart-2027-special-session-proposal@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:ICAART 2027 — Special-session proposal
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+DESCRIPTION:Community: Artificial Intelligence\nSubmission type: Special-
+ session proposal\nContent: See the official source for submission require
+ ments.\n\nNotes: No official time was stated\; normalized to 23:59 AoE. 2
+ 3:59 AoE means the cutoff is 14:00 on the following day in Central Europe
+ an summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOffi
+ cial source: https://icaart.scitevents.org/CallforPapers.aspx?y=2027\nVer
+ ified: 2026-08-24T05:01:12Z
+URL:https://icaart.scitevents.org/CallforPapers.aspx?y=2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:icaart-2027-tutorial-demonstration-panel-proposal@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:ICAART 2027 — Tutorial\, demonstration\, or panel proposal
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+DESCRIPTION:Community: Artificial Intelligence\nSubmission type: Tutorial
+ \, demonstration\, or panel proposal\nContent: See the official source fo
+ r submission requirements.\n\nNotes: No official time was stated\; normal
+ ized to 23:59 AoE. 23:59 AoE means the cutoff is 14:00 on the following d
+ ay in Central European summer time (CEST\, UTC+2)\, or 13:00 in winter (C
+ ET\, UTC+1).\n\nOfficial source: https://icaart.scitevents.org/CallforPap
+ ers.aspx?y=2027\nVerified: 2026-08-24T05:01:12Z
+URL:https://icaart.scitevents.org/CallforPapers.aspx?y=2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:wacv-2027-tutorial-proposal@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:WACV 2027 — Tutorial proposal
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+DESCRIPTION:Community: Computer Vision\nSubmission type: Tutorial proposa
+ l\nContent: PDF proposal of at most 3 pages\, excluding biographies\n\nNo
+ tes: No official time was stated\; normalized to 23:59 AoE. 23:59 AoE mea
+ ns the cutoff is 14:00 on the following day in Central European summer ti
+ me (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source:
+  https://wacv.thecvf.com/Conferences/2027/CallForTutorials\nVerified: 202
+ 6-08-24T05:01:12Z
+URL:https://wacv.thecvf.com/Conferences/2027/CallForTutorials
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -378,25 +524,22 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:oopsla-2027-round-1-research-paper@conference-deadlines
-DTSTAMP:20260818T130625Z
-LAST-MODIFIED:20260818T130625Z
-SEQUENCE:0
-SUMMARY:OOPSLA 2027 (PLACEHOLDER) — Research paper — round 1
-DTSTART;VALUE=DATE:20261010
-DTEND;VALUE=DATE:20261011
-DESCRIPTION:Community: Software Engineering\nSubmission type: Research pa
- per — round 1\nContent: Up to 23 pages\, excluding required statements\
- , references\, and supplementary material (previous-edition requirement)\
- n\nNotes: PLACEHOLDER: projected from the official 2026 deadline at 2025-
- 10-10T23:59:00-12:00\; this is not a confirmed 2027 date and the official
-  source below is historical. 23:59 AoE means the cutoff is 14:00 on the f
- ollowing day in Central European summer time (CEST\, UTC+2)\, or 13:00 in
-  winter (CET\, UTC+1).\n\nOfficial source: https://conf.researchr.org/tra
- ck/splash-2026/oopsla-2026\nVerified: 2026-08-18T13:06:25Z
-URL:https://conf.researchr.org/track/splash-2026/oopsla-2026
+UID:sca-2027-research-paper@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:1
+SUMMARY:SupercomputingAsia 2027 — Research paper
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+DESCRIPTION:Community: Super Computing\nSubmission type: Research paper\n
+ Content: Up to 18 pages in PDF format\, including figures and references\
+ n\nNotes: 23:59 AoE means the cutoff is 14:00 on the following day in Cen
+ tral European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+
+ 1).\n\nOfficial source: https://www.sc-asia.org/sca2027-call-for-papers/\
+ nVerified: 2026-08-24T05:01:12Z
+URL:https://www.sc-asia.org/sca2027-call-for-papers/
 TRANSP:TRANSPARENT
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:iscas-2027-regular-paper@conference-deadlines
@@ -417,9 +560,28 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:oopsla-2027-round-1-research-paper@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:1
+SUMMARY:OOPSLA 2027 — Research paper — round 1
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+DESCRIPTION:Community: Software Engineering\nSubmission type: Research pa
+ per — round 1\nContent: Up to 23 pages\, excluding required statements\
+ , references\, and supplementary material\n\nNotes: 23:59 AoE means the c
+ utoff is 14:00 on the following day in Central European summer time (CEST
+ \, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: https:/
+ /conf.researchr.org/track/splash-2027/splashoopsla2027\nVerified: 2026-08
+ -24T05:01:12Z
+URL:https://conf.researchr.org/track/splash-2027/splashoopsla2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:esop-2027-round-2-paper@conference-deadlines
-DTSTAMP:20260818T114939Z
-LAST-MODIFIED:20260818T114939Z
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
 SEQUENCE:2
 SUMMARY:ESOP 2027 — Paper — round 2
 DTSTART;VALUE=DATE:20261015
@@ -428,8 +590,8 @@ DESCRIPTION:Community: Software Engineering\nSubmission type: Paper — r
  ound 2\nContent: See the official source for submission requirements.\n\n
  Notes: 23:59 AoE means the cutoff is 14:00 on the following day in Centra
  l European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).
- \n\nOfficial source: https://etaps.org/2027/cfp/\nVerified: 2026-08-18T11
- :49:39Z
+ \n\nOfficial source: https://etaps.org/2027/cfp/\nVerified: 2026-08-24T05
+ :01:12Z
 URL:https://etaps.org/2027/cfp/
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -448,6 +610,78 @@ DESCRIPTION:Community: Software Engineering\nSubmission type: Paper\nCont
  ummer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial
   source: https://etaps.org/2027/cfp/\nVerified: 2026-08-18T11:49:39Z
 URL:https://etaps.org/2027/cfp/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:date-2027-focus-session-proposal@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:DATE 2027 — Focus-session proposal (panel or hot-topic session)
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+DESCRIPTION:Community: Design Automation\nSubmission type: Focus-session 
+ proposal (panel or hot-topic session)\nContent: Extended summary describi
+ ng the topic\, speakers\, and format\n\nNotes: 23:59 AoE means the cutoff
+  is 14:00 on the following day in Central European summer time (CEST\, UT
+ C+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: https://www.
+ date-conference.com/call-for-papers\nVerified: 2026-08-24T05:01:12Z
+URL:https://www.date-conference.com/call-for-papers
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:date-2027-tutorial-proposal@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:DATE 2027 — Tutorial proposal
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+DESCRIPTION:Community: Design Automation\nSubmission type: Tutorial propo
+ sal\nContent: PDF proposal with objectives\, plan\, organizers\, and pres
+ enters\n\nNotes: 23:59 AoE means the cutoff is 14:00 on the following day
+  in Central European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET
+ \, UTC+1).\n\nOfficial source: https://www.date-conference.com/call-for-p
+ apers\nVerified: 2026-08-24T05:01:12Z
+URL:https://www.date-conference.com/call-for-papers
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:date-2027-workshop-proposal@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:DATE 2027 — Workshop proposal
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+DESCRIPTION:Community: Design Automation\nSubmission type: Workshop propo
+ sal\nContent: PDF workshop proposal using the official template\n\nNotes:
+  23:59 AoE means the cutoff is 14:00 on the following day in Central Euro
+ pean summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOf
+ ficial source: https://www.date-conference.com/call-for-papers\nVerified:
+  2026-08-24T05:01:12Z
+URL:https://www.date-conference.com/call-for-papers
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:date-2027-multi-partner-project-abstract@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:DATE 2027 — Multi-partner project — abstract
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+DESCRIPTION:Community: Design Automation\nSubmission type: Multi-partner 
+ project — abstract\nContent: See the official source for submission req
+ uirements.\n\nNotes: 23:59 AoE means the cutoff is 14:00 on the following
+  day in Central European summer time (CEST\, UTC+2)\, or 13:00 in winter 
+ (CET\, UTC+1).\n\nOfficial source: https://www.date-conference.com/call-f
+ or-papers\nVerified: 2026-08-24T05:01:12Z
+URL:https://www.date-conference.com/call-for-papers
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -472,20 +706,39 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:isqed-2027-workshop-tutorial-proposal@conference-deadlines
-DTSTAMP:20260818T114939Z
-LAST-MODIFIED:20260818T114939Z
-SEQUENCE:3
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:4
 SUMMARY:ISQED 2027 — Workshop or tutorial proposal
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 DESCRIPTION:Community: Design Automation\nSubmission type: Workshop or tu
- torial proposal\nContent: See the official source for submission requirem
- ents.\n\nNotes: No official time was stated\; normalized to 23:59 AoE. 23
- :59 AoE means the cutoff is 14:00 on the following day in Central Europea
- n summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOffic
- ial source: https://www.isqed.org/English/Conference/Call_for_Papers.html
- \nVerified: 2026-08-18T11:49:39Z
+ torial proposal\nContent: Text or PDF proposal with organizer\, presenter
+ s\, and presenter biographies\n\nNotes: No official time was stated\; nor
+ malized to 23:59 AoE. 23:59 AoE means the cutoff is 14:00 on the followin
+ g day in Central European summer time (CEST\, UTC+2)\, or 13:00 in winter
+  (CET\, UTC+1).\n\nOfficial source: https://www.isqed.org/English/Confere
+ nce/Call_for_Papers.html\nVerified: 2026-08-24T05:01:12Z
 URL:https://www.isqed.org/English/Conference/Call_for_Papers.html
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:icaart-2027-position-paper@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:ICAART 2027 — Position paper or regular paper — second cycle
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+DESCRIPTION:Community: Artificial Intelligence\nSubmission type: Position
+  paper or regular paper — second cycle\nContent: See the official sourc
+ e for submission requirements.\n\nNotes: No official time was stated\; no
+ rmalized to 23:59 AoE. 23:59 AoE means the cutoff is 14:00 on the followi
+ ng day in Central European summer time (CEST\, UTC+2)\, or 13:00 in winte
+ r (CET\, UTC+1).\n\nOfficial source: https://icaart.scitevents.org/Callfo
+ rPapers.aspx?y=2027\nVerified: 2026-08-24T05:01:12Z
+URL:https://icaart.scitevents.org/CallforPapers.aspx?y=2027
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -533,6 +786,24 @@ TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
+UID:date-2027-multi-partner-project-paper@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:DATE 2027 — Multi-partner project — full paper
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+DESCRIPTION:Community: Design Automation\nSubmission type: Multi-partner 
+ project — full paper\nContent: Up to 6 pages plus one references-only p
+ age\n\nNotes: 23:59 AoE means the cutoff is 14:00 on the following day in
+  Central European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, 
+ UTC+1).\n\nOfficial source: https://www.date-conference.com/call-for-pape
+ rs\nVerified: 2026-08-24T05:01:12Z
+URL:https://www.date-conference.com/call-for-papers
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:radarconf-2027-regular-paper@conference-deadlines
 DTSTAMP:20260818T133225Z
 LAST-MODIFIED:20260818T133225Z
@@ -553,23 +824,21 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:ismvl-2027-regular-paper@conference-deadlines
-DTSTAMP:20260818T130625Z
-LAST-MODIFIED:20260818T130625Z
-SEQUENCE:0
-SUMMARY:ISMVL 2027 (PLACEHOLDER) — Regular paper
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:1
+SUMMARY:ISMVL 2027 — Regular paper
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 DESCRIPTION:Community: Design Automation\nSubmission type: Regular paper\
- nContent: See the official source for submission requirements.\n\nNotes: 
- PLACEHOLDER: projected from the official 2026 deadline at 2025-11-01T23:5
- 9:00-12:00\; this is not a confirmed 2027 date and the official source be
- low is historical. 23:59 AoE means the cutoff is 14:00 on the following d
- ay in Central European summer time (CEST\, UTC+2)\, or 13:00 in winter (C
- ET\, UTC+1).\n\nOfficial source: https://www.ismvl.org/mvl26_CFP.html\nVe
- rified: 2026-08-18T13:06:25Z
-URL:https://www.ismvl.org/mvl26_CFP.html
+ nContent: Up to 6 pages in PDF format with a 50–100 word abstract\n\nNo
+ tes: No official time was stated\; normalized to 23:59 AoE. 23:59 AoE mea
+ ns the cutoff is 14:00 on the following day in Central European summer ti
+ me (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source:
+  https://mvl.jpn.org/ISMVL2027/cfp.php\nVerified: 2026-08-24T05:01:12Z
+URL:https://mvl.jpn.org/ISMVL2027/cfp.php
 TRANSP:TRANSPARENT
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:isca-2027-abstract-registration@conference-deadlines
@@ -667,6 +936,155 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:sca-2027-workshop-paper@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:SupercomputingAsia 2027 — Workshop paper
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+DESCRIPTION:Community: Super Computing\nSubmission type: Workshop paper\n
+ Content: See the official source for submission requirements.\n\nNotes: 2
+ 3:59 AoE means the cutoff is 14:00 on the following day in Central Europe
+ an summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOffi
+ cial source: https://www.sc-asia.org/sca2027-call-for-workshop-proposals/
+ \nVerified: 2026-08-24T05:01:12Z
+URL:https://www.sc-asia.org/sca2027-call-for-workshop-proposals/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:date-2027-late-breaking-result@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:DATE 2027 — Late-breaking result
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:Community: Design Automation\nSubmission type: Late-breaking 
+ result\nContent: 2-page extended abstract with one optional references-on
+ ly page\n\nNotes: 23:59 AoE means the cutoff is 14:00 on the following da
+ y in Central European summer time (CEST\, UTC+2)\, or 13:00 in winter (CE
+ T\, UTC+1).\n\nOfficial source: https://www.date-conference.com/call-for-
+ papers\nVerified: 2026-08-24T05:01:12Z
+URL:https://www.date-conference.com/call-for-papers
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:date-2027-phd-forum@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:DATE 2027 — PhD forum
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+DESCRIPTION:Community: Design Automation\nSubmission type: PhD forum\nCon
+ tent: 2-page extended abstract\, excluding references\n\nNotes: 23:59 AoE
+  means the cutoff is 14:00 on the following day in Central European summe
+ r time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial sou
+ rce: https://www.date-conference.com/call-for-papers\nVerified: 2026-08-2
+ 4T05:01:12Z
+URL:https://www.date-conference.com/call-for-papers
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:sca-2027-poster-round-1@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:SupercomputingAsia 2027 — Poster — round 1
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+DESCRIPTION:Community: Super Computing\nSubmission type: Poster — round
+  1\nContent: One-page extended abstract\, including references\n\nNotes: 
+ 23:59 AoE means the cutoff is 14:00 on the following day in Central Europ
+ ean summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOff
+ icial source: https://www.sc-asia.org/sca2027-call-for-posters/\nVerified
+ : 2026-08-24T05:01:12Z
+URL:https://www.sc-asia.org/sca2027-call-for-posters/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:sca-2027-birds-of-a-feather-round-1@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:SupercomputingAsia 2027 — Birds-of-a-Feather proposal — round 1
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+DESCRIPTION:Community: Super Computing\nSubmission type: Birds-of-a-Feath
+ er proposal — round 1\nContent: PDF proposal with a 100-word abstract a
+ nd up to 1000-word description\n\nNotes: 23:59 AoE means the cutoff is 14
+ :00 on the following day in Central European summer time (CEST\, UTC+2)\,
+  or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: https://www.sc-asi
+ a.org/sca2027-call-for-birds-of-a-feather-bof-proposals/\nVerified: 2026-
+ 08-24T05:01:12Z
+URL:https://www.sc-asia.org/sca2027-call-for-birds-of-a-feather-bof-propo
+ sals/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:icaart-2027-abstract@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:ICAART 2027 — Abstract
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+DESCRIPTION:Community: Artificial Intelligence\nSubmission type: Abstract
+ \nContent: See the official source for submission requirements.\n\nNotes:
+  No official time was stated\; normalized to 23:59 AoE. 23:59 AoE means t
+ he cutoff is 14:00 on the following day in Central European summer time (
+ CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: htt
+ ps://icaart.scitevents.org/CallforPapers.aspx?y=2027\nVerified: 2026-08-2
+ 4T05:01:12Z
+URL:https://icaart.scitevents.org/CallforPapers.aspx?y=2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:icaart-2027-workshop-paper@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:ICAART 2027 — Workshop paper
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+DESCRIPTION:Community: Artificial Intelligence\nSubmission type: Workshop
+  paper\nContent: See the official source for submission requirements.\n\n
+ Notes: No official time was stated\; normalized to 23:59 AoE. 23:59 AoE m
+ eans the cutoff is 14:00 on the following day in Central European summer 
+ time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial sourc
+ e: https://icaart.scitevents.org/CallforPapers.aspx?y=2027\nVerified: 202
+ 6-08-24T05:01:12Z
+URL:https://icaart.scitevents.org/CallforPapers.aspx?y=2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:icaart-2027-special-session-paper@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:ICAART 2027 — Special-session paper
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+DESCRIPTION:Community: Artificial Intelligence\nSubmission type: Special-
+ session paper\nContent: See the official source for submission requiremen
+ ts.\n\nNotes: No official time was stated\; normalized to 23:59 AoE. 23:5
+ 9 AoE means the cutoff is 14:00 on the following day in Central European 
+ summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficia
+ l source: https://icaart.scitevents.org/CallforPapers.aspx?y=2027\nVerifi
+ ed: 2026-08-24T05:01:12Z
+URL:https://icaart.scitevents.org/CallforPapers.aspx?y=2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:qip-2027-poster-submission@conference-deadlines
 DTSTAMP:20260818T114939Z
 LAST-MODIFIED:20260818T114939Z
@@ -725,6 +1143,43 @@ TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
+UID:icassp-2027-journal-paper-presentation@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:ICASSP 2027 — Journal-paper presentation
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+DESCRIPTION:Community: Signal Processing\nSubmission type: Journal-paper 
+ presentation\nContent: See the official source for submission requirement
+ s.\n\nNotes: No official time was stated\; normalized to 23:59 AoE. 23:59
+  AoE means the cutoff is 14:00 on the following day in Central European s
+ ummer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial
+  source: https://2027.ieeeicassp.org/call-for-papers/\nVerified: 2026-08-
+ 24T05:01:12Z
+URL:https://2027.ieeeicassp.org/call-for-papers/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:asplos-2027-summer-artifact@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:ASPLOS 2027 — Artifact — summer cycle
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+DESCRIPTION:Community: Computer Architecture\nSubmission type: Artifact 
+ — summer cycle\nContent: Artifact abstract and paper PDF with Artifact 
+ Appendix\n\nNotes: 23:59 AoE means the cutoff is 14:00 on the following d
+ ay in Central European summer time (CEST\, UTC+2)\, or 13:00 in winter (C
+ ET\, UTC+1).\n\nOfficial source: https://www.asplos-conference.org/asplos
+ 2027/artifact-evaluation/\nVerified: 2026-08-24T05:01:12Z
+URL:https://www.asplos-conference.org/asplos2027/artifact-evaluation/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:ddecs-2027-regular-paper@conference-deadlines
 DTSTAMP:20260818T133225Z
 LAST-MODIFIED:20260818T133225Z
@@ -744,6 +1199,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:esop-2027-artifact@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:ESOP 2027 — Artifact
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+DESCRIPTION:Community: Software Engineering\nSubmission type: Artifact\nC
+ ontent: Artifact with optional 5-page experience report including a 1-pag
+ e bibliography\n\nNotes: 23:59 AoE means the cutoff is 14:00 on the follo
+ wing day in Central European summer time (CEST\, UTC+2)\, or 13:00 in win
+ ter (CET\, UTC+1).\n\nOfficial source: https://etaps.org/2027/cfp/\nVerif
+ ied: 2026-08-24T05:01:12Z
+URL:https://etaps.org/2027/cfp/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-nano-2027-special-session-proposal@conference-deadlines
 DTSTAMP:20260818T114939Z
 LAST-MODIFIED:20260818T114939Z
@@ -758,6 +1231,45 @@ DESCRIPTION:Community: Nanotech\nSubmission type: Special-session proposa
  (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: ht
  tps://2027.ieeenano.org/\nVerified: 2026-08-18T11:49:39Z
 URL:https://2027.ieeenano.org/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:sca-2027-poster-round-2@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:SupercomputingAsia 2027 — Poster — round 2
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+DESCRIPTION:Community: Super Computing\nSubmission type: Poster — round
+  2\nContent: One-page extended abstract\, including references\n\nNotes: 
+ The second round opens only if slots remain after round 1. 23:59 AoE mean
+ s the cutoff is 14:00 on the following day in Central European summer tim
+ e (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: 
+ https://www.sc-asia.org/sca2027-call-for-posters/\nVerified: 2026-08-24T0
+ 5:01:12Z
+URL:https://www.sc-asia.org/sca2027-call-for-posters/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:sca-2027-birds-of-a-feather-round-2@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:0
+SUMMARY:SupercomputingAsia 2027 — Birds-of-a-Feather proposal — round 2
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+DESCRIPTION:Community: Super Computing\nSubmission type: Birds-of-a-Feath
+ er proposal — round 2\nContent: PDF proposal with a 100-word abstract a
+ nd up to 1000-word description\n\nNotes: 23:59 AoE means the cutoff is 14
+ :00 on the following day in Central European summer time (CEST\, UTC+2)\,
+  or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: https://www.sc-asi
+ a.org/sca2027-call-for-birds-of-a-feather-bof-proposals/\nVerified: 2026-
+ 08-24T05:01:12Z
+URL:https://www.sc-asia.org/sca2027-call-for-birds-of-a-feather-bof-propo
+ sals/
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -954,27 +1466,6 @@ TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
-UID:oopsla-2027-round-2-research-paper@conference-deadlines
-DTSTAMP:20260818T130625Z
-LAST-MODIFIED:20260818T130625Z
-SEQUENCE:0
-SUMMARY:OOPSLA 2027 (PLACEHOLDER) — Research paper — round 2
-DTSTART;VALUE=DATE:20270317
-DTEND;VALUE=DATE:20270318
-DESCRIPTION:Community: Software Engineering\nSubmission type: Research pa
- per — round 2\nContent: Up to 23 pages\, excluding required statements\
- , references\, and supplementary material (previous-edition requirement)\
- n\nNotes: PLACEHOLDER: projected from the official 2026 deadline at 2026-
- 03-17T23:59:00-12:00\; this is not a confirmed 2027 date and the official
-  source below is historical. 23:59 AoE means the cutoff is 14:00 on the f
- ollowing day in Central European summer time (CEST\, UTC+2)\, or 13:00 in
-  winter (CET\, UTC+1).\n\nOfficial source: https://conf.researchr.org/tra
- ck/splash-2026/oopsla-2026\nVerified: 2026-08-18T13:06:25Z
-URL:https://conf.researchr.org/track/splash-2026/oopsla-2026
-TRANSP:TRANSPARENT
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
 UID:qsw-2027-regular-paper@conference-deadlines
 DTSTAMP:20260818T130625Z
 LAST-MODIFIED:20260818T130625Z
@@ -1071,6 +1562,25 @@ DESCRIPTION:Community: Design Automation\nSubmission type: Abstract regis
 URL:https://iccad.com/2026
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:oopsla-2027-round-2-research-paper@conference-deadlines
+DTSTAMP:20260824T050112Z
+LAST-MODIFIED:20260824T050112Z
+SEQUENCE:1
+SUMMARY:OOPSLA 2027 — Research paper — round 2
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+DESCRIPTION:Community: Software Engineering\nSubmission type: Research pa
+ per — round 2\nContent: Up to 23 pages\, excluding required statements\
+ , references\, and supplementary material\n\nNotes: 23:59 AoE means the c
+ utoff is 14:00 on the following day in Central European summer time (CEST
+ \, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: https:/
+ /conf.researchr.org/track/splash-2027/splashoopsla2027\nVerified: 2026-08
+ -24T05:01:12Z
+URL:https://conf.researchr.org/track/splash-2027/splashoopsla2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:sc-2027-technical-paper@conference-deadlines
