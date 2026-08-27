@@ -91,6 +91,14 @@ conferences:
         covers:
           - research-manuscript
         verified_at: 2026-08-18T13:06:25Z
+      - id: engineering-track
+        url: https://dac.com/2026/program/back-end-track-submissions
+        title: Official DAC 2027 engineering-track submission timeline
+        edition: "2027"
+        status: current
+        covers:
+          - engineering-track-presentation
+        verified_at: 2026-08-27T14:48:38Z
   - id: ismvl
     community: Design Automation
     name: ISMVL
@@ -180,7 +188,7 @@ conferences:
         status: current
         covers:
           - work-in-progress-paper
-        verified_at: 2026-08-24T05:01:12Z
+        verified_at: 2026-08-27T14:48:38Z
       - id: deadline-1
         url: https://www.isqed.org/English/Conference/Call-for-Special-Sessions.html
         title: Official ISQED call for special sessions
@@ -676,14 +684,16 @@ conferences:
       research-paper: Research paper
       workshop-proposal: Workshop proposal
       workshop-paper: Workshop paper
+      poster: Poster
+      tutorial-proposal: Tutorial proposal
     official_sources:
       - id: official
-        url: https://hpcasia2027.org/
-        title: Official HPC Asia 2027 site
+        url: https://hpcasia2027.org/2027/pages_submission/schedule.vm
+        title: Official HPC Asia 2027 submission schedule
         edition: "2027"
         status: current
         covers: all
-        verified_at: 2026-08-18T12:14:05Z
+        verified_at: 2026-08-27T14:48:38Z
   - id: isc
     community: Super Computing
     name: ISC
@@ -692,6 +702,7 @@ conferences:
     aliases:
       - ISC High Performance
     monitored_submissions:
+      abstract-registration: Abstract registration
       research-paper: Research paper
       research-poster: Research poster
       project-poster: Project poster
@@ -719,6 +730,23 @@ conferences:
           - project-poster
           - birds-of-a-feather-proposal
         verified_at: 2026-08-18T11:49:39Z
+      - id: research-paper
+        url: https://isc-hpc.com/submissions/research-paper/
+        title: Official ISC 2027 research-paper submissions page
+        edition: "2027"
+        status: current
+        covers:
+          - abstract-registration
+          - research-paper
+        verified_at: 2026-08-27T14:48:38Z
+      - id: tutorials
+        url: https://isc-hpc.com/submissions/tutorial/
+        title: Official ISC 2027 tutorial submissions page
+        edition: "2027"
+        status: current
+        covers:
+          - tutorial-proposal
+        verified_at: 2026-08-27T14:48:38Z
   - id: esop
     community: Software Engineering
     name: ESOP
@@ -761,7 +789,8 @@ conferences:
           - case-study-paper
           - tool-paper
           - tool-demonstration-paper
-        verified_at: 2026-08-18T11:49:39Z
+          - artifact
+        verified_at: 2026-08-27T14:48:38Z
   - id: oopsla
     community: Software Engineering
     name: OOPSLA
@@ -1287,20 +1316,27 @@ conferences:
       regular-paper: Regular paper
       workshop-proposal: Workshop proposal
       tutorial-proposal: Tutorial proposal
+      workshop-paper: Workshop paper
+      industry-paper: Industry paper
       poster: Poster
     official_sources:
       - id: official
-        url: https://ieee-iv.org/2027/
-        title: Official IEEE IV 2027 site
+        url: https://ieee-iv.org/2027/intelligent-vehicles-symposium-2027-perth-australia/
+        title: Official IEEE IV 2027 call and important dates
         edition: "2027"
-        status: discover
-        covers: all
-        verified_at: 2026-08-18T12:23:22Z
+        status: current
+        covers:
+          - regular-paper
+          - workshop-proposal
+          - tutorial-proposal
+          - workshop-paper
+          - industry-paper
+        verified_at: 2026-08-27T14:48:38Z
       - id: deadline-1
         url: https://ieee-iv.org/2026/
         title: Official IEEE IV 2026 site announcing the 2027 fixed deadline
-        edition: "2027"
-        status: current
+        edition: "2026"
+        status: historical
         covers:
           - regular-paper
         verified_at: 2026-08-18T13:06:25Z
@@ -1334,6 +1370,22 @@ conferences:
           - full-paper
           - journal-paper-presentation
         verified_at: 2026-08-24T05:01:12Z
+      - id: tutorials
+        url: https://2027.ieeeicassp.org/call-for-tutorials/
+        title: Official ICASSP 2027 call for tutorials
+        edition: "2027"
+        status: current
+        covers:
+          - tutorial-proposal
+        verified_at: 2026-08-27T14:48:38Z
+      - id: special-sessions
+        url: https://2027.ieeeicassp.org/call-for-special-sessions/
+        title: Official ICASSP 2027 call for special sessions
+        edition: "2027"
+        status: current
+        covers:
+          - special-session-proposal
+        verified_at: 2026-08-27T14:48:38Z
   - id: icaart
     community: Artificial Intelligence
     name: ICAART
@@ -1923,6 +1975,40 @@ deadlines:
     source: official
     sequence: 2
     notes: The official site states September 13, 2026 without a time; normalized to 23:59 AoE.
+  - id: hpc-asia-2027-workshop-proposal
+    conference: hpc-asia
+    edition: "2027"
+    submissions:
+      - workshop-proposal
+    deadline_at: 2026-09-30T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+  - id: hpc-asia-2027-tutorial-proposal
+    conference: hpc-asia
+    edition: "2027"
+    submissions:
+      - tutorial-proposal
+    deadline_at: 2026-09-30T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+  - id: hpc-asia-2027-poster-round-1
+    conference: hpc-asia
+    edition: "2027"
+    submissions:
+      - poster
+    label: Poster — round 1
+    deadline_at: 2026-11-29T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+  - id: hpc-asia-2027-poster-round-2
+    conference: hpc-asia
+    edition: "2027"
+    submissions:
+      - poster
+    label: Poster — round 2
+    deadline_at: 2026-12-27T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
   - id: isqed-2027-regular-paper
     conference: isqed
     edition: "2027"
@@ -2101,6 +2187,37 @@ deadlines:
     source: deadline-1
     sequence: 3
     notes: No official time was stated; normalized to 23:59 AoE.
+  - id: isc-2027-research-paper-abstract
+    conference: isc
+    edition: "2027"
+    submissions:
+      - abstract-registration
+    label: Research paper — abstract registration
+    deadline_at: 2026-12-14T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: research-paper
+    content: 250-word abstract
+    notes: No official time was stated; normalized to 23:59 AoE.
+  - id: isc-2027-research-paper
+    conference: isc
+    edition: "2027"
+    submissions:
+      - research-paper
+    deadline_at: 2026-12-21T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: research-paper
+    content: PDF of up to 10 pages, excluding references
+    notes: No official time was stated; normalized to 23:59 AoE.
+  - id: isc-2027-tutorial-proposal
+    conference: isc
+    edition: "2027"
+    submissions:
+      - tutorial-proposal
+    deadline_at: 2026-12-10T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: tutorials
+    content: Single PDF with a 500-word abstract, up to 3 pages of content, and presenter CVs
+    notes: No official time was stated; normalized to 23:59 AoE.
   - id: esop-2027-round-2-paper
     conference: esop
     edition: "2027"
@@ -2135,6 +2252,24 @@ deadlines:
     timezone: AoE (UTC-12)
     source: official
     sequence: 2
+  - id: tacas-2027-mandatory-artifact
+    conference: tacas
+    edition: "2027"
+    submissions:
+      - artifact
+    label: Artifact — mandatory for tool papers
+    deadline_at: 2026-10-29T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+  - id: tacas-2027-voluntary-artifact
+    conference: tacas
+    edition: "2027"
+    submissions:
+      - artifact
+    label: Artifact — voluntary
+    deadline_at: 2027-01-11T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
   - id: ecoop-2027-round-1-paper
     conference: ecoop
     edition: "2027"
@@ -2200,6 +2335,16 @@ deadlines:
     placeholder:
       based_on_edition: "2026"
       based_on_deadline_at: 2025-11-19T17:00:00-08:00
+  - id: dac-2027-engineering-track-presentation
+    conference: dac
+    edition: "2027"
+    submissions:
+      - engineering-track-presentation
+    deadline_at: 2027-01-11T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: engineering-track
+    content: 6-slide PowerPoint presentation in 16:9 format
+    notes: No official time was stated; normalized to 23:59 AoE.
   - id: ismvl-2027-regular-paper
     conference: ismvl
     edition: "2027"
@@ -2657,10 +2802,40 @@ deadlines:
     edition: "2027"
     submissions:
       - regular-paper
-    deadline_at: 2026-10-01T23:59:00-12:00
+    deadline_at: 2026-11-15T23:59:00-12:00
     timezone: AoE (UTC-12)
-    source: deadline-1
-    notes: The official IEEE IV 2026 site states that the 2027 submission timeline returns to the fixed October 1 deadline.
+    source: official
+    sequence: 1
+    notes: No official time was stated; normalized to 23:59 AoE.
+  - id: ieee-iv-2027-workshop-tutorial-proposal
+    conference: ieee-iv
+    edition: "2027"
+    submissions:
+      - workshop-proposal
+      - tutorial-proposal
+    label: Workshop or tutorial proposal
+    deadline_at: 2026-11-01T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+    notes: No official time was stated; normalized to 23:59 AoE.
+  - id: ieee-iv-2027-workshop-paper
+    conference: ieee-iv
+    edition: "2027"
+    submissions:
+      - workshop-paper
+    deadline_at: 2027-02-01T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+    notes: No official time was stated; normalized to 23:59 AoE.
+  - id: ieee-iv-2027-industry-paper
+    conference: ieee-iv
+    edition: "2027"
+    submissions:
+      - industry-paper
+    deadline_at: 2027-03-15T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+    notes: No official time was stated; normalized to 23:59 AoE.
   - id: icassp-2027-full-paper
     conference: icassp
     edition: "2027"
@@ -2677,6 +2852,16 @@ deadlines:
     deadline_at: 2027-01-06T23:59:00-12:00
     timezone: AoE (UTC-12)
     source: deadline-1
+    notes: No official time was stated; normalized to 23:59 AoE.
+  - id: icassp-2027-tutorial-proposal
+    conference: icassp
+    edition: "2027"
+    submissions:
+      - tutorial-proposal
+    deadline_at: 2026-11-02T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: tutorials
+    content: 2-page proposal
     notes: No official time was stated; normalized to 23:59 AoE.
   - id: icaart-2027-regular-paper
     conference: icaart
@@ -2823,14 +3008,10 @@ deadlines:
     placeholder:
       based_on_edition: "2026"
       based_on_deadline_at: 2025-12-15T23:59:00-12:00
-history: []
-conflicts:
-  - id: isqed-2027-wip-deadline-conflict
-    conference: isqed
-    submission: work-in-progress-paper
-    detected_at: 2026-08-24T05:01:12Z
-    sources:
-      - url: https://www.isqed.org/English/Conference/wip.html
-        claim: September 17, 2026 at midnight US Pacific Time in the Important Dates table
-      - url: https://www.isqed.org/English/Conference/wip.html
-        claim: February 7 with no year or timezone in the FAQ
+history:
+  - deadline: ieee-iv-2027-regular-paper
+    detected_at: 2026-08-27T14:48:38Z
+    from: 2026-10-01T23:59:00-12:00
+    to: 2026-11-15T23:59:00-12:00
+    source: official
+conflicts: []
