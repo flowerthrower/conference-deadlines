@@ -120,6 +120,25 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:iscas-2027-special-session-proposal@conference-deadlines
+DTSTAMP:20260830T220535Z
+LAST-MODIFIED:20260830T220535Z
+SEQUENCE:0
+SUMMARY:ISCAS 2027 — Special-session proposal
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+DESCRIPTION:Community: Design Automation\nSubmission type: Special-sessio
+ n proposal\nContent: See the official source for submission requirements.
+ \n\nNotes: No official time was stated\; normalized to 23:59 AoE. 23:59 A
+ oE means the cutoff is 14:00 on the following day in Central European sum
+ mer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial s
+ ource: https://ieee-cas.org/files/ieeecass/2026-07/iscas2027-cfp.pdf\nVer
+ ified: 2026-08-30T22:05:35Z
+URL:https://ieee-cas.org/files/ieeecass/2026-07/iscas2027-cfp.pdf
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:date-2027-paper-registration@conference-deadlines
 DTSTAMP:20260824T050112Z
 LAST-MODIFIED:20260824T050112Z
@@ -560,8 +579,8 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:iscas-2027-regular-paper@conference-deadlines
-DTSTAMP:20260818T130625Z
-LAST-MODIFIED:20260818T130625Z
+DTSTAMP:20260830T220535Z
+LAST-MODIFIED:20260830T220535Z
 SEQUENCE:0
 SUMMARY:ISCAS 2027 — Regular paper
 DTSTART;VALUE=DATE:20261013
@@ -571,7 +590,26 @@ DESCRIPTION:Community: Design Automation\nSubmission type: Regular paper\
  23:59 AoE means the cutoff is 14:00 on the following day in Central Europ
  ean summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOff
  icial source: https://ieee-cas.org/files/ieeecass/2026-07/iscas2027-cfp.p
- df\nVerified: 2026-08-18T13:06:25Z
+ df\nVerified: 2026-08-30T22:05:35Z
+URL:https://ieee-cas.org/files/ieeecass/2026-07/iscas2027-cfp.pdf
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:iscas-2027-tutorial-live-demonstration@conference-deadlines
+DTSTAMP:20260830T220535Z
+LAST-MODIFIED:20260830T220535Z
+SEQUENCE:0
+SUMMARY:ISCAS 2027 — Tutorial proposals and live demonstrations
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+DESCRIPTION:Community: Design Automation\nSubmission type: Tutorial propo
+ sals and live demonstrations\nContent: See the official source for submis
+ sion requirements.\n\nNotes: No official time was stated\; normalized to 
+ 23:59 AoE. 23:59 AoE means the cutoff is 14:00 on the following day in Ce
+ ntral European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC
+ +1).\n\nOfficial source: https://ieee-cas.org/files/ieeecass/2026-07/isca
+ s2027-cfp.pdf\nVerified: 2026-08-30T22:05:35Z
 URL:https://ieee-cas.org/files/ieeecass/2026-07/iscas2027-cfp.pdf
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -741,6 +779,28 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:aps-global-physics-summit-2027-contributed-abstract@conference-deadli
+ nes
+DTSTAMP:20260830T220535Z
+LAST-MODIFIED:20260830T220535Z
+SEQUENCE:1
+SUMMARY:APS Global Physics Summit 2027 — Contributed abstracts for oral
+  or poster presentation
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+DESCRIPTION:Community: Quantum Computing\nSubmission type: Contributed ab
+ stracts for oral or poster presentation\nContent: Contributed abstract fo
+ r oral or poster presentation\n\nNotes: The official call covers contribu
+ ted abstracts for oral or poster presentation and states October 22\, 202
+ 6 without a time\; normalized to 23:59 AoE. 23:59 AoE means the cutoff is
+  14:00 on the following day in Central European summer time (CEST\, UTC+2
+ )\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: https://summit.
+ aps.org/attend/abstracts/\nVerified: 2026-08-30T22:05:35Z
+URL:https://summit.aps.org/attend/abstracts/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:icaart-2027-position-paper@conference-deadlines
 DTSTAMP:20260824T050112Z
 LAST-MODIFIED:20260824T050112Z
@@ -777,30 +837,6 @@ DESCRIPTION:Community: Nanotech\nSubmission type: Abstract\nContent: See
 URL:https://www.mdpi.com/journal/biosensors/events
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:aps-global-physics-summit-2027-contributed-abstract@conference-deadli
- nes
-DTSTAMP:20260818T130625Z
-LAST-MODIFIED:20260818T130625Z
-SEQUENCE:0
-SUMMARY:APS Global Physics Summit 2027 (PLACEHOLDER) — Contributed abst
- ract
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-DESCRIPTION:Community: Quantum Computing\nSubmission type: Contributed ab
- stract\nContent: Approximately 1\,300 characters (previous-edition requir
- ement)\n\nNotes: PLACEHOLDER: projected from the official 2026 deadline a
- t 2025-10-23T23:59:00-12:00\; this is not a confirmed 2027 date and the o
- fficial source below is historical. 23:59 AoE means the cutoff is 14:00 o
- n the following day in Central European summer time (CEST\, UTC+2)\, or 1
- 3:00 in winter (CET\, UTC+1).\n\nOfficial source: https://engage.aps.org/
- dpf/resources/newsletters/newsletter-archives/september-2025\nVerified: 2
- 026-08-18T13:06:25Z
-URL:https://engage.aps.org/dpf/resources/newsletters/newsletter-archives/
- september-2025
-TRANSP:TRANSPARENT
-STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 UID:date-2027-multi-partner-project-paper@conference-deadlines
@@ -972,6 +1008,26 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:dac-2027-research-manuscript@conference-deadlines
+DTSTAMP:20260830T220535Z
+LAST-MODIFIED:20260830T220535Z
+SEQUENCE:1
+SUMMARY:DAC 2027 — Research manuscript
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+DESCRIPTION:Community: Design Automation\nSubmission type: Research manus
+ cript\nContent: See the official source for submission requirements.\n\nN
+ otes: The official timeline states November 17\, 2026 without a time\; no
+ rmalized to 23:59 AoE. 23:59 AoE means the cutoff is 14:00 on the followi
+ ng day in Central European summer time (CEST\, UTC+2)\, or 13:00 in winte
+ r (CET\, UTC+1).\n\nOfficial source: https://dac.com/2026/speaker-resourc
+ e-center/research-manuscripts-guidelines\nVerified: 2026-08-30T22:05:35Z
+URL:https://dac.com/2026/speaker-resource-center/research-manuscripts-gui
+ delines
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:isca-2027-regular-paper@conference-deadlines
 DTSTAMP:20260818T130625Z
 LAST-MODIFIED:20260818T130625Z
@@ -988,25 +1044,6 @@ DESCRIPTION:Community: Computer Architecture\nSubmission type: Regular pa
  r 13:00 in winter (CET\, UTC+1).\n\nOfficial source: https://www.iscaconf
  .org/isca2026/submit/callforpapers.php\nVerified: 2026-08-18T13:06:25Z
 URL:https://www.iscaconf.org/isca2026/submit/callforpapers.php
-TRANSP:TRANSPARENT
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-UID:dac-2027-research-manuscript@conference-deadlines
-DTSTAMP:20260818T130625Z
-LAST-MODIFIED:20260818T130625Z
-SEQUENCE:0
-SUMMARY:DAC 2027 (PLACEHOLDER) — Research manuscript
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-DESCRIPTION:Community: Design Automation\nSubmission type: Research manus
- cript\nContent: Up to 6 pages plus one references-only page\, PDF (previo
- us-edition requirement)\n\nNotes: PLACEHOLDER: projected from the officia
- l 2026 deadline at 2025-11-19T17:00:00-08:00\; this is not a confirmed 20
- 27 date and the official source below is historical.\n\nOfficial source: 
- https://dac.com/2026/research-manuscript-submissions\nVerified: 2026-08-1
- 8T13:06:25Z
-URL:https://dac.com/2026/research-manuscript-submissions
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 END:VEVENT

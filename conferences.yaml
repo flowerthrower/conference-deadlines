@@ -84,13 +84,13 @@ conferences:
         covers: all
         verified_at: 2026-08-18T11:49:39Z
       - id: deadline-1
-        url: https://dac.com/2026/research-manuscript-submissions
-        title: Official DAC 2026 research-manuscript call
-        edition: "2026"
-        status: historical
+        url: https://dac.com/2026/speaker-resource-center/research-manuscripts-guidelines
+        title: Official DAC research-manuscript guidelines and timeline
+        edition: "2027"
+        status: current
         covers:
           - research-manuscript
-        verified_at: 2026-08-18T13:06:25Z
+        verified_at: 2026-08-30T22:05:35Z
       - id: engineering-track
         url: https://dac.com/2026/program/back-end-track-submissions
         title: Official DAC 2027 engineering-track submission timeline
@@ -363,20 +363,21 @@ conferences:
       poster: Poster
     official_sources:
       - id: official
-        url: https://info.aps.org/summit27
+        url: https://summit.aps.org/
         title: Official APS Global Physics Summit site
         edition: "2027"
-        status: discover
+        status: current
         covers: all
-        verified_at: 2026-08-18T11:49:39Z
+        verified_at: 2026-08-30T22:05:35Z
       - id: deadline-1
-        url: https://engage.aps.org/dpf/resources/newsletters/newsletter-archives/september-2025
-        title: Official APS newsletter announcing the 2026 Summit abstract deadline
-        edition: "2026"
-        status: historical
+        url: https://summit.aps.org/attend/abstracts/
+        title: Official APS Global Physics Summit 2027 abstract call
+        edition: "2027"
+        status: current
         covers:
           - contributed-abstract
-        verified_at: 2026-08-18T13:06:25Z
+          - poster
+        verified_at: 2026-08-30T22:05:35Z
   - id: reversible-computation
     community: Quantum Computing / Software Engineering
     name: Reversible Computation
@@ -1118,7 +1119,10 @@ conferences:
         status: current
         covers:
           - regular-paper
-        verified_at: 2026-08-18T13:06:25Z
+          - special-session-proposal
+          - tutorial-proposal
+          - live-demonstration
+        verified_at: 2026-08-30T22:05:35Z
   - id: ius
     community: Sensors
     name: IUS
@@ -2328,13 +2332,11 @@ deadlines:
     edition: "2027"
     submissions:
       - research-manuscript
-    deadline_at: 2026-11-19T17:00:00-08:00
-    timezone: US Pacific Time (PST, UTC-08)
+    deadline_at: 2026-11-17T23:59:00-12:00
+    timezone: AoE (UTC-12)
     source: deadline-1
-    content: Up to 6 pages plus one references-only page, PDF (previous-edition requirement)
-    placeholder:
-      based_on_edition: "2026"
-      based_on_deadline_at: 2025-11-19T17:00:00-08:00
+    sequence: 1
+    notes: The official timeline states November 17, 2026 without a time; normalized to 23:59 AoE.
   - id: dac-2027-engineering-track-presentation
     conference: dac
     edition: "2027"
@@ -2420,13 +2422,14 @@ deadlines:
     edition: "2027"
     submissions:
       - contributed-abstract
-    deadline_at: 2026-10-23T23:59:00-12:00
+      - poster
+    label: Contributed abstracts for oral or poster presentation
+    deadline_at: 2026-10-22T23:59:00-12:00
     timezone: AoE (UTC-12)
     source: deadline-1
-    content: Approximately 1,300 characters (previous-edition requirement)
-    placeholder:
-      based_on_edition: "2026"
-      based_on_deadline_at: 2025-10-23T23:59:00-12:00
+    content: Contributed abstract for oral or poster presentation
+    sequence: 1
+    notes: The official call covers contributed abstracts for oral or poster presentation and states October 22, 2026 without a time; normalized to 23:59 AoE.
   - id: micro-2027-abstract-registration
     conference: micro
     edition: "2027"
@@ -2757,6 +2760,26 @@ deadlines:
     deadline_at: 2026-10-13T23:59:00-12:00
     timezone: AoE (UTC-12)
     source: deadline-1
+  - id: iscas-2027-special-session-proposal
+    conference: iscas
+    edition: "2027"
+    submissions:
+      - special-session-proposal
+    deadline_at: 2026-09-11T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: deadline-1
+    notes: No official time was stated; normalized to 23:59 AoE.
+  - id: iscas-2027-tutorial-live-demonstration
+    conference: iscas
+    edition: "2027"
+    submissions:
+      - tutorial-proposal
+      - live-demonstration
+    label: Tutorial proposals and live demonstrations
+    deadline_at: 2026-10-13T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: deadline-1
+    notes: No official time was stated; normalized to 23:59 AoE.
   - id: wacv-2027-round-2-paper-enrollment
     conference: wacv
     edition: "2027"
