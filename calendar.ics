@@ -159,8 +159,8 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:hpc-asia-2027-research-paper@conference-deadlines
-DTSTAMP:20260827T144838Z
-LAST-MODIFIED:20260827T144838Z
+DTSTAMP:20260906T220057Z
+LAST-MODIFIED:20260906T220057Z
 SEQUENCE:2
 SUMMARY:HPC Asia 2027 — Research paper
 DTSTART;VALUE=DATE:20260913
@@ -171,7 +171,7 @@ DESCRIPTION:Community: Super Computing\nSubmission type: Research paper\n
  o 23:59 AoE. 23:59 AoE means the cutoff is 14:00 on the following day in 
  Central European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, U
  TC+1).\n\nOfficial source: https://hpcasia2027.org/2027/pages_submission/
- schedule.vm\nVerified: 2026-08-27T14:48:38Z
+ schedule.vm\nVerified: 2026-09-06T22:00:57Z
 URL:https://hpcasia2027.org/2027/pages_submission/schedule.vm
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -210,6 +210,25 @@ DESCRIPTION:Community: Artificial Intelligence\nSubmission type: Regular
   (CET\, UTC+1).\n\nOfficial source: https://icaart.scitevents.org/Callfor
  Papers.aspx?y=2027\nVerified: 2026-08-24T05:01:12Z
 URL:https://icaart.scitevents.org/CallforPapers.aspx?y=2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:apscon-2027-sensors-letters-paper@conference-deadlines
+DTSTAMP:20260906T220057Z
+LAST-MODIFIED:20260906T220057Z
+SEQUENCE:0
+SUMMARY:APSCON 2027 — IEEE Sensors Letters paper — Option B
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+DESCRIPTION:Community: Sensors\nSubmission type: IEEE Sensors Letters pap
+ er — Option B\nContent: See the official source for submission requirem
+ ents.\n\nNotes: The official site states September 15\, 2026 without a ti
+ me\; normalized to 23:59 AoE. 23:59 AoE means the cutoff is 14:00 on the 
+ following day in Central European summer time (CEST\, UTC+2)\, or 13:00 i
+ n winter (CET\, UTC+1).\n\nOfficial source: https://2027.ieee-apscon.org/
+ ?page_id=107\nVerified: 2026-09-06T22:00:57Z
+URL:https://2027.ieee-apscon.org/?page_id=107
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -375,8 +394,8 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:hpc-asia-2027-workshop-proposal@conference-deadlines
-DTSTAMP:20260827T144838Z
-LAST-MODIFIED:20260827T144838Z
+DTSTAMP:20260906T220057Z
+LAST-MODIFIED:20260906T220057Z
 SEQUENCE:0
 SUMMARY:HPC Asia 2027 — Workshop proposal
 DTSTART;VALUE=DATE:20260930
@@ -386,15 +405,15 @@ DESCRIPTION:Community: Super Computing\nSubmission type: Workshop proposa
  : 23:59 AoE means the cutoff is 14:00 on the following day in Central Eur
  opean summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nO
  fficial source: https://hpcasia2027.org/2027/pages_submission/schedule.vm
- \nVerified: 2026-08-27T14:48:38Z
+ \nVerified: 2026-09-06T22:00:57Z
 URL:https://hpcasia2027.org/2027/pages_submission/schedule.vm
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:hpc-asia-2027-tutorial-proposal@conference-deadlines
-DTSTAMP:20260827T144838Z
-LAST-MODIFIED:20260827T144838Z
+DTSTAMP:20260906T220057Z
+LAST-MODIFIED:20260906T220057Z
 SEQUENCE:0
 SUMMARY:HPC Asia 2027 — Tutorial proposal
 DTSTART;VALUE=DATE:20260930
@@ -404,7 +423,7 @@ DESCRIPTION:Community: Super Computing\nSubmission type: Tutorial proposa
  : 23:59 AoE means the cutoff is 14:00 on the following day in Central Eur
  opean summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nO
  fficial source: https://hpcasia2027.org/2027/pages_submission/schedule.vm
- \nVerified: 2026-08-27T14:48:38Z
+ \nVerified: 2026-09-06T22:00:57Z
 URL:https://hpcasia2027.org/2027/pages_submission/schedule.vm
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -542,8 +561,8 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:isc-2027-workshop-with-proceedings-proposal@conference-deadlines
-DTSTAMP:20260818T114939Z
-LAST-MODIFIED:20260818T114939Z
+DTSTAMP:20260906T220057Z
+LAST-MODIFIED:20260906T220057Z
 SEQUENCE:3
 SUMMARY:ISC High Performance 2027 — Workshop-with-proceedings proposal
 DTSTART;VALUE=DATE:20261007
@@ -554,7 +573,7 @@ DESCRIPTION:Community: Super Computing\nSubmission type: Workshop-with-pr
   23:59 AoE means the cutoff is 14:00 on the following day in Central Euro
  pean summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOf
  ficial source: https://isc-hpc.com/submissions/workshop/\nVerified: 2026-
- 08-18T11:49:39Z
+ 09-06T22:00:57Z
 URL:https://isc-hpc.com/submissions/workshop/
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -742,8 +761,8 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:apscon-2027-regular-paper@conference-deadlines
-DTSTAMP:20260818T133225Z
-LAST-MODIFIED:20260818T133225Z
+DTSTAMP:20260906T220057Z
+LAST-MODIFIED:20260906T220057Z
 SEQUENCE:1
 SUMMARY:APSCON 2027 — Regular paper
 DTSTART;VALUE=DATE:20261020
@@ -754,7 +773,7 @@ DESCRIPTION:Community: Sensors\nSubmission type: Regular paper\nContent:
  026 without a time\; normalized to 23:59 AoE. 23:59 AoE means the cutoff 
  is 14:00 on the following day in Central European summer time (CEST\, UTC
  +2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: https://2027.
- ieee-apscon.org/?page_id=107\nVerified: 2026-08-18T13:32:25Z
+ ieee-apscon.org/?page_id=107\nVerified: 2026-09-06T22:00:57Z
 URL:https://2027.ieee-apscon.org/?page_id=107
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -971,8 +990,8 @@ STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 UID:pldi-2027-research-paper@conference-deadlines
-DTSTAMP:20260818T133225Z
-LAST-MODIFIED:20260818T133225Z
+DTSTAMP:20260906T220057Z
+LAST-MODIFIED:20260906T220057Z
 SEQUENCE:2
 SUMMARY:PLDI 2027 — Research paper
 DTSTART;VALUE=DATE:20261112
@@ -982,8 +1001,8 @@ DESCRIPTION:Community: Programming Languages\nSubmission type: Research p
  tes: The official site specifies AoE. 23:59 AoE means the cutoff is 14:00
   on the following day in Central European summer time (CEST\, UTC+2)\, or
   13:00 in winter (CET\, UTC+1).\n\nOfficial source: https://pldi27.sigpla
- n.org/track/pldi-2027-papers\nVerified: 2026-08-18T13:32:25Z
-URL:https://pldi27.sigplan.org/track/pldi-2027-papers
+ n.org/\nVerified: 2026-09-06T22:00:57Z
+URL:https://pldi27.sigplan.org/
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -1103,8 +1122,8 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:hpc-asia-2027-poster-round-1@conference-deadlines
-DTSTAMP:20260827T144838Z
-LAST-MODIFIED:20260827T144838Z
+DTSTAMP:20260906T220057Z
+LAST-MODIFIED:20260906T220057Z
 SEQUENCE:0
 SUMMARY:HPC Asia 2027 — Poster — round 1
 DTSTART;VALUE=DATE:20261129
@@ -1114,7 +1133,7 @@ DESCRIPTION:Community: Super Computing\nSubmission type: Poster — round
  s: 23:59 AoE means the cutoff is 14:00 on the following day in Central Eu
  ropean summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\n
  Official source: https://hpcasia2027.org/2027/pages_submission/schedule.v
- m\nVerified: 2026-08-27T14:48:38Z
+ m\nVerified: 2026-09-06T22:00:57Z
 URL:https://hpcasia2027.org/2027/pages_submission/schedule.vm
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1139,8 +1158,8 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:sca-2027-poster-round-1@conference-deadlines
-DTSTAMP:20260824T050112Z
-LAST-MODIFIED:20260824T050112Z
+DTSTAMP:20260906T220057Z
+LAST-MODIFIED:20260906T220057Z
 SEQUENCE:0
 SUMMARY:SupercomputingAsia 2027 — Poster — round 1
 DTSTART;VALUE=DATE:20261130
@@ -1150,7 +1169,7 @@ DESCRIPTION:Community: Super Computing\nSubmission type: Poster — round
  23:59 AoE means the cutoff is 14:00 on the following day in Central Europ
  ean summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOff
  icial source: https://www.sc-asia.org/sca2027-call-for-posters/\nVerified
- : 2026-08-24T05:01:12Z
+ : 2026-09-06T22:00:57Z
 URL:https://www.sc-asia.org/sca2027-call-for-posters/
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1253,8 +1272,8 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:isc-2027-regular-workshop-proposal@conference-deadlines
-DTSTAMP:20260818T114939Z
-LAST-MODIFIED:20260818T114939Z
+DTSTAMP:20260906T220057Z
+LAST-MODIFIED:20260906T220057Z
 SEQUENCE:3
 SUMMARY:ISC High Performance 2027 — Regular-workshop proposal
 DTSTART;VALUE=DATE:20261209
@@ -1264,8 +1283,8 @@ DESCRIPTION:Community: Super Computing\nSubmission type: Regular-workshop
  n\nNotes: No official time was stated\; normalized to 23:59 AoE. 23:59 Ao
  E means the cutoff is 14:00 on the following day in Central European summ
  er time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial so
- urce: https://isc-hpc.com/submissions/workshop/\nVerified: 2026-08-18T11:
- 49:39Z
+ urce: https://isc-hpc.com/submissions/workshop/\nVerified: 2026-09-06T22:
+ 00:57Z
 URL:https://isc-hpc.com/submissions/workshop/
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1348,8 +1367,8 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:hpc-asia-2027-poster-round-2@conference-deadlines
-DTSTAMP:20260827T144838Z
-LAST-MODIFIED:20260827T144838Z
+DTSTAMP:20260906T220057Z
+LAST-MODIFIED:20260906T220057Z
 SEQUENCE:0
 SUMMARY:HPC Asia 2027 — Poster — round 2
 DTSTART;VALUE=DATE:20261227
@@ -1359,7 +1378,7 @@ DESCRIPTION:Community: Super Computing\nSubmission type: Poster — round
  s: 23:59 AoE means the cutoff is 14:00 on the following day in Central Eu
  ropean summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\n
  Official source: https://hpcasia2027.org/2027/pages_submission/schedule.v
- m\nVerified: 2026-08-27T14:48:38Z
+ m\nVerified: 2026-09-06T22:00:57Z
 URL:https://hpcasia2027.org/2027/pages_submission/schedule.vm
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1495,8 +1514,8 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:sca-2027-poster-round-2@conference-deadlines
-DTSTAMP:20260824T050112Z
-LAST-MODIFIED:20260824T050112Z
+DTSTAMP:20260906T220057Z
+LAST-MODIFIED:20260906T220057Z
 SEQUENCE:0
 SUMMARY:SupercomputingAsia 2027 — Poster — round 2
 DTSTART;VALUE=DATE:20270115
@@ -1506,8 +1525,8 @@ DESCRIPTION:Community: Super Computing\nSubmission type: Poster — round
  The second round opens only if slots remain after round 1. 23:59 AoE mean
  s the cutoff is 14:00 on the following day in Central European summer tim
  e (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: 
- https://www.sc-asia.org/sca2027-call-for-posters/\nVerified: 2026-08-24T0
- 5:01:12Z
+ https://www.sc-asia.org/sca2027-call-for-posters/\nVerified: 2026-09-06T2
+ 2:00:57Z
 URL:https://www.sc-asia.org/sca2027-call-for-posters/
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1534,8 +1553,8 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:isc-2027-research-poster@conference-deadlines
-DTSTAMP:20260818T114939Z
-LAST-MODIFIED:20260818T114939Z
+DTSTAMP:20260906T220057Z
+LAST-MODIFIED:20260906T220057Z
 SEQUENCE:3
 SUMMARY:ISC High Performance 2027 — Research poster
 DTSTART;VALUE=DATE:20270120
@@ -1545,15 +1564,15 @@ DESCRIPTION:Community: Super Computing\nSubmission type: Research poster\
  No official time was stated\; normalized to 23:59 AoE. 23:59 AoE means th
  e cutoff is 14:00 on the following day in Central European summer time (C
  EST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: http
- s://isc-hpc.com/submissions/\nVerified: 2026-08-18T11:49:39Z
+ s://isc-hpc.com/submissions/\nVerified: 2026-09-06T22:00:57Z
 URL:https://isc-hpc.com/submissions/
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:isc-2027-project-poster@conference-deadlines
-DTSTAMP:20260818T114939Z
-LAST-MODIFIED:20260818T114939Z
+DTSTAMP:20260906T220057Z
+LAST-MODIFIED:20260906T220057Z
 SEQUENCE:3
 SUMMARY:ISC High Performance 2027 — Project poster
 DTSTART;VALUE=DATE:20270120
@@ -1563,15 +1582,33 @@ DESCRIPTION:Community: Super Computing\nSubmission type: Project poster\n
  o official time was stated\; normalized to 23:59 AoE. 23:59 AoE means the
   cutoff is 14:00 on the following day in Central European summer time (CE
  ST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: https
- ://isc-hpc.com/submissions/\nVerified: 2026-08-18T11:49:39Z
+ ://isc-hpc.com/submissions/\nVerified: 2026-09-06T22:00:57Z
+URL:https://isc-hpc.com/submissions/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:isc-2027-women-in-hpc-poster@conference-deadlines
+DTSTAMP:20260906T220057Z
+LAST-MODIFIED:20260906T220057Z
+SEQUENCE:0
+SUMMARY:ISC High Performance 2027 — Women in HPC poster
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+DESCRIPTION:Community: Super Computing\nSubmission type: Women in HPC pos
+ ter\nContent: See the official source for submission requirements.\n\nNot
+ es: No official time was stated\; normalized to 23:59 AoE. 23:59 AoE mean
+ s the cutoff is 14:00 on the following day in Central European summer tim
+ e (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: 
+ https://isc-hpc.com/submissions/\nVerified: 2026-09-06T22:00:57Z
 URL:https://isc-hpc.com/submissions/
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:isc-2027-birds-of-a-feather@conference-deadlines
-DTSTAMP:20260818T114939Z
-LAST-MODIFIED:20260818T114939Z
+DTSTAMP:20260906T220057Z
+LAST-MODIFIED:20260906T220057Z
 SEQUENCE:3
 SUMMARY:ISC High Performance 2027 — Birds-of-a-Feather proposal
 DTSTART;VALUE=DATE:20270121
@@ -1581,8 +1618,25 @@ DESCRIPTION:Community: Super Computing\nSubmission type: Birds-of-a-Feath
  .\n\nNotes: No official time was stated\; normalized to 23:59 AoE. 23:59 
  AoE means the cutoff is 14:00 on the following day in Central European su
  mmer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial 
- source: https://isc-hpc.com/submissions/\nVerified: 2026-08-18T11:49:39Z
+ source: https://isc-hpc.com/submissions/\nVerified: 2026-09-06T22:00:57Z
 URL:https://isc-hpc.com/submissions/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:hpc-asia-2027-poster-draft@conference-deadlines
+DTSTAMP:20260906T220057Z
+LAST-MODIFIED:20260906T220057Z
+SEQUENCE:0
+SUMMARY:HPC Asia 2027 — Poster draft
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Community: Super Computing\nSubmission type: Poster draft\nCo
+ ntent: Poster draft\n\nNotes: 23:59 AoE means the cutoff is 14:00 on the 
+ following day in Central European summer time (CEST\, UTC+2)\, or 13:00 i
+ n winter (CET\, UTC+1).\n\nOfficial source: https://hpcasia2027.org/2027/
+ pages_submission/schedule.vm\nVerified: 2026-09-06T22:00:57Z
+URL:https://hpcasia2027.org/2027/pages_submission/schedule.vm
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -1603,6 +1657,23 @@ DESCRIPTION:Community: Transportation\nSubmission type: Workshop paper\nC
  Verified: 2026-08-27T14:48:38Z
 URL:https://ieee-iv.org/2027/intelligent-vehicles-symposium-2027-perth-au
  stralia/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:sca-2027-poster-pdf@conference-deadlines
+DTSTAMP:20260906T220057Z
+LAST-MODIFIED:20260906T220057Z
+SEQUENCE:0
+SUMMARY:SupercomputingAsia 2027 — Poster PDF
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+DESCRIPTION:Community: Super Computing\nSubmission type: Poster PDF\nCont
+ ent: Poster PDF\n\nNotes: 23:59 AoE means the cutoff is 14:00 on the foll
+ owing day in Central European summer time (CEST\, UTC+2)\, or 13:00 in wi
+ nter (CET\, UTC+1).\n\nOfficial source: https://www.sc-asia.org/sca2027-c
+ all-for-posters/\nVerified: 2026-09-06T22:00:57Z
+URL:https://www.sc-asia.org/sca2027-call-for-posters/
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -2104,6 +2175,25 @@ URL:https://ieee-sensors.org/wp-content/uploads/2023/07/sensors26-cfp_web
  -02.pdf
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:isc-2027-workshop-paper@conference-deadlines
+DTSTAMP:20260906T220057Z
+LAST-MODIFIED:20260906T220057Z
+SEQUENCE:0
+SUMMARY:ISC High Performance 2027 — Regular workshop — summary paper
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+DESCRIPTION:Community: Super Computing\nSubmission type: Regular workshop
+  — summary paper\nContent: State-of-the-art review/summary paper of at 
+ least 4 pages\n\nNotes: No official time was stated\; normalized to 23:59
+  AoE. 23:59 AoE means the cutoff is 14:00 on the following day in Central
+  European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\
+ n\nOfficial source: https://isc-hpc.com/submissions/workshop/\nVerified: 
+ 2026-09-06T22:00:57Z
+URL:https://isc-hpc.com/submissions/workshop/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:sefm-2027-regular-paper@conference-deadlines

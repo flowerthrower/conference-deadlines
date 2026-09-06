@@ -649,7 +649,7 @@ conferences:
         status: current
         covers:
           - poster
-        verified_at: 2026-08-24T05:01:12Z
+        verified_at: 2026-09-06T22:00:57Z
       - id: tutorials
         url: https://www.sc-asia.org/sca2027-call-for-tutorials/
         title: Official SCA 2027 call for tutorial proposals
@@ -694,7 +694,7 @@ conferences:
         edition: "2027"
         status: current
         covers: all
-        verified_at: 2026-08-27T14:48:38Z
+        verified_at: 2026-09-06T22:00:57Z
   - id: isc
     community: Super Computing
     name: ISC
@@ -707,6 +707,7 @@ conferences:
       research-paper: Research paper
       research-poster: Research poster
       project-poster: Project poster
+      women-in-hpc-poster: Women in HPC poster
       workshop-proposal: Workshop proposal
       workshop-paper: Workshop paper
       tutorial-proposal: Tutorial proposal
@@ -720,7 +721,7 @@ conferences:
         covers:
           - workshop-proposal
           - workshop-paper
-        verified_at: 2026-08-18T11:49:39Z
+        verified_at: 2026-09-06T22:00:57Z
       - id: deadline-1
         url: https://isc-hpc.com/submissions/
         title: Official ISC 2027 submissions page
@@ -729,8 +730,9 @@ conferences:
         covers:
           - research-poster
           - project-poster
+          - women-in-hpc-poster
           - birds-of-a-feather-proposal
-        verified_at: 2026-08-18T11:49:39Z
+        verified_at: 2026-09-06T22:00:57Z
       - id: research-paper
         url: https://isc-hpc.com/submissions/research-paper/
         title: Official ISC 2027 research-paper submissions page
@@ -897,13 +899,13 @@ conferences:
       poster: Poster
     official_sources:
       - id: official
-        url: https://pldi27.sigplan.org/track/pldi-2027-papers
-        title: Official PLDI 2027 research-papers call
+        url: https://pldi27.sigplan.org/
+        title: Official PLDI 2027 site
         edition: "2027"
         status: current
         covers:
           - research-paper
-        verified_at: 2026-08-18T13:32:25Z
+        verified_at: 2026-09-06T22:00:57Z
   - id: itsc
     community: Transportation
     name: ITSC
@@ -1081,6 +1083,7 @@ conferences:
       - IEEE Applied Sensing Conference
     monitored_submissions:
       regular-paper: Regular paper
+      sensors-letters-paper: IEEE Sensors Letters paper
       special-session-proposal: Special-session proposal
       poster: Poster
       demonstration: Demonstration
@@ -1092,7 +1095,8 @@ conferences:
         status: current
         covers:
           - regular-paper
-        verified_at: 2026-08-18T13:32:25Z
+          - sensors-letters-paper
+        verified_at: 2026-09-06T22:00:57Z
   - id: iscas
     community: Design Automation
     name: ISCAS
@@ -2013,6 +2017,16 @@ deadlines:
     deadline_at: 2026-12-27T23:59:00-12:00
     timezone: AoE (UTC-12)
     source: official
+  - id: hpc-asia-2027-poster-draft
+    conference: hpc-asia
+    edition: "2027"
+    submissions:
+      - poster
+    label: Poster draft
+    deadline_at: 2027-01-31T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+    content: Poster draft
   - id: isqed-2027-regular-paper
     conference: isqed
     edition: "2027"
@@ -2161,6 +2175,17 @@ deadlines:
     source: official
     sequence: 3
     notes: No official time was stated; normalized to 23:59 AoE.
+  - id: isc-2027-workshop-paper
+    conference: isc
+    edition: "2027"
+    submissions:
+      - workshop-paper
+    label: Regular workshop — summary paper
+    deadline_at: 2027-06-30T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+    content: State-of-the-art review/summary paper of at least 4 pages
+    notes: No official time was stated; normalized to 23:59 AoE.
   - id: isc-2027-research-poster
     conference: isc
     edition: "2027"
@@ -2180,6 +2205,15 @@ deadlines:
     timezone: AoE (UTC-12)
     source: deadline-1
     sequence: 3
+    notes: No official time was stated; normalized to 23:59 AoE.
+  - id: isc-2027-women-in-hpc-poster
+    conference: isc
+    edition: "2027"
+    submissions:
+      - women-in-hpc-poster
+    deadline_at: 2027-01-20T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: deadline-1
     notes: No official time was stated; normalized to 23:59 AoE.
   - id: isc-2027-birds-of-a-feather
     conference: isc
@@ -2542,6 +2576,16 @@ deadlines:
     source: posters
     content: One-page extended abstract, including references
     notes: The second round opens only if slots remain after round 1.
+  - id: sca-2027-poster-pdf
+    conference: sca
+    edition: "2027"
+    submissions:
+      - poster
+    label: Poster PDF
+    deadline_at: 2027-02-07T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: posters
+    content: Poster PDF
   - id: sca-2027-birds-of-a-feather-round-1
     conference: sca
     edition: "2027"
@@ -3009,6 +3053,16 @@ deadlines:
     sequence: 1
     content: 4 pages in the standard IEEE conference template
     notes: This is the Option A conference-paper deadline. The official site states October 20, 2026 without a time; normalized to 23:59 AoE.
+  - id: apscon-2027-sensors-letters-paper
+    conference: apscon
+    edition: "2027"
+    submissions:
+      - sensors-letters-paper
+    label: IEEE Sensors Letters paper — Option B
+    deadline_at: 2026-09-15T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+    notes: The official site states September 15, 2026 without a time; normalized to 23:59 AoE.
   - id: ius-2027-abstract
     conference: ius
     edition: "2027"
