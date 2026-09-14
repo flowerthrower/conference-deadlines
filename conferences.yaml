@@ -84,13 +84,13 @@ conferences:
         covers: all
         verified_at: 2026-08-18T11:49:39Z
       - id: deadline-1
-        url: https://dac.com/2026/speaker-resource-center/research-manuscripts-guidelines
-        title: Official DAC research-manuscript guidelines and timeline
+        url: https://dac.com/2027/events/manuscript-submission-deadline
+        title: Official DAC 2027 research-manuscript deadline
         edition: "2027"
         status: current
         covers:
           - research-manuscript
-        verified_at: 2026-08-30T22:05:35Z
+        verified_at: 2026-09-14T10:19:55Z
       - id: engineering-track
         url: https://dac.com/2026/program/back-end-track-submissions
         title: Official DAC 2027 engineering-track submission timeline
@@ -99,6 +99,30 @@ conferences:
         covers:
           - engineering-track-presentation
         verified_at: 2026-08-27T14:48:38Z
+      - id: tutorial-timeline
+        url: https://dac.com/2027/event-type/tutorial-timeline
+        title: Official DAC 2027 tutorial timeline
+        edition: "2027"
+        status: current
+        covers:
+          - tutorial-proposal
+        verified_at: 2026-09-14T10:19:55Z
+      - id: panel-timeline
+        url: https://dac.com/2027/event-type/research-panels-timeline
+        title: Official DAC 2027 research-panel timeline
+        edition: "2027"
+        status: current
+        covers:
+          - panel-proposal
+        verified_at: 2026-09-14T10:19:55Z
+      - id: special-session-timeline
+        url: https://dac.com/2027/event-type/research-track-special-sessions
+        title: Official DAC 2027 research-track special-session timeline
+        edition: "2027"
+        status: current
+        covers:
+          - special-session-proposal
+        verified_at: 2026-09-14T10:19:55Z
   - id: ismvl
     community: Design Automation
     name: ISMVL
@@ -196,7 +220,7 @@ conferences:
         status: current
         covers:
           - special-session-paper
-        verified_at: 2026-08-24T05:01:12Z
+        verified_at: 2026-09-14T10:19:55Z
   - id: iccd
     community: Design Automation
     name: ICCD
@@ -2043,11 +2067,11 @@ deadlines:
     edition: "2027"
     submissions:
       - special-session-paper
-    deadline_at: 2026-09-17T23:59:00-07:00
+    deadline_at: 2026-10-15T23:59:00-07:00
     timezone: US Pacific Time (PDT, UTC-07)
     source: deadline-1
-    content: 2–4 page proposal with four contributing presentations
-    sequence: 3
+    content: Up to 6-page invited paper in IEEE format
+    sequence: 4
     notes: The source states midnight US Pacific Time; represented as 23:59 PDT on the stated date.
   - id: isqed-2027-workshop-tutorial-proposal
     conference: isqed
@@ -2380,6 +2404,33 @@ deadlines:
     timezone: AoE (UTC-12)
     source: engineering-track
     content: 6-slide PowerPoint presentation in 16:9 format
+    notes: No official time was stated; normalized to 23:59 AoE.
+  - id: dac-2027-tutorial-proposal
+    conference: dac
+    edition: "2027"
+    submissions:
+      - tutorial-proposal
+    deadline_at: 2026-11-16T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: tutorial-timeline
+    notes: No official time was stated; normalized to 23:59 AoE.
+  - id: dac-2027-panel-proposal
+    conference: dac
+    edition: "2027"
+    submissions:
+      - panel-proposal
+    deadline_at: 2026-11-16T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: panel-timeline
+    notes: No official time was stated; normalized to 23:59 AoE.
+  - id: dac-2027-special-session-proposal
+    conference: dac
+    edition: "2027"
+    submissions:
+      - special-session-proposal
+    deadline_at: 2026-11-16T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: special-session-timeline
     notes: No official time was stated; normalized to 23:59 AoE.
   - id: ismvl-2027-regular-paper
     conference: ismvl
@@ -3091,4 +3142,18 @@ history:
     from: 2026-10-01T23:59:00-12:00
     to: 2026-11-15T23:59:00-12:00
     source: official
-conflicts: []
+  - deadline: isqed-2027-special-session-paper
+    detected_at: 2026-09-14T10:19:55Z
+    from: 2026-09-17T23:59:00-07:00
+    to: 2026-10-15T23:59:00-07:00
+    source: deadline-1
+conflicts:
+  - id: dac-2027-research-manuscript-date
+    conference: dac
+    submission: research-manuscript
+    detected_at: 2026-09-14T10:19:55Z
+    sources:
+      - url: https://dac.com/2027/program/research-manuscript-submissions
+        claim: Main submission information and timeline state November 18, 2026 at 5:00 PM US Pacific Time.
+      - url: https://dac.com/2027/events/manuscript-submission-deadline
+        claim: The event page states November 17, 2026 without a time.

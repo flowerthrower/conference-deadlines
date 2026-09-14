@@ -268,24 +268,6 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:isqed-2027-special-session-paper@conference-deadlines
-DTSTAMP:20260824T050112Z
-LAST-MODIFIED:20260824T050112Z
-SEQUENCE:3
-SUMMARY:ISQED 2027 — Special-session paper
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260918
-DESCRIPTION:Community: Design Automation\nSubmission type: Special-sessio
- n paper\nContent: 2–4 page proposal with four contributing presentation
- s\n\nNotes: The source states midnight US Pacific Time\; represented as 2
- 3:59 PDT on the stated date.\n\nOfficial source: https://www.isqed.org/En
- glish/Conference/Call-for-Special-Sessions.html\nVerified: 2026-08-24T05:
- 01:12Z
-URL:https://www.isqed.org/English/Conference/Call-for-Special-Sessions.html
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:isqed-2027-work-in-progress-paper@conference-deadlines
 DTSTAMP:20260827T144838Z
 LAST-MODIFIED:20260827T144838Z
@@ -649,6 +631,23 @@ DESCRIPTION:Community: Software Engineering\nSubmission type: Research pa
  /conf.researchr.org/track/splash-2027/splashoopsla2027\nVerified: 2026-08
  -24T05:01:12Z
 URL:https://conf.researchr.org/track/splash-2027/splashoopsla2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:isqed-2027-special-session-paper@conference-deadlines
+DTSTAMP:20260914T101955Z
+LAST-MODIFIED:20260914T101955Z
+SEQUENCE:4
+SUMMARY:ISQED 2027 — Special-session paper
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+DESCRIPTION:Community: Design Automation\nSubmission type: Special-sessio
+ n paper\nContent: Up to 6-page invited paper in IEEE format\n\nNotes: The
+  source states midnight US Pacific Time\; represented as 23:59 PDT on the
+  stated date.\n\nOfficial source: https://www.isqed.org/English/Conferenc
+ e/Call-for-Special-Sessions.html\nVerified: 2026-09-14T10:19:55Z
+URL:https://www.isqed.org/English/Conference/Call-for-Special-Sessions.html
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -1027,9 +1026,66 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:dac-2027-tutorial-proposal@conference-deadlines
+DTSTAMP:20260914T101955Z
+LAST-MODIFIED:20260914T101955Z
+SEQUENCE:0
+SUMMARY:DAC 2027 — Tutorial proposal
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+DESCRIPTION:Community: Design Automation\nSubmission type: Tutorial propo
+ sal\nContent: See the official source for submission requirements.\n\nNot
+ es: No official time was stated\; normalized to 23:59 AoE. 23:59 AoE mean
+ s the cutoff is 14:00 on the following day in Central European summer tim
+ e (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: 
+ https://dac.com/2027/event-type/tutorial-timeline\nVerified: 2026-09-14T1
+ 0:19:55Z
+URL:https://dac.com/2027/event-type/tutorial-timeline
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:dac-2027-panel-proposal@conference-deadlines
+DTSTAMP:20260914T101955Z
+LAST-MODIFIED:20260914T101955Z
+SEQUENCE:0
+SUMMARY:DAC 2027 — Panel proposal
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+DESCRIPTION:Community: Design Automation\nSubmission type: Panel proposal
+ \nContent: See the official source for submission requirements.\n\nNotes:
+  No official time was stated\; normalized to 23:59 AoE. 23:59 AoE means t
+ he cutoff is 14:00 on the following day in Central European summer time (
+ CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: htt
+ ps://dac.com/2027/event-type/research-panels-timeline\nVerified: 2026-09-
+ 14T10:19:55Z
+URL:https://dac.com/2027/event-type/research-panels-timeline
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:dac-2027-special-session-proposal@conference-deadlines
+DTSTAMP:20260914T101955Z
+LAST-MODIFIED:20260914T101955Z
+SEQUENCE:0
+SUMMARY:DAC 2027 — Special-session proposal
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+DESCRIPTION:Community: Design Automation\nSubmission type: Special-sessio
+ n proposal\nContent: See the official source for submission requirements.
+ \n\nNotes: No official time was stated\; normalized to 23:59 AoE. 23:59 A
+ oE means the cutoff is 14:00 on the following day in Central European sum
+ mer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial s
+ ource: https://dac.com/2027/event-type/research-track-special-sessions\nV
+ erified: 2026-09-14T10:19:55Z
+URL:https://dac.com/2027/event-type/research-track-special-sessions
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:dac-2027-research-manuscript@conference-deadlines
-DTSTAMP:20260830T220535Z
-LAST-MODIFIED:20260830T220535Z
+DTSTAMP:20260914T101955Z
+LAST-MODIFIED:20260914T101955Z
 SEQUENCE:1
 SUMMARY:DAC 2027 — Research manuscript
 DTSTART;VALUE=DATE:20261117
@@ -1039,10 +1095,9 @@ DESCRIPTION:Community: Design Automation\nSubmission type: Research manus
  otes: The official timeline states November 17\, 2026 without a time\; no
  rmalized to 23:59 AoE. 23:59 AoE means the cutoff is 14:00 on the followi
  ng day in Central European summer time (CEST\, UTC+2)\, or 13:00 in winte
- r (CET\, UTC+1).\n\nOfficial source: https://dac.com/2026/speaker-resourc
- e-center/research-manuscripts-guidelines\nVerified: 2026-08-30T22:05:35Z
-URL:https://dac.com/2026/speaker-resource-center/research-manuscripts-gui
- delines
+ r (CET\, UTC+1).\n\nOfficial source: https://dac.com/2027/events/manuscri
+ pt-submission-deadline\nVerified: 2026-09-14T10:19:55Z
+URL:https://dac.com/2027/events/manuscript-submission-deadline
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
