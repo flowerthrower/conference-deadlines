@@ -177,25 +177,6 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:heureka-2027-paper@conference-deadlines
-DTSTAMP:20260818T114939Z
-LAST-MODIFIED:20260818T114939Z
-SEQUENCE:3
-SUMMARY:HEUREKA 2027 — Reviewed contribution
-DTSTART;VALUE=DATE:20260913
-DTEND;VALUE=DATE:20260914
-DESCRIPTION:Community: Miscellaneous\nSubmission type: Reviewed contribut
- ion\nContent: 6–15 page PDF contribution\n\nNotes: No official time was
-  stated\; normalized to 23:59 AoE. The official call requests a 6–15 pa
- ge PDF contribution. 23:59 AoE means the cutoff is 14:00 on the following
-  day in Central European summer time (CEST\, UTC+2)\, or 13:00 in winter 
- (CET\, UTC+1).\n\nOfficial source: https://eraw.easychair.org/cfp/HEUREKA
- 2027\nVerified: 2026-08-18T11:49:39Z
-URL:https://eraw.easychair.org/cfp/HEUREKA2027
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:icaart-2027-regular-paper@conference-deadlines
 DTSTAMP:20260824T050112Z
 LAST-MODIFIED:20260824T050112Z

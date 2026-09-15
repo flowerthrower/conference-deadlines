@@ -879,22 +879,6 @@ conferences:
         status: discover
         covers: all
         verified_at: 2026-08-18T11:49:39Z
-  - id: atmos
-    community: Software Engineering
-    name: ATMOS
-    edition: "2027"
-    aliases:
-      - Algorithmic Approaches for Transportation Modelling, Optimization, and Systems
-    monitored_submissions:
-      full-paper: Full paper
-    official_sources:
-      - id: official
-        url: https://www.atmos-symposium.eu/
-        title: Official ATMOS conference-series site
-        edition: series
-        status: discover
-        covers: all
-        verified_at: 2026-08-18T11:49:39Z
   - id: ecoop
     community: Programming Languages
     name: ECOOP
@@ -958,20 +942,6 @@ conferences:
         covers:
           - regular-paper
         verified_at: 2026-08-18T13:06:25Z
-  - id: heureka
-    community: Miscellaneous
-    name: HEUREKA
-    edition: "2027"
-    monitored_submissions:
-      reviewed-contribution: Reviewed contribution
-    official_sources:
-      - id: official
-        url: https://eraw.easychair.org/cfp/HEUREKA2027
-        title: Official HEUREKA 2027 EasyChair call for papers
-        edition: "2027"
-        status: current
-        covers: all
-        verified_at: 2026-08-18T11:49:39Z
   - id: icmr
     community: Multimedia
     name: ICMR
@@ -1658,25 +1628,6 @@ conferences:
         status: discover
         covers: all
         verified_at: 2026-08-18T13:06:25Z
-  - id: rssrail
-    community: Transportation
-    name: RSSRail
-    edition: "2027"
-    aliases:
-      - International Conference on Reliability Safety and Security of Railway Systems
-    monitored_submissions:
-      research-paper: Research paper
-      industry-paper: Industry paper
-      poster: Poster
-      artifact: Artifact
-    official_sources:
-      - id: official
-        url: https://rssrail2025.isti.cnr.it/
-        title: Official RSSRail 2025 site
-        edition: "2025"
-        status: discover
-        covers: all
-        verified_at: 2026-08-18T12:23:22Z
   - id: icrera
     community: Energy
     name: ICRERA
@@ -2352,17 +2303,6 @@ deadlines:
     timezone: AoE (UTC-12)
     source: official
     sequence: 2
-  - id: heureka-2027-paper
-    conference: heureka
-    edition: "2027"
-    submissions:
-      - reviewed-contribution
-    deadline_at: 2026-09-13T23:59:00-12:00
-    timezone: AoE (UTC-12)
-    source: official
-    sequence: 3
-    content: 6–15 page PDF contribution
-    notes: No official time was stated; normalized to 23:59 AoE. The official call requests a 6–15 page PDF contribution.
   - id: pldi-2027-research-paper
     conference: pldi
     edition: "2027"
