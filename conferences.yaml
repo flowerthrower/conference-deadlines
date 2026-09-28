@@ -23,6 +23,18 @@ conferences:
         status: discover
         covers: all
         verified_at: 2026-08-18T13:06:25Z
+      - id: cfp-2026
+        url: https://iccad.com/2026/authors/call-for-papers
+        title: Official ICCAD 2026 call for papers
+        edition: "2026"
+        status: historical
+        covers:
+          - regular-paper
+          - workshop-proposal
+          - tutorial-proposal
+          - special-session-proposal
+          - panel-proposal
+        verified_at: 2026-09-28T08:00:00Z
   - id: asp-dac
     community: Design Automation
     name: ASP-DAC
@@ -55,6 +67,7 @@ conferences:
       late-breaking-result: Late-breaking result
       multi-partner-project: Multi-partner project
       phd-forum: PhD forum
+      university-fair: University Fair submission
     official_sources:
       - id: official
         url: https://www.date-conference.com/call-for-papers
@@ -62,12 +75,13 @@ conferences:
         edition: "2027"
         status: current
         covers: all
-        verified_at: 2026-08-24T05:01:12Z
+        verified_at: 2026-09-28T08:00:00Z
   - id: dac
     community: Design Automation
     name: DAC
     edition: "2027"
     monitored_submissions:
+      abstract-registration: Abstract registration
       research-manuscript: Research manuscript
       late-breaking-result: Late-breaking result
       workshop-proposal: Workshop proposal
@@ -106,7 +120,7 @@ conferences:
         status: current
         covers:
           - tutorial-proposal
-        verified_at: 2026-09-14T10:19:55Z
+        verified_at: 2026-09-28T08:00:00Z
       - id: panel-timeline
         url: https://dac.com/2027/event-type/research-panels-timeline
         title: Official DAC 2027 research-panel timeline
@@ -122,7 +136,15 @@ conferences:
         status: current
         covers:
           - special-session-proposal
-        verified_at: 2026-09-14T10:19:55Z
+        verified_at: 2026-09-28T08:00:00Z
+      - id: research-submissions
+        url: https://dac.com/2027/program/research-manuscript-submissions
+        title: Official DAC 2027 research submission instructions
+        edition: "2027"
+        status: current
+        covers:
+          - abstract-registration
+        verified_at: 2026-09-28T08:00:00Z
   - id: ismvl
     community: Design Automation
     name: ISMVL
@@ -204,7 +226,7 @@ conferences:
           - regular-paper
           - workshop-proposal
           - tutorial-proposal
-        verified_at: 2026-08-24T05:01:12Z
+        verified_at: 2026-09-28T08:00:00Z
       - id: wip
         url: https://www.isqed.org/English/Conference/wip.html
         title: Official ISQED 2027 work-in-progress call
@@ -466,12 +488,12 @@ conferences:
       extended-paper: Extended paper
     official_sources:
       - id: official
-        url: https://www.mdpi.com/journal/biosensors/events
-        title: Official MDPI Biosensors events page
+        url: https://sciforum.net/event/IECB2027/home
+        title: Official IECB 2027 conference site
         edition: "2027"
         status: current
         covers: all
-        verified_at: 2026-08-18T11:49:39Z
+        verified_at: 2026-09-28T08:00:00Z
   - id: ebsa
     community: Nanotech
     name: EBSA
@@ -528,7 +550,17 @@ conferences:
         status: historical
         covers:
           - abstract-registration
-        verified_at: 2026-08-18T13:06:25Z
+          - full-paper
+        verified_at: 2026-09-28T08:00:00Z
+      - id: proposals-2026
+        url: https://microarch.org/micro59/submit/workshops.php
+        title: Official MICRO 2026 call for workshops and tutorials
+        edition: "2026"
+        status: historical
+        covers:
+          - workshop-proposal
+          - tutorial-proposal
+        verified_at: 2026-09-28T08:00:00Z
   - id: hpca
     community: Computer Architecture
     name: HPCA
@@ -573,7 +605,17 @@ conferences:
         covers:
           - abstract-registration
           - full-paper
-        verified_at: 2026-08-18T13:06:25Z
+          - industrial-session-paper
+        verified_at: 2026-09-28T08:00:00Z
+      - id: proposals-2026
+        url: https://www.iscaconf.org/isca2026/submit/workshops.php
+        title: Official ISCA 2026 call for workshops and tutorials
+        edition: "2026"
+        status: historical
+        covers:
+          - workshop-proposal
+          - tutorial-proposal
+        verified_at: 2026-09-28T08:00:00Z
   - id: asplos
     community: Computer Architecture
     name: ASPLOS
@@ -622,7 +664,7 @@ conferences:
         edition: "2026"
         status: discover
         covers: all
-        verified_at: 2026-08-18T11:49:39Z
+        verified_at: 2026-09-28T08:00:00Z
       - id: deadline-1
         url: https://sc26.supercomputing.org/program/papers/
         title: Official SC26 technical-papers page
@@ -718,7 +760,7 @@ conferences:
         edition: "2027"
         status: current
         covers: all
-        verified_at: 2026-09-06T22:00:57Z
+        verified_at: 2026-09-28T08:00:00Z
   - id: isc
     community: Super Computing
     name: ISC
@@ -836,6 +878,23 @@ conferences:
         covers:
           - research-paper
         verified_at: 2026-08-24T05:01:12Z
+      - id: artifacts-2026
+        url: https://conf.researchr.org/track/splash-2026/splash-2026-artifact-evaluation
+        title: Official OOPSLA 2026 artifact evaluation
+        edition: "2026"
+        status: historical
+        covers:
+          - artifact
+        verified_at: 2026-09-28T08:00:00Z
+      - id: dates-2026
+        url: https://conf.researchr.org/dates/splash-issta-2026
+        title: Official SPLASH 2026 submission dates
+        edition: "2026"
+        status: historical
+        covers:
+          - poster
+          - tool-demonstration
+        verified_at: 2026-09-28T08:00:00Z
   - id: sat
     community: Software Engineering
     name: SAT
@@ -1046,6 +1105,9 @@ conferences:
     aliases:
       - Foundations of Digital Games
     monitored_submissions:
+      metadata: Paper and abstract metadata
+      abstract-only: Abstract-only submission
+      tutorial-proposal: Tutorial or masterclass proposal
       regular-paper: Regular paper
       late-breaking-short-paper: Late-breaking short paper
       game-or-demonstration: Game or demonstration
@@ -1055,12 +1117,12 @@ conferences:
       workshop-proposal: Workshop proposal
     official_sources:
       - id: official
-        url: https://fdg2026.org/
-        title: Official FDG 2026 site
-        edition: "2026"
-        status: discover
+        url: https://www.fdg2027.org/authorinformation.html
+        title: Official FDG 2027 author information
+        edition: "2027"
+        status: current
         covers: all
-        verified_at: 2026-08-18T12:23:22Z
+        verified_at: 2026-09-28T08:00:00Z
       - id: deadline-1
         url: https://fdg2026.org/author-information/
         title: Official FDG 2026 author information
@@ -1083,14 +1145,14 @@ conferences:
       demonstration: Demonstration
     official_sources:
       - id: official
-        url: https://2027.ieee-apscon.org/?page_id=107
+        url: https://2027.ieee-apscon.org/call-for-papers/
         title: Official IEEE APSCON 2027 call for papers
         edition: "2027"
         status: current
         covers:
           - regular-paper
           - sensors-letters-paper
-        verified_at: 2026-09-06T22:00:57Z
+        verified_at: 2026-09-28T08:00:00Z
   - id: iscas
     community: Design Automation
     name: ISCAS
@@ -1098,6 +1160,7 @@ conferences:
     aliases:
       - IEEE International Symposium on Circuits and Systems
     monitored_submissions:
+      special-session-paper: Special-session paper
       regular-paper: Regular paper
       special-session-proposal: Special-session proposal
       tutorial-proposal: Tutorial proposal
@@ -1117,10 +1180,11 @@ conferences:
         status: current
         covers:
           - regular-paper
+          - special-session-paper
           - special-session-proposal
           - tutorial-proposal
           - live-demonstration
-        verified_at: 2026-08-30T22:05:35Z
+        verified_at: 2026-09-28T08:00:00Z
   - id: ius
     community: Sensors
     name: IUS
@@ -1226,6 +1290,7 @@ conferences:
     monitored_submissions:
       regular-paper: Regular paper
       special-session-proposal: Special-session proposal
+      workshop-proposal: Workshop proposal
       tutorial-proposal: Tutorial proposal
       student-paper: Student paper
     official_sources:
@@ -1235,7 +1300,7 @@ conferences:
         edition: "2027"
         status: current
         covers: all
-        verified_at: 2026-08-18T13:32:25Z
+        verified_at: 2026-09-28T08:00:00Z
   - id: ieee-sensors
     community: Sensors
     name: IEEE SENSORS
@@ -1263,7 +1328,9 @@ conferences:
         status: historical
         covers:
           - regular-paper
-        verified_at: 2026-08-18T13:06:25Z
+          - focused-session-proposal
+          - tutorial-proposal
+        verified_at: 2026-09-28T08:00:00Z
   - id: wacv
     community: Computer Vision
     name: WACV
@@ -1352,6 +1419,7 @@ conferences:
       - and Signal Processing
     monitored_submissions:
       full-paper: Full paper
+      special-session-paper: Special-session paper
       special-session-proposal: Special-session proposal
       tutorial-proposal: Tutorial proposal
       journal-paper-presentation: Journal-paper presentation
@@ -1371,7 +1439,7 @@ conferences:
         covers:
           - full-paper
           - journal-paper-presentation
-        verified_at: 2026-08-24T05:01:12Z
+        verified_at: 2026-09-28T08:00:00Z
       - id: tutorials
         url: https://2027.ieeeicassp.org/call-for-tutorials/
         title: Official ICASSP 2027 call for tutorials
@@ -1387,7 +1455,8 @@ conferences:
         status: current
         covers:
           - special-session-proposal
-        verified_at: 2026-08-27T14:48:38Z
+          - special-session-paper
+        verified_at: 2026-09-28T08:00:00Z
   - id: icaart
     community: Artificial Intelligence
     name: ICAART
@@ -1417,7 +1486,7 @@ conferences:
         edition: "2027"
         status: current
         covers: all
-        verified_at: 2026-08-24T05:01:12Z
+        verified_at: 2026-09-28T08:00:00Z
   - id: icann
     community: Artificial Intelligence
     name: ICANN
@@ -1582,7 +1651,8 @@ conferences:
         status: historical
         covers:
           - regular-paper
-        verified_at: 2026-08-18T13:06:25Z
+          - special-track-proposal
+        verified_at: 2026-09-28T08:00:00Z
   - id: icpp
     community: Super Computing
     name: ICPP
@@ -1834,18 +1904,19 @@ conferences:
     aliases:
       - World Conference on Explainable Artificial Intelligence
     monitored_submissions:
+      special-session-proposal: Special-session proposal
       research-paper: Research paper
       late-breaking-result-or-demonstration: Late-breaking result or demonstration
       doctoral-proposal: Doctoral proposal
       tutorial-proposal: Tutorial proposal
     official_sources:
       - id: official
-        url: https://xaiworldconference.com/
-        title: Official World Conference on Explainable Artificial Intelligence site
-        edition: series
-        status: discover
+        url: https://xaiworldconference.com/2027/important-dates/
+        title: Official XAI 2027 important dates
+        edition: "2027"
+        status: current
         covers: all
-        verified_at: 2026-08-18T12:23:22Z
+        verified_at: 2026-09-28T08:00:00Z
 deadlines:
   - id: asp-dac-2027-proposals
     conference: asp-dac
@@ -1953,11 +2024,11 @@ deadlines:
     edition: "2027"
     submissions:
       - research-paper
-    deadline_at: 2026-09-13T23:59:00-12:00
+    deadline_at: 2026-09-27T23:59:00-12:00
     timezone: AoE (UTC-12)
     source: official
-    sequence: 2
-    notes: The official site states September 13, 2026 without a time; normalized to 23:59 AoE.
+    sequence: 3
+    notes: Extended from September 13 via September 20 to the firm September 27 deadline. The official schedule explicitly specifies 23:59 AoE.
   - id: hpc-asia-2027-workshop-proposal
     conference: hpc-asia
     edition: "2027"
@@ -2007,11 +2078,11 @@ deadlines:
     edition: "2027"
     submissions:
       - regular-paper
-    deadline_at: 2026-09-17T23:59:00-07:00
+    deadline_at: 2026-10-25T23:59:00-07:00
     timezone: US Pacific Time (PDT, UTC-07)
     source: official
-    content: 4–8 page manuscript with an abstract of about 200 words
-    sequence: 3
+    content: 4–10 page manuscript with an abstract of about 200 words
+    sequence: 4
     notes: The source states midnight US Pacific Time; represented as 23:59 PDT on the stated date.
   - id: isqed-2027-special-session-paper
     conference: isqed
@@ -2350,9 +2421,10 @@ deadlines:
     edition: "2027"
     submissions:
       - tutorial-proposal
-    deadline_at: 2026-11-16T23:59:00-12:00
+    deadline_at: 2026-11-18T23:59:00-12:00
     timezone: AoE (UTC-12)
     source: tutorial-timeline
+    sequence: 1
     notes: No official time was stated; normalized to 23:59 AoE.
   - id: dac-2027-panel-proposal
     conference: dac
@@ -2368,9 +2440,10 @@ deadlines:
     edition: "2027"
     submissions:
       - special-session-proposal
-    deadline_at: 2026-11-16T23:59:00-12:00
+    deadline_at: 2026-11-18T23:59:00-12:00
     timezone: AoE (UTC-12)
     source: special-session-timeline
+    sequence: 1
     notes: No official time was stated; normalized to 23:59 AoE.
   - id: ismvl-2027-regular-paper
     conference: ismvl
@@ -2792,9 +2865,12 @@ deadlines:
     edition: "2027"
     submissions:
       - regular-paper
+      - special-session-paper
+    label: Regular or special-session paper
     deadline_at: 2026-10-13T23:59:00-12:00
     timezone: AoE (UTC-12)
     source: deadline-1
+    sequence: 1
   - id: iscas-2027-special-session-proposal
     conference: iscas
     edition: "2027"
@@ -2899,9 +2975,10 @@ deadlines:
     edition: "2027"
     submissions:
       - full-paper
-    deadline_at: 2026-09-16T23:59:00-12:00
+    deadline_at: 2026-09-23T23:59:00-12:00
     timezone: AoE (UTC-12)
     source: deadline-1
+    sequence: 1
   - id: icassp-2027-journal-paper-presentation
     conference: icassp
     edition: "2027"
@@ -2927,9 +3004,10 @@ deadlines:
     submissions:
       - regular-paper
     label: Regular paper — first cycle
-    deadline_at: 2026-09-15T23:59:00-12:00
+    deadline_at: 2026-09-29T23:59:00-12:00
     timezone: AoE (UTC-12)
     source: deadline-1
+    sequence: 1
   - id: icaart-2027-position-paper
     conference: icaart
     edition: "2027"
@@ -3050,10 +3128,11 @@ deadlines:
     submissions:
       - sensors-letters-paper
     label: IEEE Sensors Letters paper — Option B
-    deadline_at: 2026-09-15T23:59:00-12:00
+    deadline_at: 2026-10-05T23:59:00-12:00
     timezone: AoE (UTC-12)
     source: official
-    notes: The official site states September 15, 2026 without a time; normalized to 23:59 AoE.
+    sequence: 1
+    notes: The official site states October 5, 2026 without a time; normalized to 23:59 AoE.
   - id: ius-2027-abstract
     conference: ius
     edition: "2027"
@@ -3070,12 +3149,364 @@ deadlines:
     edition: "2027"
     submissions:
       - regular-paper
-    deadline_at: 2026-12-15T23:59:00-12:00
+    deadline_at: 2027-01-11T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+    sequence: 1
+    content: Single-column ACM PDF, normally up to 16 pages excluding references; maximum 24 pages with justification
+  - id: dac-2027-abstract-registration
+    conference: dac
+    edition: "2027"
+    submissions:
+      - abstract-registration
+    deadline_at: 2026-11-11T17:00:00-08:00
+    timezone: US Pacific Time (PST, UTC-08)
+    source: research-submissions
+    content: Title, approximately 100-word abstract, and complete co-author information
+  - id: date-2027-university-fair
+    conference: date
+    edition: "2027"
+    submissions:
+      - university-fair
+    deadline_at: 2027-01-15T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+  - id: radarconf-2027-special-session-proposal
+    conference: radarconf
+    edition: "2027"
+    submissions:
+      - special-session-proposal
+    deadline_at: 2026-09-30T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+  - id: radarconf-2027-workshop-tutorial-proposal
+    conference: radarconf
+    edition: "2027"
+    submissions:
+      - workshop-proposal
+      - tutorial-proposal
+    label: Workshop or tutorial proposal
+    deadline_at: 2026-09-30T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+  - id: icassp-2027-special-session-proposal
+    conference: icassp
+    edition: "2027"
+    submissions:
+      - special-session-proposal
+    deadline_at: 2026-07-24T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: special-sessions
+    content: Single PDF with organizers, proposed papers and abstracts, and a proposal write-up of up to 400 words
+  - id: icassp-2027-special-session-paper
+    conference: icassp
+    edition: "2027"
+    submissions:
+      - special-session-paper
+    deadline_at: 2026-09-23T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: special-sessions
+  - id: xai-2027-special-session-proposal
+    conference: xai
+    edition: "2027"
+    submissions:
+      - special-session-proposal
+    deadline_at: 2026-11-06T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+  - id: fdg-2027-metadata
+    conference: fdg
+    edition: "2027"
+    submissions:
+      - metadata
+    deadline_at: 2027-01-04T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+    content: Author names, paper title and proposed tracks; full papers also require an abstract
+  - id: fdg-2027-abstract-only
+    conference: fdg
+    edition: "2027"
+    submissions:
+      - abstract-only
+    deadline_at: 2027-01-11T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+    content: Single-column ACM PDF of up to 2 pages, excluding references
+  - id: fdg-2027-proposals
+    conference: fdg
+    edition: "2027"
+    submissions:
+      - workshop-proposal
+      - panel-proposal
+      - competition-proposal
+      - tutorial-proposal
+    label: Workshop, panel, competition, or tutorial proposal
+    deadline_at: 2026-11-16T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+    content: Single-column ACM PDF of up to 4 pages, excluding references
+  - id: fdg-2027-late-breaking-short-paper
+    conference: fdg
+    edition: "2027"
+    submissions:
+      - late-breaking-short-paper
+    deadline_at: 2027-03-08T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+    content: Single-column ACM PDF of up to 6 pages, excluding references
+  - id: fdg-2027-game-or-demonstration
+    conference: fdg
+    edition: "2027"
+    submissions:
+      - game-or-demonstration
+    deadline_at: 2027-03-08T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+    content: Single-column ACM PDF of up to 4 pages excluding references, plus a demo video
+  - id: fdg-2027-doctoral-consortium
+    conference: fdg
+    edition: "2027"
+    submissions:
+      - doctoral-consortium
+    deadline_at: 2027-03-08T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+    content: Non-anonymous single-column ACM PDF of up to 4 pages, including references
+  - id: iccad-2027-regular-paper
+    conference: iccad
+    edition: "2027"
+    submissions:
+      - regular-paper
+    deadline_at: 2027-04-14T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: cfp-2026
+    placeholder:
+      based_on_edition: "2026"
+      based_on_deadline_at: 2026-04-14T23:59:00-12:00
+  - id: iccad-2027-proposals
+    conference: iccad
+    edition: "2027"
+    submissions:
+      - workshop-proposal
+      - tutorial-proposal
+      - special-session-proposal
+      - panel-proposal
+    label: Workshop, tutorial, special-session, or panel proposal
+    deadline_at: 2027-04-14T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: cfp-2026
+    placeholder:
+      based_on_edition: "2026"
+      based_on_deadline_at: 2026-04-14T23:59:00-12:00
+  - id: micro-2027-full-paper
+    conference: micro
+    edition: "2027"
+    submissions:
+      - full-paper
+    deadline_at: 2027-04-07T23:59:00-04:00
+    timezone: Eastern Daylight Time (EDT, UTC-04)
+    source: deadline-1
+    placeholder:
+      based_on_edition: "2026"
+      based_on_deadline_at: 2026-04-07T23:59:00-04:00
+  - id: micro-2027-workshop-tutorial-proposal
+    conference: micro
+    edition: "2027"
+    submissions:
+      - workshop-proposal
+      - tutorial-proposal
+    label: Workshop or tutorial proposal
+    deadline_at: 2027-05-29T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: proposals-2026
+    content: 1–2 page proposal (previous-edition requirement)
+    placeholder:
+      based_on_edition: "2026"
+      based_on_deadline_at: 2026-05-29T23:59:00-12:00
+  - id: isca-2027-industry-abstract-registration
+    conference: isca
+    edition: "2027"
+    submissions:
+      - abstract-registration
+    label: Industrial-session paper — abstract registration
+    deadline_at: 2026-12-05T23:59:00-12:00
     timezone: AoE (UTC-12)
     source: deadline-1
     placeholder:
       based_on_edition: "2026"
-      based_on_deadline_at: 2025-12-15T23:59:00-12:00
+      based_on_deadline_at: 2025-12-05T23:59:00-12:00
+  - id: isca-2027-industrial-session-paper
+    conference: isca
+    edition: "2027"
+    submissions:
+      - industrial-session-paper
+    deadline_at: 2026-12-12T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: deadline-1
+    placeholder:
+      based_on_edition: "2026"
+      based_on_deadline_at: 2025-12-12T23:59:00-12:00
+  - id: isca-2027-workshop-tutorial-proposal
+    conference: isca
+    edition: "2027"
+    submissions:
+      - workshop-proposal
+      - tutorial-proposal
+    label: Workshop or tutorial proposal
+    deadline_at: 2027-01-30T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: proposals-2026
+    content: 1–2 page proposal (previous-edition requirement)
+    placeholder:
+      based_on_edition: "2026"
+      based_on_deadline_at: 2026-01-30T23:59:00-12:00
+  - id: sc-2027-workshop-proposal
+    conference: sc
+    edition: "2027"
+    submissions:
+      - workshop-proposal
+    deadline_at: 2027-02-16T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+    placeholder:
+      based_on_edition: "2026"
+      based_on_deadline_at: 2026-02-16T23:59:00-12:00
+  - id: sc-2027-tutorial-proposal
+    conference: sc
+    edition: "2027"
+    submissions:
+      - tutorial-proposal
+    deadline_at: 2027-04-27T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+    placeholder:
+      based_on_edition: "2026"
+      based_on_deadline_at: 2026-04-27T23:59:00-12:00
+  - id: sc-2027-panel-proposal
+    conference: sc
+    edition: "2027"
+    submissions:
+      - panel-proposal
+    deadline_at: 2027-04-27T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+    placeholder:
+      based_on_edition: "2026"
+      based_on_deadline_at: 2026-04-27T23:59:00-12:00
+  - id: sc-2027-poster
+    conference: sc
+    edition: "2027"
+    submissions:
+      - poster
+    deadline_at: 2027-08-08T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+    placeholder:
+      based_on_edition: "2026"
+      based_on_deadline_at: 2026-08-08T23:59:00-12:00
+  - id: sc-2027-doctoral-showcase
+    conference: sc
+    edition: "2027"
+    submissions:
+      - doctoral-showcase
+    deadline_at: 2027-08-08T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+    placeholder:
+      based_on_edition: "2026"
+      based_on_deadline_at: 2026-08-08T23:59:00-12:00
+  - id: sc-2027-birds-of-a-feather
+    conference: sc
+    edition: "2027"
+    submissions:
+      - birds-of-a-feather-proposal
+    deadline_at: 2027-07-13T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+    placeholder:
+      based_on_edition: "2026"
+      based_on_deadline_at: 2026-07-13T23:59:00-12:00
+  - id: ieee-sensors-2027-focused-session-proposal
+    conference: ieee-sensors
+    edition: "2027"
+    submissions:
+      - focused-session-proposal
+    deadline_at: 2027-03-31T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: deadline-1
+    placeholder:
+      based_on_edition: "2026"
+      based_on_deadline_at: 2026-03-31T23:59:00-12:00
+  - id: ieee-sensors-2027-tutorial-proposal
+    conference: ieee-sensors
+    edition: "2027"
+    submissions:
+      - tutorial-proposal
+    deadline_at: 2027-05-06T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: deadline-1
+    placeholder:
+      based_on_edition: "2026"
+      based_on_deadline_at: 2026-05-06T23:59:00-12:00
+  - id: icmla-2027-special-track-proposal
+    conference: icmla
+    edition: "2027"
+    submissions:
+      - special-track-proposal
+    deadline_at: 2027-03-08T23:59:00-07:00
+    timezone: US Pacific Time (PDT, UTC-07)
+    source: deadline-1
+    placeholder:
+      based_on_edition: "2026"
+      based_on_deadline_at: 2026-03-08T23:59:00-07:00
+  - id: oopsla-2027-round-1-artifact
+    conference: oopsla
+    edition: "2027"
+    submissions:
+      - artifact
+    label: Artifact — round 1
+    deadline_at: 2027-02-05T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: artifacts-2026
+    placeholder:
+      based_on_edition: "2026"
+      based_on_deadline_at: 2026-02-05T23:59:00-12:00
+  - id: oopsla-2027-round-2-artifact
+    conference: oopsla
+    edition: "2027"
+    submissions:
+      - artifact
+    label: Artifact — round 2
+    deadline_at: 2027-07-23T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: artifacts-2026
+    placeholder:
+      based_on_edition: "2026"
+      based_on_deadline_at: 2026-07-23T23:59:00-12:00
+  - id: oopsla-2027-poster
+    conference: oopsla
+    edition: "2027"
+    submissions:
+      - poster
+    deadline_at: 2027-06-26T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: dates-2026
+    notes: Estimated from the joint SPLASH/ISSTA 2026 poster call, which included OOPSLA.
+    placeholder:
+      based_on_edition: "2026"
+      based_on_deadline_at: 2026-06-26T23:59:00-12:00
+  - id: oopsla-2027-tool-demonstration
+    conference: oopsla
+    edition: "2027"
+    submissions:
+      - tool-demonstration
+    deadline_at: 2027-06-26T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: dates-2026
+    notes: Estimated from the SPLASH 2026 tool-demonstration submission deadline.
+    placeholder:
+      based_on_edition: "2026"
+      based_on_deadline_at: 2026-06-26T23:59:00-12:00
 history:
   - deadline: ieee-iv-2027-regular-paper
     detected_at: 2026-08-27T14:48:38Z
@@ -3087,6 +3518,41 @@ history:
     from: 2026-09-17T23:59:00-07:00
     to: 2026-10-15T23:59:00-07:00
     source: deadline-1
+  - deadline: hpc-asia-2027-research-paper
+    detected_at: 2026-09-28T08:00:00Z
+    from: 2026-09-13T23:59:00-12:00
+    to: 2026-09-27T23:59:00-12:00
+    source: official
+  - deadline: isqed-2027-regular-paper
+    detected_at: 2026-09-28T08:00:00Z
+    from: 2026-09-17T23:59:00-07:00
+    to: 2026-10-25T23:59:00-07:00
+    source: official
+  - deadline: dac-2027-tutorial-proposal
+    detected_at: 2026-09-28T08:00:00Z
+    from: 2026-11-16T23:59:00-12:00
+    to: 2026-11-18T23:59:00-12:00
+    source: tutorial-timeline
+  - deadline: dac-2027-special-session-proposal
+    detected_at: 2026-09-28T08:00:00Z
+    from: 2026-11-16T23:59:00-12:00
+    to: 2026-11-18T23:59:00-12:00
+    source: special-session-timeline
+  - deadline: icassp-2027-full-paper
+    detected_at: 2026-09-28T08:00:00Z
+    from: 2026-09-16T23:59:00-12:00
+    to: 2026-09-23T23:59:00-12:00
+    source: deadline-1
+  - deadline: icaart-2027-regular-paper
+    detected_at: 2026-09-28T08:00:00Z
+    from: 2026-09-15T23:59:00-12:00
+    to: 2026-09-29T23:59:00-12:00
+    source: deadline-1
+  - deadline: apscon-2027-sensors-letters-paper
+    detected_at: 2026-09-28T08:00:00Z
+    from: 2026-09-15T23:59:00-12:00
+    to: 2026-10-05T23:59:00-12:00
+    source: official
 conflicts:
   - id: dac-2027-research-manuscript-date
     conference: dac
@@ -3097,3 +3563,30 @@ conflicts:
         claim: Main submission information and timeline state November 18, 2026 at 5:00 PM US Pacific Time.
       - url: https://dac.com/2027/events/manuscript-submission-deadline
         claim: The event page states November 17, 2026 without a time.
+  - id: isc-2027-research-paper-date
+    conference: isc
+    submission: research-paper
+    detected_at: 2026-09-28T08:00:00Z
+    sources:
+      - url: https://isc-hpc.com/submissions/research-paper/
+        claim: The dedicated research-paper call states December 21, 2026.
+      - url: https://isc-hpc.com/submissions/
+        claim: The research-paper section states December 19, 2026; tables variously state December 21, 2026 and December 21, 2027.
+  - id: isc-2027-tutorial-date
+    conference: isc
+    submission: tutorial-proposal
+    detected_at: 2026-09-28T08:00:00Z
+    sources:
+      - url: https://isc-hpc.com/submissions/tutorial/
+        claim: Previously recorded as December 10, 2026 when verified on August 27; the current dedicated tutorial page now says TBA.
+      - url: https://isc-hpc.com/submissions/
+        claim: The 2027 table states only December 2026, without an exact day. Retain the previously recorded cutoff pending clarification.
+  - id: isqed-2027-wip-date
+    conference: isqed
+    submission: work-in-progress-paper
+    detected_at: 2026-09-28T08:00:00Z
+    sources:
+      - url: https://www.isqed.org/English/Conference/wip.html
+        claim: The important-dates table states an extended submission deadline of October 25, 2026, midnight US Pacific Time.
+      - url: https://www.isqed.org/English/Conference/wip.html
+        claim: The FAQ states that WIP papers are due February 7 without a year. Retain the recorded date until this inconsistency is clarified.
