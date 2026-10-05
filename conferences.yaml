@@ -153,6 +153,7 @@ conferences:
       regular-paper: Regular paper
       short-paper: Short paper
       special-session-proposal: Special-session proposal
+      special-session-paper: Special-session paper
     official_sources:
       - id: official
         url: https://mvl.jpn.org/ISMVL2027/cfp.php
@@ -161,7 +162,8 @@ conferences:
         status: current
         covers:
           - regular-paper
-        verified_at: 2026-08-24T05:01:12Z
+          - special-session-paper
+        verified_at: 2026-10-05T08:49:56Z
       - id: deadline-1
         url: https://www.ismvl.org/mvl26_CFP.html
         title: Official ISMVL 2026 call for papers
@@ -192,17 +194,19 @@ conferences:
     name: IWLS
     edition: "2027"
     monitored_submissions:
+      abstract-registration: Paper abstract registration
       regular-paper: Regular paper
       short-paper: Short paper
       poster: Poster
+      special-session-paper: Special-session paper
     official_sources:
       - id: official
-        url: https://www.iwls.org/
-        title: Official IWLS 2026 site
-        edition: "2026"
-        status: discover
+        url: https://www.iwls.org/iwls2027
+        title: Official IWLS 2027 site
+        edition: "2027"
+        status: current
         covers: all
-        verified_at: 2026-08-18T13:06:25Z
+        verified_at: 2026-10-05T08:49:56Z
   - id: isqed
     community: Design Automation
     name: ISQED
@@ -391,11 +395,20 @@ conferences:
     official_sources:
       - id: official
         url: https://qctipconf.github.io/
-        title: Official QCTiP conference-series site
-        edition: series
-        status: discover
+        title: Official QCTiP 2027 site
+        edition: "2027"
+        status: current
         covers: all
-        verified_at: 2026-08-18T11:49:39Z
+        verified_at: 2026-10-05T08:49:56Z
+      - id: deadline-1
+        url: https://qctipconf.github.io/qctip_2026/submission
+        title: Official QCTiP 2026 call for submissions
+        edition: "2026"
+        status: historical
+        covers:
+          - talk
+          - poster
+        verified_at: 2026-10-05T08:49:56Z
   - id: aps-march-meeting
     community: Quantum Computing
     name: APS March Meeting
@@ -457,7 +470,7 @@ conferences:
         edition: "2027"
         status: current
         covers: all
-        verified_at: 2026-08-18T11:49:39Z
+        verified_at: 2026-10-05T08:49:56Z
   - id: microtas
     community: Nanotech
     name: μTAS
@@ -698,7 +711,7 @@ conferences:
         covers:
           - paper-abstract
           - research-paper
-        verified_at: 2026-08-24T05:01:12Z
+        verified_at: 2026-10-05T08:49:56Z
       - id: workshops
         url: https://www.sc-asia.org/sca2027-call-for-workshop-proposals/
         title: Official SCA 2027 call for workshop proposals
@@ -707,7 +720,7 @@ conferences:
         covers:
           - workshop-proposal
           - workshop-paper
-        verified_at: 2026-08-24T05:01:12Z
+        verified_at: 2026-10-05T08:49:56Z
       - id: posters
         url: https://www.sc-asia.org/sca2027-call-for-posters/
         title: Official SCA 2027 call for posters
@@ -723,7 +736,7 @@ conferences:
         status: current
         covers:
           - tutorial-proposal
-        verified_at: 2026-08-24T05:01:12Z
+        verified_at: 2026-10-05T08:49:56Z
       - id: birds-of-a-feather
         url: https://www.sc-asia.org/sca2027-call-for-birds-of-a-feather-bof-proposals/
         title: Official SCA 2027 call for Birds-of-a-Feather proposals
@@ -777,6 +790,7 @@ conferences:
       workshop-proposal: Workshop proposal
       workshop-paper: Workshop paper
       tutorial-proposal: Tutorial proposal
+      tutorial-full-proposal: Tutorial full proposal (accepted pre-proposals)
       birds-of-a-feather-proposal: Birds-of-a-Feather proposal
     official_sources:
       - id: official
@@ -815,7 +829,8 @@ conferences:
         status: current
         covers:
           - tutorial-proposal
-        verified_at: 2026-08-27T14:48:38Z
+          - tutorial-full-proposal
+        verified_at: 2026-10-05T08:49:56Z
   - id: esop
     community: Software Engineering
     name: ESOP
@@ -1774,6 +1789,7 @@ conferences:
       - International Symposium on Design and Diagnostics of Electronic Circuits and Systems
     monitored_submissions:
       regular-paper: Regular paper
+      abstract-registration: Paper title and abstract
       poster: Poster
       special-session-proposal: Special-session proposal
     official_sources:
@@ -1784,7 +1800,8 @@ conferences:
         status: current
         covers:
           - regular-paper
-        verified_at: 2026-08-18T13:32:25Z
+          - abstract-registration
+        verified_at: 2026-10-05T08:49:56Z
   - id: isdcs
     community: Design Automation
     name: ISDCS
@@ -2166,7 +2183,17 @@ deadlines:
     timezone: AoE (UTC-12)
     source: official
     sequence: 3
-    notes: No official time was stated; normalized to 23:59 AoE. The site's presentation-only abstract date shows 2026 and was excluded as inconsistent with the 2027 edition.
+    notes: No official time was stated; normalized to 23:59 AoE.
+  - id: ieee-nano-2027-presentation-only-abstract
+    conference: ieee-nano
+    edition: "2027"
+    submissions:
+      - presentation-only-abstract
+    deadline_at: 2027-04-08T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+    content: One-page abstract using the official word template; tables and figures may fit within the page
+    notes: No official time was stated; normalized to 23:59 AoE. Final abstract modifications are due May 30, 2027.
   - id: mdpi-iecb-2027-abstract
     conference: mdpi-biosensors
     edition: "2027"
@@ -2297,11 +2324,22 @@ deadlines:
     edition: "2027"
     submissions:
       - tutorial-proposal
-    deadline_at: 2026-12-10T23:59:00-12:00
+    deadline_at: 2026-12-04T23:59:00-12:00
     timezone: AoE (UTC-12)
     source: tutorials
-    content: Single PDF with a 500-word abstract, up to 3 pages of content, and presenter CVs
-    notes: No official time was stated; normalized to 23:59 AoE.
+    content: Tutorial pre-proposal with a 250-word abstract
+    sequence: 1
+    notes: First-stage deadline; only accepted pre-proposals may submit full proposals by January 19, 2027. No official time was stated; normalized to 23:59 AoE.
+  - id: isc-2027-tutorial-full-proposal
+    conference: isc
+    edition: "2027"
+    submissions:
+      - tutorial-full-proposal
+    deadline_at: 2027-01-19T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: tutorials
+    content: Detailed tutorial proposal with presenter information and CVs (maximum 2-page CV per presenter)
+    notes: Only accepted pre-proposals may submit a full proposal. No official time was stated; normalized to 23:59 AoE.
   - id: esop-2027-round-2-paper
     conference: esop
     edition: "2027"
@@ -2450,24 +2488,35 @@ deadlines:
     edition: "2027"
     submissions:
       - regular-paper
+      - special-session-paper
+    label: Regular and special-session papers
     deadline_at: 2026-11-01T23:59:00-12:00
     timezone: AoE (UTC-12)
     source: official
     content: Up to 6 pages in PDF format with a 50–100 word abstract
-    sequence: 1
+    sequence: 2
     notes: No official time was stated; normalized to 23:59 AoE.
   - id: iwls-2027-regular-paper
     conference: iwls
     edition: "2027"
     submissions:
       - regular-paper
-    deadline_at: 2027-04-03T23:59:00-12:00
+    deadline_at: 2027-02-15T23:59:00-12:00
     timezone: AoE (UTC-12)
     source: official
-    content: Up to 8 pages, excluding references (previous-edition requirement)
-    placeholder:
-      based_on_edition: "2026"
-      based_on_deadline_at: 2026-04-03T23:59:00-12:00
+    sequence: 1
+    notes: No official time was stated; normalized to 23:59 AoE.
+  - id: iwls-2027-paper-abstract
+    conference: iwls
+    edition: "2027"
+    submissions:
+      - abstract-registration
+      - special-session-paper
+    label: Paper abstract (regular and special-session papers)
+    deadline_at: 2027-02-08T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+    notes: No official time was stated; normalized to 23:59 AoE.
   - id: iccd-2027-regular-paper
     conference: iccd
     edition: "2027"
@@ -2563,6 +2612,30 @@ deadlines:
     placeholder:
       based_on_edition: "2026"
       based_on_deadline_at: 2025-11-17T23:59:00-12:00
+  - id: qctip-2027-talk
+    conference: qctip
+    edition: "2027"
+    submissions:
+      - talk
+    deadline_at: 2027-01-11T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: deadline-1
+    content: Full technical manuscript and self-contained 3-page extended abstract (previous-edition requirement)
+    placeholder:
+      based_on_edition: "2026"
+      based_on_deadline_at: 2026-01-11T23:59:00-12:00
+  - id: qctip-2027-poster
+    conference: qctip
+    edition: "2027"
+    submissions:
+      - poster
+    deadline_at: 2027-01-25T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: deadline-1
+    content: 1–3 page abstract (previous-edition requirement)
+    placeholder:
+      based_on_edition: "2026"
+      based_on_deadline_at: 2026-01-25T23:59:00-12:00
   - id: sc-2027-technical-paper
     conference: sc
     edition: "2027"
@@ -2579,20 +2652,22 @@ deadlines:
     edition: "2027"
     submissions:
       - research-paper
-    deadline_at: 2026-10-07T23:59:00-12:00
+    deadline_at: 2026-10-21T23:59:00-12:00
     timezone: AoE (UTC-12)
     source: official
     content: Up to 18 pages in PDF format, including figures and references
-    sequence: 1
+    sequence: 2
+    notes: Deadline extended from October 7. No official time was stated; normalized to 23:59 AoE.
   - id: sca-2027-paper-abstract
     conference: sca
     edition: "2027"
     submissions:
       - paper-abstract
-    deadline_at: 2026-09-30T23:59:00-12:00
+    deadline_at: 2026-10-16T23:59:00-12:00
     timezone: AoE (UTC-12)
     source: official
-    notes: Abstract submission is encouraged but optional; new abstracts remain accepted until the full-paper deadline.
+    sequence: 1
+    notes: Deadline extended from September 30. Abstract submission is encouraged but optional; new abstracts remain accepted until the full-paper deadline on October 21. No official time was stated; normalized to 23:59 AoE.
   - id: sca-2027-workshop-proposal
     conference: sca
     edition: "2027"
@@ -2615,10 +2690,12 @@ deadlines:
     edition: "2027"
     submissions:
       - tutorial-proposal
-    deadline_at: 2026-09-30T23:59:00-12:00
+    deadline_at: 2026-10-16T23:59:00-12:00
     timezone: AoE (UTC-12)
     source: tutorials
     content: Single PDF proposal with a tutorial plan and presenter information
+    sequence: 1
+    notes: Deadline extended from September 30. The proposal abstract is limited to 300 words. No official time was stated; normalized to 23:59 AoE.
   - id: sca-2027-poster-round-1
     conference: sca
     edition: "2027"
@@ -2815,7 +2892,18 @@ deadlines:
     timezone: AoE (UTC-12)
     source: official
     sequence: 1
+    label: Title and abstract
     notes: The official site states January 8, 2027 without a time; normalized to 23:59 AoE.
+  - id: ddecs-2027-full-paper
+    conference: ddecs
+    edition: "2027"
+    submissions:
+      - regular-paper
+    label: Full paper
+    deadline_at: 2027-01-13T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+    notes: No official time was stated; normalized to 23:59 AoE.
   - id: icmla-2027-regular-paper
     conference: icmla
     edition: "2027"
@@ -3553,6 +3641,26 @@ history:
     from: 2026-09-15T23:59:00-12:00
     to: 2026-10-05T23:59:00-12:00
     source: official
+  - deadline: sca-2027-research-paper
+    detected_at: 2026-10-05T08:49:56Z
+    from: 2026-10-07T23:59:00-12:00
+    to: 2026-10-21T23:59:00-12:00
+    source: official
+  - deadline: sca-2027-paper-abstract
+    detected_at: 2026-10-05T08:49:56Z
+    from: 2026-09-30T23:59:00-12:00
+    to: 2026-10-16T23:59:00-12:00
+    source: official
+  - deadline: sca-2027-tutorial-proposal
+    detected_at: 2026-10-05T08:49:56Z
+    from: 2026-09-30T23:59:00-12:00
+    to: 2026-10-16T23:59:00-12:00
+    source: tutorials
+  - deadline: isc-2027-tutorial-proposal
+    detected_at: 2026-10-05T08:49:56Z
+    from: 2026-12-10T23:59:00-12:00
+    to: 2026-12-04T23:59:00-12:00
+    source: tutorials
 conflicts:
   - id: dac-2027-research-manuscript-date
     conference: dac
@@ -3572,15 +3680,6 @@ conflicts:
         claim: The dedicated research-paper call states December 21, 2026.
       - url: https://isc-hpc.com/submissions/
         claim: The research-paper section states December 19, 2026; tables variously state December 21, 2026 and December 21, 2027.
-  - id: isc-2027-tutorial-date
-    conference: isc
-    submission: tutorial-proposal
-    detected_at: 2026-09-28T08:00:00Z
-    sources:
-      - url: https://isc-hpc.com/submissions/tutorial/
-        claim: Previously recorded as December 10, 2026 when verified on August 27; the current dedicated tutorial page now says TBA.
-      - url: https://isc-hpc.com/submissions/
-        claim: The 2027 table states only December 2026, without an exact day. Retain the previously recorded cutoff pending clarification.
   - id: isqed-2027-wip-date
     conference: isqed
     submission: work-in-progress-paper
@@ -3590,3 +3689,12 @@ conflicts:
         claim: The important-dates table states an extended submission deadline of October 25, 2026, midnight US Pacific Time.
       - url: https://www.isqed.org/English/Conference/wip.html
         claim: The FAQ states that WIP papers are due February 7 without a year. Retain the recorded date until this inconsistency is clarified.
+  - id: ieee-iv-2027-regular-paper-date
+    conference: ieee-iv
+    submission: regular-paper
+    detected_at: 2026-10-05T08:49:56Z
+    sources:
+      - url: https://ieee-iv.org/2026/contributions/call-for-papers/
+        claim: The official IEEE IV 2026 call says the submission deadline returns to October 1 starting with IV 2027.
+      - url: https://ieee-iv.org/2027/contributions/call-for-papers/
+        claim: The official IEEE IV 2027 call lists November 15, 2026 as the paper-submission deadline.
