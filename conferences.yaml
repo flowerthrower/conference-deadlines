@@ -89,6 +89,7 @@ conferences:
       panel-proposal: Panel proposal
       special-session-proposal: Special-session proposal
       engineering-track-presentation: Engineering-track presentation
+      pavilion-proposal: DAC Pavilion proposal
     official_sources:
       - id: official
         url: https://dac.com/2026/call-for-contributions
@@ -129,6 +130,14 @@ conferences:
         covers:
           - panel-proposal
         verified_at: 2026-09-14T10:19:55Z
+      - id: pavilion-proposal
+        url: https://dac.com/2027/dac-pavilion-call-for-proposals
+        title: Official DAC 2027 Pavilion call for proposals
+        edition: "2027"
+        status: current
+        covers:
+          - pavilion-proposal
+        verified_at: 2026-10-11T22:07:57Z
       - id: special-session-timeline
         url: https://dac.com/2027/event-type/research-track-special-sessions
         title: Official DAC 2027 research-track special-session timeline
@@ -152,6 +161,7 @@ conferences:
     monitored_submissions:
       regular-paper: Regular paper
       short-paper: Short paper
+      tutorial-paper: Tutorial paper
       special-session-proposal: Special-session proposal
       special-session-paper: Special-session paper
     official_sources:
@@ -163,7 +173,8 @@ conferences:
         covers:
           - regular-paper
           - special-session-paper
-        verified_at: 2026-10-05T08:49:56Z
+          - tutorial-paper
+        verified_at: 2026-10-11T22:07:57Z
       - id: deadline-1
         url: https://www.ismvl.org/mvl26_CFP.html
         title: Official ISMVL 2026 call for papers
@@ -189,6 +200,14 @@ conferences:
         status: discover
         covers: all
         verified_at: 2026-08-18T11:49:39Z
+      - id: deadline-1
+        url: https://ieee-isvlsi.github.io/ISVLSI_2026_Website/index.html
+        title: Official ISVLSI 2026 late-breaking-results announcement
+        edition: "2026"
+        status: historical
+        covers:
+          - late-breaking-result
+        verified_at: 2026-10-11T22:07:57Z
   - id: iwls
     community: Design Automation
     name: IWLS
@@ -217,6 +236,7 @@ conferences:
       regular-paper: Regular paper
       work-in-progress-paper: Work-in-progress paper
       poster: Poster
+      special-session-proposal: Special-session proposal
       special-session-paper: Special-session paper
       workshop-proposal: Workshop proposal
       tutorial-proposal: Tutorial proposal
@@ -245,8 +265,9 @@ conferences:
         edition: "2027"
         status: current
         covers:
+          - special-session-proposal
           - special-session-paper
-        verified_at: 2026-09-14T10:19:55Z
+        verified_at: 2026-10-11T22:07:57Z
   - id: iccd
     community: Design Automation
     name: ICCD
@@ -342,6 +363,22 @@ conferences:
         status: discover
         covers: all
         verified_at: 2026-08-18T11:49:39Z
+      - id: edition-2027
+        url: https://tqc-conference.org/2026/2027/
+        title: Official TQC 2027 site
+        edition: "2027"
+        status: current
+        covers: all
+        verified_at: 2026-10-11T22:07:57Z
+      - id: deadline-1
+        url: https://tqc-conference.org/2026/call/
+        title: Official TQC 2026 call for papers
+        edition: "2026"
+        status: historical
+        covers:
+          - talk
+          - poster
+        verified_at: 2026-10-11T22:07:57Z
   - id: qip
     community: Quantum Computing
     name: QIP
@@ -488,6 +525,15 @@ conferences:
         status: discover
         covers: all
         verified_at: 2026-08-18T11:49:39Z
+      - id: deadline-1
+        url: https://microtas2026.org/authors/deadlines.html
+        title: Official MicroTAS 2026 author deadlines
+        edition: "2026"
+        status: historical
+        covers:
+          - abstract
+          - late-news-abstract
+        verified_at: 2026-10-11T22:07:57Z
   - id: mdpi-biosensors
     community: Nanotech
     name: MDPI Biosensors
@@ -599,6 +645,7 @@ conferences:
     monitored_submissions:
       abstract-registration: Abstract registration
       full-paper: Full paper
+      artifact: Artifact
       industrial-session-paper: Industrial-session paper
       workshop-proposal: Workshop proposal
       tutorial-proposal: Tutorial proposal
@@ -629,6 +676,16 @@ conferences:
           - workshop-proposal
           - tutorial-proposal
         verified_at: 2026-09-28T08:00:00Z
+      - id: deadline-2027
+        url: https://iscaconf.org/isca2027/submit/callforpapers.php
+        title: Official ISCA 2027 call for papers
+        edition: "2027"
+        status: current
+        covers:
+          - abstract-registration
+          - full-paper
+          - artifact
+        verified_at: 2026-10-11T22:07:57Z
   - id: asplos
     community: Computer Architecture
     name: ASPLOS
@@ -1894,6 +1951,14 @@ conferences:
           - title-and-abstract-registration
           - full-manuscript
         verified_at: 2026-08-18T13:06:25Z
+      - id: contest
+        url: https://github.com/ABKGroup/ISPD27-Contest
+        title: Official ISPD 2027 contest schedule
+        edition: "2027"
+        status: current
+        covers:
+          - contest-submission
+        verified_at: 2026-10-11T22:07:57Z
   - id: ssi
     community: Sensors
     name: SSI
@@ -2106,11 +2171,21 @@ deadlines:
     edition: "2027"
     submissions:
       - special-session-paper
-    deadline_at: 2026-10-15T23:59:00-07:00
-    timezone: US Pacific Time (PDT, UTC-07)
+    deadline_at: 2027-01-10T23:59:00-08:00
+    timezone: US Pacific Time (PST, UTC-08)
     source: deadline-1
     content: Up to 6-page invited paper in IEEE format
-    sequence: 4
+    sequence: 5
+    notes: The source states midnight US Pacific Time; represented as 23:59 PST on the stated date.
+  - id: isqed-2027-special-session-proposal
+    conference: isqed
+    edition: "2027"
+    submissions:
+      - special-session-proposal
+    deadline_at: 2026-10-31T23:59:00-07:00
+    timezone: US Pacific Time (PDT, UTC-07)
+    source: deadline-1
+    content: 2–4 page proposal with four presentation abstracts
     notes: The source states midnight US Pacific Time; represented as 23:59 PDT on the stated date.
   - id: isqed-2027-workshop-tutorial-proposal
     conference: isqed
@@ -2489,7 +2564,8 @@ deadlines:
     submissions:
       - regular-paper
       - special-session-paper
-    label: Regular and special-session papers
+      - tutorial-paper
+    label: Regular, special-session, and tutorial papers
     deadline_at: 2026-11-01T23:59:00-12:00
     timezone: AoE (UTC-12)
     source: official
@@ -2593,25 +2669,20 @@ deadlines:
     edition: "2027"
     submissions:
       - abstract-registration
-    deadline_at: 2026-11-10T23:59:00-12:00
+    deadline_at: 2026-11-09T23:59:00-12:00
     timezone: AoE (UTC-12)
-    source: deadline-1
-    placeholder:
-      based_on_edition: "2026"
-      based_on_deadline_at: 2025-11-10T23:59:00-12:00
+    source: deadline-2027
+    sequence: 1
   - id: isca-2027-regular-paper
     conference: isca
     edition: "2027"
     submissions:
       - full-paper
     label: Regular paper
-    deadline_at: 2026-11-17T23:59:00-12:00
+    deadline_at: 2026-11-16T23:59:00-12:00
     timezone: AoE (UTC-12)
-    source: deadline-1
-    content: Up to 11 pages, excluding references (previous-edition requirement)
-    placeholder:
-      based_on_edition: "2026"
-      based_on_deadline_at: 2025-11-17T23:59:00-12:00
+    source: deadline-2027
+    sequence: 1
   - id: qctip-2027-talk
     conference: qctip
     edition: "2027"
@@ -3188,6 +3259,33 @@ deadlines:
     timezone: AoE (UTC-12)
     source: deadline-1
     content: Maximum 8 pages plus 1 references page
+  - id: ispd-2027-contest-alpha-submission
+    conference: ispd
+    edition: "2027"
+    submissions:
+      - contest-submission
+    label: Contest — alpha submission
+    deadline_at: 2027-01-11T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: contest
+  - id: ispd-2027-contest-beta-submission
+    conference: ispd
+    edition: "2027"
+    submissions:
+      - contest-submission
+    label: Contest — beta submission
+    deadline_at: 2027-02-15T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: contest
+  - id: ispd-2027-contest-final-submission
+    conference: ispd
+    edition: "2027"
+    submissions:
+      - contest-submission
+    label: Contest — final submission
+    deadline_at: 2027-03-20T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: contest
   - id: reversible-computation-2027-research-paper
     conference: reversible-computation
     edition: "2027"
@@ -3595,6 +3693,75 @@ deadlines:
     placeholder:
       based_on_edition: "2026"
       based_on_deadline_at: 2026-06-26T23:59:00-12:00
+  - id: dac-2027-pavilion-proposal
+    conference: dac
+    edition: "2027"
+    submissions:
+      - pavilion-proposal
+    deadline_at: 2027-01-11T17:00:00-08:00
+    timezone: US Pacific Time (PST, UTC-08)
+    source: pavilion-proposal
+    content: Title, 250-word abstract, topic area, and organizer/presenter information
+  - id: tqc-2027-talk
+    conference: tqc
+    edition: "2027"
+    submissions:
+      - talk
+    deadline_at: 2027-02-01T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: deadline-1
+    content: "Two PDF files: extended abstract up to 3 pages excluding references and a technical manuscript (previous-edition requirement)"
+    placeholder:
+      based_on_edition: "2026"
+      based_on_deadline_at: 2026-02-01T23:59:00-12:00
+  - id: tqc-2027-poster
+    conference: tqc
+    edition: "2027"
+    submissions:
+      - poster
+    deadline_at: 2027-04-20T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: deadline-1
+    content: Poster-only summary up to 2 pages or submission in talk format (previous-edition requirement)
+    placeholder:
+      based_on_edition: "2026"
+      based_on_deadline_at: 2026-04-20T23:59:00-12:00
+  - id: microtas-2027-abstract
+    conference: microtas
+    edition: "2027"
+    submissions:
+      - abstract
+    deadline_at: 2027-05-19T23:59:00-10:00
+    timezone: Hawaii Standard Time (HST, UTC-10)
+    source: deadline-1
+    content: PDF abstract (previous-edition requirement)
+    placeholder:
+      based_on_edition: "2026"
+      based_on_deadline_at: 2026-05-19T23:59:00-10:00
+  - id: microtas-2027-late-news-abstract
+    conference: microtas
+    edition: "2027"
+    submissions:
+      - late-news-abstract
+    deadline_at: 2027-07-21T23:59:00-10:00
+    timezone: Hawaii Standard Time (HST, UTC-10)
+    source: deadline-1
+    content: PDF late-news abstract (previous-edition requirement)
+    placeholder:
+      based_on_edition: "2026"
+      based_on_deadline_at: 2026-07-21T23:59:00-10:00
+  - id: isvlsi-2027-late-breaking-result
+    conference: isvlsi
+    edition: "2027"
+    submissions:
+      - late-breaking-result
+    deadline_at: 2027-06-01T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: deadline-1
+    content: 1-page IEEE-formatted extended abstract (previous-edition requirement)
+    placeholder:
+      based_on_edition: "2026"
+      based_on_deadline_at: 2026-06-01T23:59:00-12:00
 history:
   - deadline: ieee-iv-2027-regular-paper
     detected_at: 2026-08-27T14:48:38Z
@@ -3661,6 +3828,11 @@ history:
     from: 2026-12-10T23:59:00-12:00
     to: 2026-12-04T23:59:00-12:00
     source: tutorials
+  - deadline: isqed-2027-special-session-paper
+    detected_at: 2026-10-11T22:07:57Z
+    from: 2026-10-15T23:59:00-07:00
+    to: 2027-01-10T23:59:00-08:00
+    source: deadline-1
 conflicts:
   - id: dac-2027-research-manuscript-date
     conference: dac

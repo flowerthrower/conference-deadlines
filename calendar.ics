@@ -617,23 +617,6 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:isqed-2027-special-session-paper@conference-deadlines
-DTSTAMP:20260914T101955Z
-LAST-MODIFIED:20260914T101955Z
-SEQUENCE:4
-SUMMARY:ISQED 2027 — Special-session paper
-DTSTART;VALUE=DATE:20261015
-DTEND;VALUE=DATE:20261016
-DESCRIPTION:Community: Design Automation\nSubmission type: Special-sessio
- n paper\nContent: Up to 6-page invited paper in IEEE format\n\nNotes: The
-  source states midnight US Pacific Time\; represented as 23:59 PDT on the
-  stated date.\n\nOfficial source: https://www.isqed.org/English/Conferenc
- e/Call-for-Special-Sessions.html\nVerified: 2026-09-14T10:19:55Z
-URL:https://www.isqed.org/English/Conference/Call-for-Special-Sessions.html
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:esop-2027-round-2-paper@conference-deadlines
 DTSTAMP:20260824T050112Z
 LAST-MODIFIED:20260824T050112Z
@@ -952,6 +935,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:isqed-2027-special-session-proposal@conference-deadlines
+DTSTAMP:20261011T220757Z
+LAST-MODIFIED:20261011T220757Z
+SEQUENCE:0
+SUMMARY:ISQED 2027 — Special-session proposal
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+DESCRIPTION:Community: Design Automation\nSubmission type: Special-sessio
+ n proposal\nContent: 2–4 page proposal with four presentation abstracts
+ \n\nNotes: The source states midnight US Pacific Time\; represented as 23
+ :59 PDT on the stated date.\n\nOfficial source: https://www.isqed.org/Eng
+ lish/Conference/Call-for-Special-Sessions.html\nVerified: 2026-10-11T22:0
+ 7:57Z
+URL:https://www.isqed.org/English/Conference/Call-for-Special-Sessions.html
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:radarconf-2027-regular-paper@conference-deadlines
 DTSTAMP:20260928T080000Z
 LAST-MODIFIED:20260928T080000Z
@@ -972,19 +973,19 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:ismvl-2027-regular-paper@conference-deadlines
-DTSTAMP:20261005T084956Z
-LAST-MODIFIED:20261005T084956Z
+DTSTAMP:20261011T220757Z
+LAST-MODIFIED:20261011T220757Z
 SEQUENCE:2
-SUMMARY:ISMVL 2027 — Regular and special-session papers
+SUMMARY:ISMVL 2027 — Regular\, special-session\, and tutorial papers
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
-DESCRIPTION:Community: Design Automation\nSubmission type: Regular and sp
- ecial-session papers\nContent: Up to 6 pages in PDF format with a 50–10
- 0 word abstract\n\nNotes: No official time was stated\; normalized to 23:
- 59 AoE. 23:59 AoE means the cutoff is 14:00 on the following day in Centr
- al European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1)
- .\n\nOfficial source: https://mvl.jpn.org/ISMVL2027/cfp.php\nVerified: 20
- 26-10-05T08:49:56Z
+DESCRIPTION:Community: Design Automation\nSubmission type: Regular\, spec
+ ial-session\, and tutorial papers\nContent: Up to 6 pages in PDF format w
+ ith a 50–100 word abstract\n\nNotes: No official time was stated\; norm
+ alized to 23:59 AoE. 23:59 AoE means the cutoff is 14:00 on the following
+  day in Central European summer time (CEST\, UTC+2)\, or 13:00 in winter 
+ (CET\, UTC+1).\n\nOfficial source: https://mvl.jpn.org/ISMVL2027/cfp.php\
+ nVerified: 2026-10-11T22:07:57Z
 URL:https://mvl.jpn.org/ISMVL2027/cfp.php
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1047,23 +1048,21 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:isca-2027-abstract-registration@conference-deadlines
-DTSTAMP:20260928T080000Z
-LAST-MODIFIED:20260928T080000Z
-SEQUENCE:0
-SUMMARY:ISCA 2027 (PLACEHOLDER) — Abstract registration
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
+DTSTAMP:20261011T220757Z
+LAST-MODIFIED:20261011T220757Z
+SEQUENCE:1
+SUMMARY:ISCA 2027 — Abstract registration
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
 DESCRIPTION:Community: Computer Architecture\nSubmission type: Abstract r
  egistration\nContent: See the official source for submission requirements
- .\n\nNotes: PLACEHOLDER: projected from the official 2026 deadline at 202
- 5-11-10T23:59:00-12:00\; this is not a confirmed 2027 date and the offici
- al source below is historical. 23:59 AoE means the cutoff is 14:00 on the
-  following day in Central European summer time (CEST\, UTC+2)\, or 13:00 
- in winter (CET\, UTC+1).\n\nOfficial source: https://www.iscaconf.org/isc
- a2026/submit/callforpapers.php\nVerified: 2026-09-28T08:00:00Z
-URL:https://www.iscaconf.org/isca2026/submit/callforpapers.php
+ .\n\nNotes: 23:59 AoE means the cutoff is 14:00 on the following day in C
+ entral European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UT
+ C+1).\n\nOfficial source: https://iscaconf.org/isca2027/submit/callforpap
+ ers.php\nVerified: 2026-10-11T22:07:57Z
+URL:https://iscaconf.org/isca2027/submit/callforpapers.php
 TRANSP:TRANSPARENT
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:dac-2027-abstract-registration@conference-deadlines
@@ -1140,6 +1139,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:isca-2027-regular-paper@conference-deadlines
+DTSTAMP:20261011T220757Z
+LAST-MODIFIED:20261011T220757Z
+SEQUENCE:1
+SUMMARY:ISCA 2027 — Regular paper
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+DESCRIPTION:Community: Computer Architecture\nSubmission type: Regular pa
+ per\nContent: See the official source for submission requirements.\n\nNot
+ es: 23:59 AoE means the cutoff is 14:00 on the following day in Central E
+ uropean summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\
+ nOfficial source: https://iscaconf.org/isca2027/submit/callforpapers.php\
+ nVerified: 2026-10-11T22:07:57Z
+URL:https://iscaconf.org/isca2027/submit/callforpapers.php
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:fdg-2027-proposals@conference-deadlines
 DTSTAMP:20260928T080000Z
 LAST-MODIFIED:20260928T080000Z
@@ -1175,26 +1192,6 @@ DESCRIPTION:Community: Design Automation\nSubmission type: Research manus
 URL:https://dac.com/2027/events/manuscript-submission-deadline
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:isca-2027-regular-paper@conference-deadlines
-DTSTAMP:20260928T080000Z
-LAST-MODIFIED:20260928T080000Z
-SEQUENCE:0
-SUMMARY:ISCA 2027 (PLACEHOLDER) — Regular paper
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-DESCRIPTION:Community: Computer Architecture\nSubmission type: Regular pa
- per\nContent: Up to 11 pages\, excluding references (previous-edition req
- uirement)\n\nNotes: PLACEHOLDER: projected from the official 2026 deadlin
- e at 2025-11-17T23:59:00-12:00\; this is not a confirmed 2027 date and th
- e official source below is historical. 23:59 AoE means the cutoff is 14:0
- 0 on the following day in Central European summer time (CEST\, UTC+2)\, o
- r 13:00 in winter (CET\, UTC+1).\n\nOfficial source: https://www.iscaconf
- .org/isca2026/submit/callforpapers.php\nVerified: 2026-09-28T08:00:00Z
-URL:https://www.iscaconf.org/isca2026/submit/callforpapers.php
-TRANSP:TRANSPARENT
-STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 UID:dac-2027-tutorial-proposal@conference-deadlines
@@ -1649,6 +1646,40 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:isqed-2027-special-session-paper@conference-deadlines
+DTSTAMP:20261011T220757Z
+LAST-MODIFIED:20261011T220757Z
+SEQUENCE:5
+SUMMARY:ISQED 2027 — Special-session paper
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+DESCRIPTION:Community: Design Automation\nSubmission type: Special-sessio
+ n paper\nContent: Up to 6-page invited paper in IEEE format\n\nNotes: The
+  source states midnight US Pacific Time\; represented as 23:59 PST on the
+  stated date.\n\nOfficial source: https://www.isqed.org/English/Conferenc
+ e/Call-for-Special-Sessions.html\nVerified: 2026-10-11T22:07:57Z
+URL:https://www.isqed.org/English/Conference/Call-for-Special-Sessions.html
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:dac-2027-pavilion-proposal@conference-deadlines
+DTSTAMP:20261011T220757Z
+LAST-MODIFIED:20261011T220757Z
+SEQUENCE:0
+SUMMARY:DAC 2027 — DAC Pavilion proposal
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+DESCRIPTION:Community: Design Automation\nSubmission type: DAC Pavilion p
+ roposal\nContent: Title\, 250-word abstract\, topic area\, and organizer/
+ presenter information\n\nNotes: No additional notes.\n\nOfficial source: 
+ https://dac.com/2027/dac-pavilion-call-for-proposals\nVerified: 2026-10-1
+ 1T22:07:57Z
+URL:https://dac.com/2027/dac-pavilion-call-for-proposals
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:esop-2027-artifact@conference-deadlines
 DTSTAMP:20260824T050112Z
 LAST-MODIFIED:20260824T050112Z
@@ -1723,6 +1754,24 @@ DESCRIPTION:Community: Quantum Computing\nSubmission type: Talk\nContent:
 URL:https://qctipconf.github.io/qctip_2026/submission
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:ispd-2027-contest-alpha-submission@conference-deadlines
+DTSTAMP:20261011T220757Z
+LAST-MODIFIED:20261011T220757Z
+SEQUENCE:0
+SUMMARY:ISPD 2027 — Contest — alpha submission
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+DESCRIPTION:Community: Design Automation\nSubmission type: Contest — al
+ pha submission\nContent: See the official source for submission requireme
+ nts.\n\nNotes: 23:59 AoE means the cutoff is 14:00 on the following day i
+ n Central European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\,
+  UTC+1).\n\nOfficial source: https://github.com/ABKGroup/ISPD27-Contest\n
+ Verified: 2026-10-11T22:07:57Z
+URL:https://github.com/ABKGroup/ISPD27-Contest
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:fdg-2027-regular-paper@conference-deadlines
@@ -2024,6 +2073,27 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:tqc-2027-talk@conference-deadlines
+DTSTAMP:20261011T220757Z
+LAST-MODIFIED:20261011T220757Z
+SEQUENCE:0
+SUMMARY:TQC 2027 (PLACEHOLDER) — Talk
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+DESCRIPTION:Community: Quantum Computing\nSubmission type: Talk\nContent:
+  Two PDF files: extended abstract up to 3 pages excluding references and 
+ a technical manuscript (previous-edition requirement)\n\nNotes: PLACEHOLD
+ ER: projected from the official 2026 deadline at 2026-02-01T23:59:00-12:0
+ 0\; this is not a confirmed 2027 date and the official source below is hi
+ storical. 23:59 AoE means the cutoff is 14:00 on the following day in Cen
+ tral European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+
+ 1).\n\nOfficial source: https://tqc-conference.org/2026/call/\nVerified: 
+ 2026-10-11T22:07:57Z
+URL:https://tqc-conference.org/2026/call/
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
 UID:oopsla-2027-round-1-artifact@conference-deadlines
 DTSTAMP:20260928T080000Z
 LAST-MODIFIED:20260928T080000Z
@@ -2114,6 +2184,24 @@ DESCRIPTION:Community: Design Automation\nSubmission type: Regular paper\
  EST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: http
  s://www.iwls.org/iwls2027\nVerified: 2026-10-05T08:49:56Z
 URL:https://www.iwls.org/iwls2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ispd-2027-contest-beta-submission@conference-deadlines
+DTSTAMP:20261011T220757Z
+LAST-MODIFIED:20261011T220757Z
+SEQUENCE:0
+SUMMARY:ISPD 2027 — Contest — beta submission
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+DESCRIPTION:Community: Design Automation\nSubmission type: Contest — be
+ ta submission\nContent: See the official source for submission requiremen
+ ts.\n\nNotes: 23:59 AoE means the cutoff is 14:00 on the following day in
+  Central European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, 
+ UTC+1).\n\nOfficial source: https://github.com/ABKGroup/ISPD27-Contest\nV
+ erified: 2026-10-11T22:07:57Z
+URL:https://github.com/ABKGroup/ISPD27-Contest
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -2344,6 +2432,24 @@ DESCRIPTION:Community: Transportation\nSubmission type: Industry paper\nC
  Verified: 2026-08-27T14:48:38Z
 URL:https://ieee-iv.org/2027/intelligent-vehicles-symposium-2027-perth-au
  stralia/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ispd-2027-contest-final-submission@conference-deadlines
+DTSTAMP:20261011T220757Z
+LAST-MODIFIED:20261011T220757Z
+SEQUENCE:0
+SUMMARY:ISPD 2027 — Contest — final submission
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+DESCRIPTION:Community: Design Automation\nSubmission type: Contest — fi
+ nal submission\nContent: See the official source for submission requireme
+ nts.\n\nNotes: 23:59 AoE means the cutoff is 14:00 on the following day i
+ n Central European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\,
+  UTC+1).\n\nOfficial source: https://github.com/ABKGroup/ISPD27-Contest\n
+ Verified: 2026-10-11T22:07:57Z
+URL:https://github.com/ABKGroup/ISPD27-Contest
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -2586,6 +2692,26 @@ TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
+UID:tqc-2027-poster@conference-deadlines
+DTSTAMP:20261011T220757Z
+LAST-MODIFIED:20261011T220757Z
+SEQUENCE:0
+SUMMARY:TQC 2027 (PLACEHOLDER) — Poster
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+DESCRIPTION:Community: Quantum Computing\nSubmission type: Poster\nConten
+ t: Poster-only summary up to 2 pages or submission in talk format (previo
+ us-edition requirement)\n\nNotes: PLACEHOLDER: projected from the officia
+ l 2026 deadline at 2026-04-20T23:59:00-12:00\; this is not a confirmed 20
+ 27 date and the official source below is historical. 23:59 AoE means the 
+ cutoff is 14:00 on the following day in Central European summer time (CES
+ T\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: https:
+ //tqc-conference.org/2026/call/\nVerified: 2026-10-11T22:07:57Z
+URL:https://tqc-conference.org/2026/call/
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
 UID:qce-2027-technical-paper@conference-deadlines
 DTSTAMP:20260818T130625Z
 LAST-MODIFIED:20260818T130625Z
@@ -2727,6 +2853,24 @@ TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
+UID:microtas-2027-abstract@conference-deadlines
+DTSTAMP:20261011T220757Z
+LAST-MODIFIED:20261011T220757Z
+SEQUENCE:0
+SUMMARY:μTAS 2027 (PLACEHOLDER) — Abstract
+DTSTART;VALUE=DATE:20270519
+DTEND;VALUE=DATE:20270520
+DESCRIPTION:Community: Nanotech\nSubmission type: Abstract\nContent: PDF 
+ abstract (previous-edition requirement)\n\nNotes: PLACEHOLDER: projected 
+ from the official 2026 deadline at 2026-05-19T23:59:00-10:00\; this is no
+ t a confirmed 2027 date and the official source below is historical.\n\nO
+ fficial source: https://microtas2026.org/authors/deadlines.html\nVerified
+ : 2026-10-11T22:07:57Z
+URL:https://microtas2026.org/authors/deadlines.html
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
 UID:iccd-2027-regular-paper@conference-deadlines
 DTSTAMP:20260818T130625Z
 LAST-MODIFIED:20260818T130625Z
@@ -2825,6 +2969,27 @@ DESCRIPTION:Community: Design Automation\nSubmission type: Regular paper\
  \, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: https://dsd-seaa
  .com/dsd2026/\nVerified: 2026-08-18T13:06:25Z
 URL:https://dsd-seaa.com/dsd2026/
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:isvlsi-2027-late-breaking-result@conference-deadlines
+DTSTAMP:20261011T220757Z
+LAST-MODIFIED:20261011T220757Z
+SEQUENCE:0
+SUMMARY:ISVLSI 2027 (PLACEHOLDER) — Late-breaking result
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+DESCRIPTION:Community: Design Automation\nSubmission type: Late-breaking 
+ result\nContent: 1-page IEEE-formatted extended abstract (previous-editio
+ n requirement)\n\nNotes: PLACEHOLDER: projected from the official 2026 de
+ adline at 2026-06-01T23:59:00-12:00\; this is not a confirmed 2027 date a
+ nd the official source below is historical. 23:59 AoE means the cutoff is
+  14:00 on the following day in Central European summer time (CEST\, UTC+2
+ )\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: https://ieee-is
+ vlsi.github.io/ISVLSI_2026_Website/index.html\nVerified: 2026-10-11T22:07
+ :57Z
+URL:https://ieee-isvlsi.github.io/ISVLSI_2026_Website/index.html
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 END:VEVENT
@@ -2969,6 +3134,24 @@ DESCRIPTION:Community: Super Computing\nSubmission type: Birds-of-a-Feath
  in winter (CET\, UTC+1).\n\nOfficial source: https://sc26.supercomputing.
  org/all-dates-deadlines/\nVerified: 2026-09-28T08:00:00Z
 URL:https://sc26.supercomputing.org/all-dates-deadlines/
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:microtas-2027-late-news-abstract@conference-deadlines
+DTSTAMP:20261011T220757Z
+LAST-MODIFIED:20261011T220757Z
+SEQUENCE:0
+SUMMARY:μTAS 2027 (PLACEHOLDER) — Late-news abstract
+DTSTART;VALUE=DATE:20270721
+DTEND;VALUE=DATE:20270722
+DESCRIPTION:Community: Nanotech\nSubmission type: Late-news abstract\nCon
+ tent: PDF late-news abstract (previous-edition requirement)\n\nNotes: PLA
+ CEHOLDER: projected from the official 2026 deadline at 2026-07-21T23:59:0
+ 0-10:00\; this is not a confirmed 2027 date and the official source below
+  is historical.\n\nOfficial source: https://microtas2026.org/authors/dead
+ lines.html\nVerified: 2026-10-11T22:07:57Z
+URL:https://microtas2026.org/authors/deadlines.html
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 END:VEVENT
