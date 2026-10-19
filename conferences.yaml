@@ -768,7 +768,7 @@ conferences:
         covers:
           - paper-abstract
           - research-paper
-        verified_at: 2026-10-05T08:49:56Z
+        verified_at: 2026-10-19T06:01:39Z
       - id: workshops
         url: https://www.sc-asia.org/sca2027-call-for-workshop-proposals/
         title: Official SCA 2027 call for workshop proposals
@@ -830,7 +830,7 @@ conferences:
         edition: "2027"
         status: current
         covers: all
-        verified_at: 2026-09-28T08:00:00Z
+        verified_at: 2026-10-19T06:01:39Z
   - id: isc
     community: Super Computing
     name: ISC
@@ -1106,6 +1106,7 @@ conferences:
       regular-paper: Regular paper
       position-paper: Position paper
       industrial-track-contribution: Industrial-track contribution
+      industrial-track-proposal: Industrial-track proposal
       special-session-proposal: Special-session proposal
       summer-school-proposal: Summer-school proposal
     official_sources:
@@ -1124,6 +1125,13 @@ conferences:
         covers:
           - regular-paper
         verified_at: 2026-08-18T13:06:25Z
+      - id: edition-2027
+        url: https://2027.fedcsis.org/pc
+        title: Official FedCSIS 2027 program and important dates
+        edition: "2027"
+        status: current
+        covers: all
+        verified_at: 2026-10-19T06:01:39Z
   - id: dsd
     community: Design Automation
     name: DSD
@@ -2124,9 +2132,10 @@ deadlines:
     edition: "2027"
     submissions:
       - tutorial-proposal
-    deadline_at: 2026-09-30T23:59:00-12:00
+    deadline_at: 2026-10-16T23:59:00-12:00
     timezone: AoE (UTC-12)
     source: official
+    sequence: 1
   - id: hpc-asia-2027-poster-round-1
     conference: hpc-asia
     edition: "2027"
@@ -2723,22 +2732,22 @@ deadlines:
     edition: "2027"
     submissions:
       - research-paper
-    deadline_at: 2026-10-21T23:59:00-12:00
+    deadline_at: 2026-10-28T23:59:00-12:00
     timezone: AoE (UTC-12)
     source: official
     content: Up to 18 pages in PDF format, including figures and references
-    sequence: 2
-    notes: Deadline extended from October 7. No official time was stated; normalized to 23:59 AoE.
+    sequence: 3
+    notes: Deadline extended from October 7 to October 21 and then October 28. No official time was stated; normalized to 23:59 AoE.
   - id: sca-2027-paper-abstract
     conference: sca
     edition: "2027"
     submissions:
       - paper-abstract
-    deadline_at: 2026-10-16T23:59:00-12:00
+    deadline_at: 2026-10-26T23:59:00-12:00
     timezone: AoE (UTC-12)
     source: official
-    sequence: 1
-    notes: Deadline extended from September 30. Abstract submission is encouraged but optional; new abstracts remain accepted until the full-paper deadline on October 21. No official time was stated; normalized to 23:59 AoE.
+    sequence: 2
+    notes: Deadline extended from September 30 to October 16 and then October 26. Abstract submission is optional; new abstracts remain accepted until the full-paper deadline on October 28. No official time was stated; normalized to 23:59 AoE.
   - id: sca-2027-workshop-proposal
     conference: sca
     edition: "2027"
@@ -2867,12 +2876,43 @@ deadlines:
     edition: "2027"
     submissions:
       - regular-paper
-    deadline_at: 2027-04-15T23:59:00-12:00
+    deadline_at: 2027-05-14T23:59:00-12:00
     timezone: AoE (UTC-12)
-    source: deadline-1
-    placeholder:
-      based_on_edition: "2026"
-      based_on_deadline_at: 2026-04-15T23:59:00-12:00
+    source: edition-2027
+    sequence: 1
+  - id: fedcsis-2027-special-session-proposal
+    conference: fedcsis
+    edition: "2027"
+    submissions:
+      - special-session-proposal
+    label: Thematic Session proposal
+    deadline_at: 2026-12-01T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: edition-2027
+  - id: fedcsis-2027-summer-school-proposal
+    conference: fedcsis
+    edition: "2027"
+    submissions:
+      - summer-school-proposal
+    deadline_at: 2027-03-01T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: edition-2027
+  - id: fedcsis-2027-position-paper
+    conference: fedcsis
+    edition: "2027"
+    submissions:
+      - position-paper
+    deadline_at: 2027-06-11T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: edition-2027
+  - id: fedcsis-2027-industrial-track-proposal
+    conference: fedcsis
+    edition: "2027"
+    submissions:
+      - industrial-track-proposal
+    deadline_at: 2027-06-25T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: edition-2027
   - id: dsd-2027-regular-paper
     conference: dsd
     edition: "2027"
@@ -3778,6 +3818,11 @@ history:
     from: 2026-09-13T23:59:00-12:00
     to: 2026-09-27T23:59:00-12:00
     source: official
+  - deadline: hpc-asia-2027-tutorial-proposal
+    detected_at: 2026-10-19T06:01:39Z
+    from: 2026-09-30T23:59:00-12:00
+    to: 2026-10-16T23:59:00-12:00
+    source: official
   - deadline: isqed-2027-regular-paper
     detected_at: 2026-09-28T08:00:00Z
     from: 2026-09-17T23:59:00-07:00
@@ -3817,6 +3862,16 @@ history:
     detected_at: 2026-10-05T08:49:56Z
     from: 2026-09-30T23:59:00-12:00
     to: 2026-10-16T23:59:00-12:00
+    source: official
+  - deadline: sca-2027-research-paper
+    detected_at: 2026-10-19T06:01:39Z
+    from: 2026-10-21T23:59:00-12:00
+    to: 2026-10-28T23:59:00-12:00
+    source: official
+  - deadline: sca-2027-paper-abstract
+    detected_at: 2026-10-19T06:01:39Z
+    from: 2026-10-16T23:59:00-12:00
+    to: 2026-10-26T23:59:00-12:00
     source: official
   - deadline: sca-2027-tutorial-proposal
     detected_at: 2026-10-05T08:49:56Z
