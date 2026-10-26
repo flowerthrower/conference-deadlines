@@ -764,42 +764,21 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:isqed-2027-workshop-tutorial-proposal@conference-deadlines
-DTSTAMP:20260928T080000Z
-LAST-MODIFIED:20260928T080000Z
-SEQUENCE:4
+DTSTAMP:20261026T000450Z
+LAST-MODIFIED:20261026T000450Z
+SEQUENCE:5
 SUMMARY:ISQED 2027 — Workshop or tutorial proposal
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 DESCRIPTION:Community: Design Automation\nSubmission type: Workshop or tu
  torial proposal\nContent: Text or PDF proposal with organizer\, presenter
- s\, and presenter biographies\n\nNotes: No official time was stated\; nor
- malized to 23:59 AoE. 23:59 AoE means the cutoff is 14:00 on the followin
- g day in Central European summer time (CEST\, UTC+2)\, or 13:00 in winter
-  (CET\, UTC+1).\n\nOfficial source: https://www.isqed.org/English/Confere
- nce/Call_for_Papers.html\nVerified: 2026-09-28T08:00:00Z
+ s\, and presenter biographies\n\nNotes: The official source says workshop
+ /tutorial proposals are due no later than October 22\, 2026\, without a t
+ ime\; normalized to 23:59 AoE. 23:59 AoE means the cutoff is 14:00 on the
+  following day in Central European summer time (CEST\, UTC+2)\, or 13:00 
+ in winter (CET\, UTC+1).\n\nOfficial source: https://www.isqed.org/Englis
+ h/Conference/Call_for_Papers.html\nVerified: 2026-10-26T00:04:50Z
 URL:https://www.isqed.org/English/Conference/Call_for_Papers.html
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:aps-global-physics-summit-2027-contributed-abstract@conference-deadli
- nes
-DTSTAMP:20260830T220535Z
-LAST-MODIFIED:20260830T220535Z
-SEQUENCE:1
-SUMMARY:APS Global Physics Summit 2027 — Contributed abstracts for oral
-  or poster presentation
-DTSTART;VALUE=DATE:20261022
-DTEND;VALUE=DATE:20261023
-DESCRIPTION:Community: Quantum Computing\nSubmission type: Contributed ab
- stracts for oral or poster presentation\nContent: Contributed abstract fo
- r oral or poster presentation\n\nNotes: The official call covers contribu
- ted abstracts for oral or poster presentation and states October 22\, 202
- 6 without a time\; normalized to 23:59 AoE. 23:59 AoE means the cutoff is
-  14:00 on the following day in Central European summer time (CEST\, UTC+2
- )\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: https://summit.
- aps.org/attend/abstracts/\nVerified: 2026-08-30T22:05:35Z
-URL:https://summit.aps.org/attend/abstracts/
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -843,8 +822,8 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:isqed-2027-regular-paper@conference-deadlines
-DTSTAMP:20260928T080000Z
-LAST-MODIFIED:20260928T080000Z
+DTSTAMP:20261026T000450Z
+LAST-MODIFIED:20261026T000450Z
 SEQUENCE:4
 SUMMARY:ISQED 2027 — Regular paper
 DTSTART;VALUE=DATE:20261025
@@ -853,7 +832,7 @@ DESCRIPTION:Community: Design Automation\nSubmission type: Regular paper\
  nContent: 4–10 page manuscript with an abstract of about 200 words\n\nN
  otes: The source states midnight US Pacific Time\; represented as 23:59 P
  DT on the stated date.\n\nOfficial source: https://www.isqed.org/English/
- Conference/Call_for_Papers.html\nVerified: 2026-09-28T08:00:00Z
+ Conference/Call_for_Papers.html\nVerified: 2026-10-26T00:04:50Z
 URL:https://www.isqed.org/English/Conference/Call_for_Papers.html
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -932,6 +911,48 @@ DESCRIPTION:Community: Software Engineering\nSubmission type: Artifact
  n winter (CET\, UTC+1).\n\nOfficial source: https://etaps.org/2027/cfp/\n
  Verified: 2026-08-27T14:48:38Z
 URL:https://etaps.org/2027/cfp/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:aps-global-physics-summit-2027-contributed-abstract@conference-deadli
+ nes
+DTSTAMP:20261026T000450Z
+LAST-MODIFIED:20261026T000450Z
+SEQUENCE:2
+SUMMARY:APS Global Physics Summit 2027 — Contributed abstracts for oral
+  or poster presentation
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+DESCRIPTION:Community: Quantum Computing\nSubmission type: Contributed ab
+ stracts for oral or poster presentation\nContent: Contributed abstract fo
+ r oral or poster presentation\n\nNotes: The official call covers contribu
+ ted abstracts for oral or poster presentation and states October 29\, 202
+ 6 without a time\; normalized to 23:59 AoE. 23:59 AoE means the cutoff is
+  14:00 on the following day in Central European summer time (CEST\, UTC+2
+ )\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: https://summit.
+ aps.org/attend/abstracts/\nVerified: 2026-10-26T00:04:50Z
+URL:https://summit.aps.org/attend/abstracts/
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:aps-global-physics-summit-2027-invited-abstract@conference-deadlines
+DTSTAMP:20261026T000450Z
+LAST-MODIFIED:20261026T000450Z
+SEQUENCE:0
+SUMMARY:APS Global Physics Summit 2027 — Invited abstract
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+DESCRIPTION:Community: Quantum Computing\nSubmission type: Invited abstra
+ ct\nContent: Invited abstract\, approximately 2\,000 characters\n\nNotes:
+  The official abstract call runs through October 29\, and invited speaker
+ s submit through the standard link\; the invited guidelines give no cutof
+ f time\, so this is normalized to 23:59 AoE. 23:59 AoE means the cutoff i
+ s 14:00 on the following day in Central European summer time (CEST\, UTC+
+ 2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: https://summit
+ .aps.org/attend/abstracts/invited/\nVerified: 2026-10-26T00:04:50Z
+URL:https://summit.aps.org/attend/abstracts/invited/
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -1251,6 +1272,26 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:pldi-2027-workshop-proposal-proceedings@conference-deadlines
+DTSTAMP:20261026T000450Z
+LAST-MODIFIED:20261026T000450Z
+SEQUENCE:0
+SUMMARY:PLDI 2027 — Workshop proposal — with proceedings
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+DESCRIPTION:Community: Programming Languages\nSubmission type: Workshop p
+ roposal — with proceedings\nContent: Workshop proposal including a 150
+ –200-word topic description\n\nNotes: The official timeline gives a dat
+ e without a time\; normalized to 23:59 AoE. 23:59 AoE means the cutoff is
+  14:00 on the following day in Central European summer time (CEST\, UTC+2
+ )\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: https://pldi27.
+ sigplan.org/track/pldi-2027-PLDI-Workshops\nVerified: 2026-10-26T00:04:50
+ Z
+URL:https://pldi27.sigplan.org/track/pldi-2027-PLDI-Workshops
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:sca-2027-workshop-paper@conference-deadlines
 DTSTAMP:20261005T084956Z
 LAST-MODIFIED:20261005T084956Z
@@ -1379,6 +1420,27 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:pldi-2027-workshop-tutorial-proposal-no-proceedings@conference-deadli
+ nes
+DTSTAMP:20261026T000450Z
+LAST-MODIFIED:20261026T000450Z
+SEQUENCE:0
+SUMMARY:PLDI 2027 — Workshop or tutorial proposal — without proceedings
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+DESCRIPTION:Community: Programming Languages\nSubmission type: Workshop o
+ r tutorial proposal — without proceedings\nContent: Workshop/tutorial p
+ roposal including a 150–200-word topic description\n\nNotes: The offici
+ al timeline gives a date without a time\; normalized to 23:59 AoE. 23:59 
+ AoE means the cutoff is 14:00 on the following day in Central European su
+ mmer time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial 
+ source: https://pldi27.sigplan.org/track/pldi-2027-PLDI-Workshops\nVerifi
+ ed: 2026-10-26T00:04:50Z
+URL:https://pldi27.sigplan.org/track/pldi-2027-PLDI-Workshops
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:icaart-2027-abstract@conference-deadlines
 DTSTAMP:20260928T080000Z
 LAST-MODIFIED:20260928T080000Z
@@ -1476,25 +1538,21 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:isca-2027-industry-abstract-registration@conference-deadlines
-DTSTAMP:20260928T080000Z
-LAST-MODIFIED:20260928T080000Z
-SEQUENCE:0
-SUMMARY:ISCA 2027 (PLACEHOLDER) — Industrial-session paper — abstract
-  registration
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
+DTSTAMP:20261026T000450Z
+LAST-MODIFIED:20261026T000450Z
+SEQUENCE:1
+SUMMARY:ISCA 2027 — Industrial-session paper — abstract registration
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
 DESCRIPTION:Community: Computer Architecture\nSubmission type: Industrial
  -session paper — abstract registration\nContent: See the official sourc
- e for submission requirements.\n\nNotes: PLACEHOLDER: projected from the 
- official 2026 deadline at 2025-12-05T23:59:00-12:00\; this is not a confi
- rmed 2027 date and the official source below is historical. 23:59 AoE mea
- ns the cutoff is 14:00 on the following day in Central European summer ti
- me (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source:
-  https://www.iscaconf.org/isca2026/submit/callforpapers.php\nVerified: 20
- 26-09-28T08:00:00Z
-URL:https://www.iscaconf.org/isca2026/submit/callforpapers.php
+ e for submission requirements.\n\nNotes: 23:59 AoE means the cutoff is 14
+ :00 on the following day in Central European summer time (CEST\, UTC+2)\,
+  or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: https://iscaconf.o
+ rg/isca2027/submit/industry.php\nVerified: 2026-10-26T00:04:50Z
+URL:https://iscaconf.org/isca2027/submit/industry.php
 TRANSP:TRANSPARENT
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:isc-2027-regular-workshop-proposal@conference-deadlines
@@ -1517,23 +1575,21 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:isca-2027-industrial-session-paper@conference-deadlines
-DTSTAMP:20260928T080000Z
-LAST-MODIFIED:20260928T080000Z
-SEQUENCE:0
-SUMMARY:ISCA 2027 (PLACEHOLDER) — Industrial-session paper
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
+DTSTAMP:20261026T000450Z
+LAST-MODIFIED:20261026T000450Z
+SEQUENCE:1
+SUMMARY:ISCA 2027 — Industrial-session paper — full paper
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
 DESCRIPTION:Community: Computer Architecture\nSubmission type: Industrial
- -session paper\nContent: See the official source for submission requireme
- nts.\n\nNotes: PLACEHOLDER: projected from the official 2026 deadline at 
- 2025-12-12T23:59:00-12:00\; this is not a confirmed 2027 date and the off
- icial source below is historical. 23:59 AoE means the cutoff is 14:00 on 
- the following day in Central European summer time (CEST\, UTC+2)\, or 13:
- 00 in winter (CET\, UTC+1).\n\nOfficial source: https://www.iscaconf.org/
- isca2026/submit/callforpapers.php\nVerified: 2026-09-28T08:00:00Z
-URL:https://www.iscaconf.org/isca2026/submit/callforpapers.php
+ -session paper — full paper\nContent: See the official source for submi
+ ssion requirements.\n\nNotes: 23:59 AoE means the cutoff is 14:00 on the 
+ following day in Central European summer time (CEST\, UTC+2)\, or 13:00 i
+ n winter (CET\, UTC+1).\n\nOfficial source: https://iscaconf.org/isca2027
+ /submit/industry.php\nVerified: 2026-10-26T00:04:50Z
+URL:https://iscaconf.org/isca2027/submit/industry.php
 TRANSP:TRANSPARENT
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:isc-2027-research-paper-abstract@conference-deadlines
