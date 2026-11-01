@@ -994,25 +994,6 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:ismvl-2027-regular-paper@conference-deadlines
-DTSTAMP:20261011T220757Z
-LAST-MODIFIED:20261011T220757Z
-SEQUENCE:2
-SUMMARY:ISMVL 2027 — Regular\, special-session\, and tutorial papers
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-DESCRIPTION:Community: Design Automation\nSubmission type: Regular\, spec
- ial-session\, and tutorial papers\nContent: Up to 6 pages in PDF format w
- ith a 50–100 word abstract\n\nNotes: No official time was stated\; norm
- alized to 23:59 AoE. 23:59 AoE means the cutoff is 14:00 on the following
-  day in Central European summer time (CEST\, UTC+2)\, or 13:00 in winter 
- (CET\, UTC+1).\n\nOfficial source: https://mvl.jpn.org/ISMVL2027/cfp.php\
- nVerified: 2026-10-11T22:07:57Z
-URL:https://mvl.jpn.org/ISMVL2027/cfp.php
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:ieee-iv-2027-workshop-tutorial-proposal@conference-deadlines
 DTSTAMP:20260827T144838Z
 LAST-MODIFIED:20260827T144838Z
@@ -1402,6 +1383,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:ismvl-2027-abstract-registration@conference-deadlines
+DTSTAMP:20261101T225702Z
+LAST-MODIFIED:20261101T225702Z
+SEQUENCE:1
+SUMMARY:ISMVL 2027 — Abstract registration
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+DESCRIPTION:Community: Design Automation\nSubmission type: Abstract regis
+ tration\nContent: See the official source for submission requirements.\n\
+ nNotes: No official time was stated\; normalized to 23:59 AoE. 23:59 AoE 
+ means the cutoff is 14:00 on the following day in Central European summer
+  time (CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial sour
+ ce: https://mvl.jpn.org/ISMVL2027/cfp.php\nVerified: 2026-11-01T22:57:02Z
+URL:https://mvl.jpn.org/ISMVL2027/cfp.php
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:fedcsis-2027-special-session-proposal@conference-deadlines
 DTSTAMP:20261019T060139Z
 LAST-MODIFIED:20261019T060139Z
@@ -1555,6 +1554,25 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:ismvl-2027-regular-paper@conference-deadlines
+DTSTAMP:20261101T225702Z
+LAST-MODIFIED:20261101T225702Z
+SEQUENCE:3
+SUMMARY:ISMVL 2027 — Regular\, special-session\, and tutorial papers
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+DESCRIPTION:Community: Design Automation\nSubmission type: Regular\, spec
+ ial-session\, and tutorial papers\nContent: Up to 6 pages in PDF format w
+ ith a 50–100 word abstract\n\nNotes: Deadline extended from November 1.
+  No official time was stated\; normalized to 23:59 AoE. 23:59 AoE means t
+ he cutoff is 14:00 on the following day in Central European summer time (
+ CEST\, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: htt
+ ps://mvl.jpn.org/ISMVL2027/cfp.php\nVerified: 2026-11-01T22:57:02Z
+URL:https://mvl.jpn.org/ISMVL2027/cfp.php
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:isc-2027-regular-workshop-proposal@conference-deadlines
 DTSTAMP:20260906T220057Z
 LAST-MODIFIED:20260906T220057Z
@@ -1703,8 +1721,8 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:ddecs-2027-regular-paper@conference-deadlines
-DTSTAMP:20261005T084956Z
-LAST-MODIFIED:20261005T084956Z
+DTSTAMP:20261101T225702Z
+LAST-MODIFIED:20261101T225702Z
 SEQUENCE:1
 SUMMARY:DDECS 2027 — Title and abstract
 DTSTART;VALUE=DATE:20270108
@@ -1715,7 +1733,7 @@ DESCRIPTION:Community: Design Automation\nSubmission type: Title and abst
  d to 23:59 AoE. 23:59 AoE means the cutoff is 14:00 on the following day 
  in Central European summer time (CEST\, UTC+2)\, or 13:00 in winter (CET\
  , UTC+1).\n\nOfficial source: https://ddecs.rss-lab.de/ddecs/call-for-pap
- ers\nVerified: 2026-10-05T08:49:56Z
+ ers\nVerified: 2026-11-01T22:57:02Z
 URL:https://ddecs.rss-lab.de/ddecs/call-for-papers
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1886,8 +1904,8 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:ddecs-2027-full-paper@conference-deadlines
-DTSTAMP:20261005T084956Z
-LAST-MODIFIED:20261005T084956Z
+DTSTAMP:20261101T225702Z
+LAST-MODIFIED:20261101T225702Z
 SEQUENCE:0
 SUMMARY:DDECS 2027 — Full paper
 DTSTART;VALUE=DATE:20270113
@@ -1897,7 +1915,7 @@ DESCRIPTION:Community: Design Automation\nSubmission type: Full paper\nCo
  official time was stated\; normalized to 23:59 AoE. 23:59 AoE means the c
  utoff is 14:00 on the following day in Central European summer time (CEST
  \, UTC+2)\, or 13:00 in winter (CET\, UTC+1).\n\nOfficial source: https:/
- /ddecs.rss-lab.de/ddecs/call-for-papers\nVerified: 2026-10-05T08:49:56Z
+ /ddecs.rss-lab.de/ddecs/call-for-papers\nVerified: 2026-11-01T22:57:02Z
 URL:https://ddecs.rss-lab.de/ddecs/call-for-papers
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED

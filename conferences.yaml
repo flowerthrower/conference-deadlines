@@ -159,6 +159,7 @@ conferences:
     name: ISMVL
     edition: "2027"
     monitored_submissions:
+      abstract-registration: Abstract registration
       regular-paper: Regular paper
       short-paper: Short paper
       tutorial-paper: Tutorial paper
@@ -171,10 +172,11 @@ conferences:
         edition: "2027"
         status: current
         covers:
+          - abstract-registration
           - regular-paper
           - special-session-paper
           - tutorial-paper
-        verified_at: 2026-10-11T22:07:57Z
+        verified_at: 2026-11-01T22:57:02Z
       - id: deadline-1
         url: https://www.ismvl.org/mvl26_CFP.html
         title: Official ISMVL 2026 call for papers
@@ -1882,6 +1884,9 @@ conferences:
       abstract-registration: Paper title and abstract
       poster: Poster
       special-session-proposal: Special-session proposal
+      tutorial-proposal: Tutorial proposal
+      workshop-proposal: Workshop proposal
+      phd-forum-student-session: PhD Forum / Student Session contribution
     official_sources:
       - id: official
         url: https://ddecs.rss-lab.de/ddecs/call-for-papers
@@ -1891,7 +1896,11 @@ conferences:
         covers:
           - regular-paper
           - abstract-registration
-        verified_at: 2026-10-05T08:49:56Z
+          - special-session-proposal
+          - tutorial-proposal
+          - workshop-proposal
+          - phd-forum-student-session
+        verified_at: 2026-11-01T22:57:02Z
   - id: isdcs
     community: Design Automation
     name: ISDCS
@@ -2600,11 +2609,21 @@ deadlines:
       - special-session-paper
       - tutorial-paper
     label: Regular, special-session, and tutorial papers
-    deadline_at: 2026-11-01T23:59:00-12:00
+    deadline_at: 2026-12-08T23:59:00-12:00
     timezone: AoE (UTC-12)
     source: official
     content: Up to 6 pages in PDF format with a 50–100 word abstract
-    sequence: 2
+    sequence: 3
+    notes: Deadline extended from November 1. No official time was stated; normalized to 23:59 AoE.
+  - id: ismvl-2027-abstract-registration
+    conference: ismvl
+    edition: "2027"
+    submissions:
+      - abstract-registration
+    deadline_at: 2026-12-01T23:59:00-12:00
+    timezone: AoE (UTC-12)
+    source: official
+    sequence: 1
     notes: No official time was stated; normalized to 23:59 AoE.
   - id: iwls-2027-regular-paper
     conference: iwls
@@ -3859,6 +3878,11 @@ deadlines:
       based_on_edition: "2026"
       based_on_deadline_at: 2026-06-01T23:59:00-12:00
 history:
+  - deadline: ismvl-2027-regular-paper
+    detected_at: 2026-11-01T22:57:02Z
+    from: 2026-11-01T23:59:00-12:00
+    to: 2026-12-08T23:59:00-12:00
+    source: official
   - deadline: isqed-2027-workshop-tutorial-proposal
     detected_at: 2026-10-26T00:04:50Z
     from: 2026-10-29T23:59:00-12:00
